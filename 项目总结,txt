@@ -1,0 +1,90 @@
+// vue中的适配：px2rem
+// 下载 npm install --save lib-flexible , npm install --save  px2rem-loader
+// 引入 在main.js中 ：import 'lib-flexible/flexible'
+// 将px2rem-loader添加到cssLoaders配置webpack  build/util.js中
+
+// <style scoped lang='less'>
+// less语法 下载 npm i less less-loader --save-dev
+
+// 懒加载 npm i vue-lazyload
+// 在入口js配置
+
+// git better-scroll 滑动插件
+
+// 后台相关
+// 下载axios包 在api文件夹配置请求后台服务器的参数
+//  为了解决跨域 让8080既做本地服务器 又做代理
+//  在build/webpack-dev 配置开发阶段的代理
+/* proxy: {
+      '/': {
+        target: 'http://localhost:3000',
+        changeOrigin: true,
+        secure: false
+      }
+    }
+*/
+// 设置以后就成功代理了 所以axios请求自己 去api文件夹配置请求地址
+
+
+// better-scroll 滚动插件 npm i better-scroll
+// 在需要滑动的模块导入
+// import BScroll from 'better-scroll' const scroll = new BScroll('.wrapper')
+// 最外层盒子加上wrapper
+// 里面主体如ul(加上 content)
+// wrapper设置高度 
+
+// 页面级缓存 
+// 使用keep-alive标签
+// 如果所有页面都缓存 直接将router-view放里面
+// 如果只几个页面缓存 在路由配置文件增加 meta:{cache:true} 其他为false
+// 在路由显示区设置v-if
+
+// 更改网页title
+// 路由守卫函数-- 全局前置守卫 router.beforeEach((to,form,next)=>{})
+
+// 上传图片
+// <input ref="fileIpt" type="file" @change="preImg"> 绑定一个change事件
+// 输出图片信息
+// console.log(this.$refs.fileIpt.files[0])
+// h5读取文件的api
+// var reader = new FileReader()
+// reader.readAsDataURL(this.$refs.fileIpt.files[0])
+// 当读取完毕的时候
+// reader.onload = () => {
+//   console.log(reader.result)
+//   this.book.img = reader.result
+// }
+
+// fast click
+// 安装 npm i fastclick --save
+// 入口js main.js 配置
+
+// 按需加载（分割）vue文档
+// 在路由配置js里配置
+// 配置按需加载 上面就不用直接引入了import...from...注释掉
+// 配置路由时候引入 component: () => import('@/components/home/home.vue')
+
+// Vuex 统一状态管理 相当于全局变量 但是有一定管理规范 (单向数据流)
+// Vuex 就是一个全局仓库 state(数据模型) mutations(操作数据模型的函数) actions(执行mutations的函数)
+// 安装 npm i vuex --save
+// 在store文件夹的index导入并使用 vuex
+// import Vuex from 'vuex' ; Vue.use(Vuex)
+// new vuex的实例 const store = new Vuex.store({ state = {count: 0} })
+// 其中的state也可在外部定义 相当于数据模型 State 状态树
+// 在mutations对象自定义数据仓库的方法 相当于methods （缺点 不能执行异步）
+// 在组件的事件执行 this.$store.commit('add') 表示提交add事件
+// 为了能够执行异步 在actions对象中提交事件 context.commit('add')
+// 在组件的事件执行 this.$store.dispatch('add') 表示让actions提交add 接着在motations中找add提交 接着在数据仓库改变数据
+// 在vuex的getters对象上可以自定义一些计算方法 相当于computed
+// 映射:在组件的计算属性写 注意要先引入内置的{mapState}方法  ...mapState([ 'map' ])
+// 将this.map 映射为 this.$store.state.map
+// 将new出的对象导出
+
+// 真机测试
+// 电脑开启热点 ip一般为 192.168.137.1 
+// 所以测试时先在config-index.js 修改默认地址(端口为8080不变) host: 'localhost' 修改为 '192.168.137.1'
+// 在build-webpack.dev.config.js 修改反向代理地址 target: 'http://localhost:3000/'  修改为'http://192.168.137.1:3000'
+// 在api-index.js 修改请求地址 axios.defaults.baseURL = 'http://localhost:8080/' 修改为'http://192.168.137.1:8080'
+// 然后开启后台 运行dev 手机连接热点 访问192.168.137.1:8080
+
+
