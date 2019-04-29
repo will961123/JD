@@ -1,16 +1,19 @@
 <template >
   <div class="home">
-    home
+    <hCate/>
+
   </div>
 </template>
 
 <script>
-
+import hCate from '../home/components/hCate'
 export default {
-
+  components: {
+    hCate
+  }
 }
 </script>
 
-<style scope>
+<style scoped>
 
 </style>
