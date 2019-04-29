@@ -8,7 +8,7 @@
     <!-- 头部分类-->
     <hCate></hCate>
     <!-- 京东秒杀 -->
-    <spike></spike>
+    <jdspike></jdspike>
     <!-- 东家小院 -->
     <dyard></dyard>
     <!-- 每日逛 -->
