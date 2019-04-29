@@ -62,6 +62,7 @@
 </template>
 <script>
 import getLeftTime from '@/utils/jdspike.js'
+import { gethJdspk } from '@/api'
 export default {
   data () {
     return {
@@ -72,47 +73,11 @@ export default {
         second: '00'
       },
       timer: null,
-      contentList: [
-        {
-          img:
-            'http://img14.360buyimg.com/n1/s150x150_jfs/t1/35005/34/5144/149501/5cbe7918E44ba5d30/7fc0adfb066375a5.jpg.dpg',
-          rprice: 5299,
-          sprice: 7999
-        },
-        {
-          img:
-            'http://img14.360buyimg.com/n1/s150x150_jfs/t1/11497/38/10594/154589/5c81e33bEf1bf4472/ad7c8017327d5e0e.jpg.dpg',
-          rprice: 144.9,
-          sprice: 268
-        },
-        {
-          img:
-            'http://img14.360buyimg.com/n1/s150x150_jfs/t1/31137/14/13027/155768/5cb9344cE77cc2697/b3e82d55bfe016ac.jpg.dpg',
-          rprice: 19.9,
-          sprice: 65
-        },
-        {
-          img:
-            'http://img14.360buyimg.com/n1/s150x150_jfs/t1/40376/26/1936/196106/5cbeda43Ef4cd8ff0/5bce806f2a34a085.jpg.dpg',
-          rprice: 19.9,
-          sprice: 52.8
-        },
-        {
-          img:
-            'http://img14.360buyimg.com/n1/s150x150_jfs/t1/34832/16/2297/188304/5cb5b093Ed4767bca/5ec513629e03442d.jpg.dpg',
-          rprice: 2339,
-          sprice: 4280
-        },
-        {
-          img:
-            'http://img14.360buyimg.com/n1/s150x150_jfs/t16954/147/1043719425/125505/9d0fd091/5ab8c5cdN1c216d78.jpg.dpg',
-          rprice: 14647,
-          sprice: 14795
-        }
-      ]
+      contentList: []
     }
   },
   async created () {
+    this.contentList = await gethJdspk()
     this.timer = setInterval(() => {
       this.leftTime = getLeftTime('2019-04-29 23:59')
     }, 1000)

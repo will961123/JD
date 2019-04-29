@@ -5,92 +5,11 @@
       alt
     >
     <div class="button">
-      <div class="lattice">
-        <p class="txt1">免息星球</p>
-        <p class="txt2">白条免息购</p>
+      <div v-for="(item, index) in gdList" :key="index" class="lattice">
+        <p class="txt1">{{item.p1}}</p>
+        <p class="txt2">{{item.p2}}</p>
         <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/n1/s150x150_jfs/t1/34840/24/3223/15768/5cbd65d3E685eddad/0e188bc8da7f5680.jpg!q70.jpg.dpg"
-            alt
-          >
-        </div>
-      </div>
-      <div class="lattice">
-        <p class="txt1">品牌秒杀</p>
-        <p class="txt2">低价抢大牌</p>
-        <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/n1/s150x150_jfs/t1/21261/29/6933/278615/5c662637E6c79dfbe/90971d426f489c15.jpg!q70.jpg.dpg"
-            alt
-          >
-        </div>
-      </div>
-      <div class="lattice">
-        <p class="txt1">闪购</p>
-        <p class="txt2">大牌限时特卖</p>
-        <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/n1/s150x150_jfs/t1/22571/30/5857/60351/5c45308eE5fbda21e/62d4d2e6418d794d.jpg!q70.jpg.dpg"
-            alt
-          >
-        </div>
-      </div>
-      <div class="lattice">
-        <p class="txt1">拍拍二手</p>
-        <p class="txt2">大牌包五折起</p>
-        <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/mobilecms/s150x150_jfs/t18184/284/245723/39588/47c2cb6b/5a56fd19N80f5a210.jpg!q70.jpg.dpg"
-            alt
-          >
-        </div>
-      </div>
-      <div class="lattice">
-        <p class="txt1">排行榜</p>
-        <p class="txt2">专属购物指南</p>
-        <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/n1/s150x150_jfs/t1/3545/14/11034/563231/5bcd4858Ed3b26a01/9adc3fee7bd4ad8f.jpg!q70.jpg.dpg"
-            alt
-          >
-        </div>
-      </div>
-      <div class="lattice">
-        <p class="txt1">发现好货</p>
-        <p class="txt2">探索新生活</p>
-        <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/n1/s150x150_jfs/t1/36184/31/1878/481922/5cb466e1Eb2a89b5a/4c3ad194071e9ec3.png!q70.jpg.dpg"
-            alt
-          >
-        </div>
-      </div>
-      <div class="lattice">
-        <p class="txt1">会卖专辑</p>
-        <p class="txt2">好物大集合</p>
-        <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/n1/s150x150_jfs/t2608/232/4216696250/49944/13a6b14d/57aecc7aNc9b9112b.jpg!q70.jpg.dpg"
-            alt
-          >
-        </div>
-      </div>
-      <div class="lattice">
-        <p class="txt1">新品首发</p>
-        <p class="txt2">华为P30</p>
-        <div>
-          <img
-            class="picture"
-            src="//m.360buyimg.com/mobilecms/s150x150_jfs/t1/16097/29/12819/62040/5c9add4cE1b45f5ea/e48679e904c29d30.jpg!q70.jpg.dpg"
-            alt
-          >
+          <img class="picture" :src="item.img" alt>
         </div>
       </div>
     </div>
@@ -98,7 +17,17 @@
 </template>
 
 <script>
-export default {}
+import { gethGdaily } from '@/api'
+export default {
+  data () {
+    return {
+      gdList: []
+    }
+  },
+  async created () {
+    this.gdList = await gethGdaily()
+  }
+}
 </script>
 <style scoped>
 * {

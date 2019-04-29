@@ -37,6 +37,155 @@ router.get('/hcate', function (req, res, next) {
   res.send(arr)
 })
 
+/* 首页京东秒杀后台 */
+router.get('/hjdspk', function (req, res, netx) {
+  var arr = [
+    {
+      img:
+        'http://img14.360buyimg.com/n1/s150x150_jfs/t1/35005/34/5144/149501/5cbe7918E44ba5d30/7fc0adfb066375a5.jpg.dpg',
+      rprice: 5299,
+      sprice: 7999
+    },
+    {
+      img:
+        'http://img14.360buyimg.com/n1/s150x150_jfs/t1/11497/38/10594/154589/5c81e33bEf1bf4472/ad7c8017327d5e0e.jpg.dpg',
+      rprice: 144.9,
+      sprice: 268
+    },
+    {
+      img:
+        'http://img14.360buyimg.com/n1/s150x150_jfs/t1/31137/14/13027/155768/5cb9344cE77cc2697/b3e82d55bfe016ac.jpg.dpg',
+      rprice: 19.9,
+      sprice: 65
+    },
+    {
+      img:
+        'http://img14.360buyimg.com/n1/s150x150_jfs/t1/40376/26/1936/196106/5cbeda43Ef4cd8ff0/5bce806f2a34a085.jpg.dpg',
+      rprice: 19.9,
+      sprice: 52.8
+    },
+    {
+      img:
+        'http://img14.360buyimg.com/n1/s150x150_jfs/t1/34832/16/2297/188304/5cb5b093Ed4767bca/5ec513629e03442d.jpg.dpg',
+      rprice: 2339,
+      sprice: 4280
+    },
+    {
+      img:
+        'http://img14.360buyimg.com/n1/s150x150_jfs/t16954/147/1043719425/125505/9d0fd091/5ab8c5cdN1c216d78.jpg.dpg',
+      rprice: 14647,
+      sprice: 14795
+    }
+  ]
+  res.send(arr)
+})
+
+/* 首页东家小院后台 */
+router.get('/hdyard', function (req, res, next) {
+  var arr = {
+    dyard1: [
+      {
+        title: '乒乓健将',
+        sub: '你来我往斗智斗勇',
+        img1:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t26980/161/1454785636/269078/699b0ef/5bea7eb7N269193ab.jpg!q70.jpg.dpg',
+        img2:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t1/37419/11/2801/163234/5cb839c3E990eda6d/e6140f888b03f2b5.jpg!q70.jpg.dpg'
+      },
+      {
+        title: '流行风尚',
+        sub: '探索夏日的路易威登',
+        img1:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t3655/290/233986194/86343/809eb218/5807109fN84c3c6af.jpg!q70.jpg.dpg',
+        img2:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t19828/270/315026457/78508/fd8e1291/5af00978N64948101.jpg!q70.jpg.dpg'
+      }
+    ],
+    dyard2: [
+      {
+        title: '休闲春光',
+        sub: '广场生活',
+        img:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t23233/299/1493167730/232149/f059623a/5b612e00N576c1901.jpg!q70.jpg.dpg'
+      },
+      {
+        title: '初夏清爽',
+        sub: '初夏抢鲜购',
+        img:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t30292/48/522142398/65088/6bdcb7a1/5bf6075cNac63c261.jpg!q70.jpg.dpg'
+      },
+      {
+        title: '运动汇',
+        sub: '大牌好物',
+        img:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t1/32913/17/10087/214440/5cac5e88E508cbd6e/d0da028b76d4971c.jpg!q70.jpg.dpg'
+      },
+      {
+        title: '少年派',
+        sub: '少年游',
+        img:
+          'http://m.360buyimg.com/mobilecms/s150x150_jfs/t1/22189/13/14232/374596/5ca7fca4E7be4f797/3e25d7035903c754.jpg!q70.jpg.dpg'
+      }
+    ]
+  }
+  res.send(arr)
+})
+
+/* 首页每日逛后台 */
+router.get('/hgdaily', function (req, res, next) {
+  var arr = [
+    {
+      p1: '免息星球',
+      p2: '白条免息购',
+      img:
+        '//m.360buyimg.com/n1/s150x150_jfs/t1/34840/24/3223/15768/5cbd65d3E685eddad/0e188bc8da7f5680.jpg!q70.jpg.dpg'
+    },
+    {
+      p1: '品牌秒杀',
+      p2: '低价抢大牌',
+      img:
+        '//m.360buyimg.com/n1/s150x150_jfs/t1/21261/29/6933/278615/5c662637E6c79dfbe/90971d426f489c15.jpg!q70.jpg.dpg'
+    },
+    {
+      p1: '闪购',
+      p2: '大牌限时特卖',
+      img:
+        '//m.360buyimg.com/n1/s150x150_jfs/t1/22571/30/5857/60351/5c45308eE5fbda21e/62d4d2e6418d794d.jpg!q70.jpg.dpg'
+    },
+    {
+      p1: '拍拍二手',
+      p2: '大牌包五折起',
+      img:
+        '//m.360buyimg.com/mobilecms/s150x150_jfs/t18184/284/245723/39588/47c2cb6b/5a56fd19N80f5a210.jpg!q70.jpg.dpg'
+    },
+    {
+      p1: '排行榜',
+      p2: '专属购物指南',
+      img:
+        '//m.360buyimg.com/n1/s150x150_jfs/t1/3545/14/11034/563231/5bcd4858Ed3b26a01/9adc3fee7bd4ad8f.jpg!q70.jpg.dpg'
+    },
+    {
+      p1: '发现好货',
+      p2: '探索新生活',
+      img:
+        '//m.360buyimg.com/n1/s150x150_jfs/t1/36184/31/1878/481922/5cb466e1Eb2a89b5a/4c3ad194071e9ec3.png!q70.jpg.dpg'
+    },
+    {
+      p1: '会卖专辑',
+      p2: '好物大集合',
+      img:
+        '//m.360buyimg.com/n1/s150x150_jfs/t2608/232/4216696250/49944/13a6b14d/57aecc7aNc9b9112b.jpg!q70.jpg.dpg'
+    },
+    {
+      p1: '新品首发',
+      p2: '华为P30',
+      img:
+        '//m.360buyimg.com/mobilecms/s150x150_jfs/t1/16097/29/12819/62040/5c9add4cE1b45f5ea/e48679e904c29d30.jpg!q70.jpg.dpg'
+    }
+  ]
+  res.send(arr)
+})
+
 /* 首页为你推荐后台 */
 router.get('/hforyou', function (req, res, next) {
   var arr = [
