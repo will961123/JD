@@ -1,0 +1,11 @@
+express  快速生成器
+通过应用生成器工具 express 可以快速创建一个应用的骨架。
+基本工具 npm install express-generator -g
+初始化项目 express 工程目录
+
+服务器 npm -g install supervisor
+启动服务器 supervisor bin/www
+
+浏览器下载 json formatter插件
+
+在router  index.js  配置一个路由地址 
