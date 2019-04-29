@@ -13,7 +13,8 @@
 </template>
 <style scoped>
 .head{
-    position: absolute;
+    position: fixed;
+    z-index: 2;
     top:0;
     height: 88px;
 }

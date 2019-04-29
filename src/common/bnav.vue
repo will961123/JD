@@ -31,7 +31,7 @@
   left: 0;
   bottom: 0;
   display: flex;
-  background-color: #ddd;
+  background-color: #FFFFFF;
   align-items: center;
   height: 100px;
 }
