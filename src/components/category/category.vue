@@ -1,12 +1,15 @@
 <template>
-    <div>
-        category
+    <div class="category">
+        <catesearch></catesearch>
     </div>
 </template>
 
 <script>
+import catesearch from './components/Catesearch'
 export default {
-
+  components: {
+    catesearch
+  }
 }
 </script>
 

@@ -4,6 +4,7 @@
     <!-- 头部搜索框 -->
     <hsearch></hsearch>
     <!-- 头部轮播 -->
+    <hsearch></hsearch>
     <hBanner></hBanner>
     <!-- 头部分类-->
     <hCate></hCate>
@@ -15,7 +16,6 @@
     <gdaily></gdaily>
     <!-- 为你推荐 -->
     <foryou></foryou>
-
   </div>
 </template>
 
@@ -39,7 +39,6 @@ export default {
   }
 }
 </script>
-
 <style scoped lang='less'>
 
 </style>

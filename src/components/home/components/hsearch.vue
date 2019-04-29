@@ -12,11 +12,14 @@
   </div>
 </template>
 <style scoped>
-.head {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  height: 88px;
+.head{
+    position: fixed;
+    z-index: 2;
+    top:0;
+    height: 104px;
+    z-index: 2;
+    width: 100%;
+    background: #e43130;
 }
 .head .img1 {
   margin: 28px 0 0 30px;
@@ -37,25 +40,29 @@
   margin-right: 10px;
   border-right: 2px solid #999;
 }
-.searchbox .search {
-  position: absolute;
-  top: 18px;
-  left: 100px;
-  width: 30px;
-  height: 30px;
+.searchbox .search{
+    position: absolute;
+    top:13px;
+    left: 100px;
+    width: 30px;
+    height: 30px;
 }
-.searchbox input {
-  height: 60px;
-  padding-left: 136px;
-  padding-right: 20px;
-  border-radius: 40px;
-  border: 2px solid red;
+.searchbox input{
+    height:60px;
+    padding-left: 136px;
+    padding-right: 20px;
+    border-radius: 40px;
+
 }
-.head .login {
-  position: absolute;
-  right: -210px;
-  top: 26px;
-  font-size: 30px;
-  color: white;
+.head .login{
+    position: relative;
+    right: -210px;
+    top: 26px;
+    font-size: 30px;
+    color: white;
+    z-index: 10;
+     top:-108px;
+    left: 640px;
 }
+
 </style>
