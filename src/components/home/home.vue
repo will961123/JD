@@ -6,7 +6,7 @@
     <hBanner></hBanner>
     <!-- 头部分类-->
     <hCate></hCate>
-
+    <!-- 为你推荐 -->
     <foryou></foryou>
 
   </div>
