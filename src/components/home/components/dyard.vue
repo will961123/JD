@@ -8,12 +8,14 @@
     <div class="sp0">
       <ul>
         <li class="one" v-for="(item,index) in dyard.dyard1" :key="index">
+          {{index}}
           <span class="wa">{{item.title}}</span>
           <span class="wd">{{item.sub}}</span>
           <img :src="item.img1" alt>
           <img :src="item.img2" alt>
         </li>
-        <li class="two" v-for="(item,index) in dyard.dyard2" :key="index">
+        <li class="two" v-for="(item,tindex) in dyard.dyard2" :key="tindex+10">
+          {{tindex}}
           <span class="wz">{{item.title}}</span>
           <span class="wd">{{item.sub}}</span>
           <img :src="item.img" alt>
@@ -33,7 +35,6 @@ export default {
         dyard1: [],
         dyard2: []
       }
-
     }
   },
   async created () {
