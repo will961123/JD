@@ -22,5 +22,15 @@ export default {
 #app {
   height: 100%;
 }
+.swiper-pagination span {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-right: 8px !important;
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
 
 </style>

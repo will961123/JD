@@ -1,18 +1,19 @@
 <template >
   <div class="home">
-    <hsearch></hsearch>
+    <!-- 头部轮播 -->
+    <hBanner></hBanner>
+    <div class="aaa"></div>
   </div>
 </template>
 
 <script>
-import hsearch from './components/hsearch.vue'
+import hBanner from './components/hBanner'
 export default {
   components: {
-
   }
 }
 </script>
 
-<style scoped>
+<style scoped lang='less'>
 
 </style>
