@@ -1,30 +1,27 @@
-/* 1. 定义一个字体家族*/
+/*1.定义一个字体家族*/
 @font-face {
-  font-family: 'dangdang';
-  src: url(../fonts/iconfont.eot) format('embedded-opentype'),
-    url(../fonts/iconfont.ttf) format('truetype'),
-    url(../fonts/iconfont.woff) format('woff'),
-    url(../fonts/iconfont.svg) format('svg');
+  font-family: "jd-font";
+  src: url(../font/iconfont.eot) format('embedded-opentype'),
+    url(../font/iconfont.svg) format('svg'),
+    url(../font/iconfont.ttf) format('truetype'),
+    url(../font/iconfont.woff) format('woff')
 }
-/* 2. 定义属性选择器*/
-[class^='icon'],
-[class*=' iconfont'] {
-  font-family: 'dangdang';
+[class^="iconfont"],
+[class*=" iconfont"] {
+  font-family:"jd-font"
 }
-
-/* 3. 设置每一个字体图标*/
-.icon-shouye::after {
-  content: '\e61d';
+.icon-home::after{
+  content: '\e61e'
 }
-.icon-fenlei::after {
-  content: '\e70f';
+.icon-cate::after{
+  content: '\e682'
 }
-.icon-forum2::after {
-  content: '\e600';
+.icon-shop::after{
+  content: '\e61d'
 }
-.icon-gouwuche::after {
-  content: '\e601';
+.icon-buy::after{
+  content: '\e601'
 }
-.icon-wode::after {
-  content: '\e62b';
+.icon-mine::after{
+  content: '\e608'
 }
