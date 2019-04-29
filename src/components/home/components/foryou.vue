@@ -102,7 +102,7 @@ export default {
 <style lang="less" scoped>
 .foryou {
   width: 100%;
-  background: #ddd;
+  background: #F0F2F5;
   > img {
     width: 100%;
     display: block;
