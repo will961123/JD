@@ -1,12 +1,16 @@
 <template >
   <div class="home">
-    home
+    <!-- 东家小院 -->
+    <dyard></dyard>
   </div>
 </template>
 
 <script>
-
+import dyard from './components/dyard.vue'
 export default {
+  components: {
+    dyard
+  }
 
 }
 </script>
