@@ -1,13 +1,15 @@
 <template >
   <div class="home">
-    home
+    <gdaily></gdaily>
   </div>
 </template>
 
 <script>
-
+import gdaily from "./components/gdaily.vue"
 export default {
-
+  components:{
+    gdaily
+  }
 }
 </script>
 

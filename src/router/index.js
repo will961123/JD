@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 // import buy from '@/components/buy/buy.vue'
 // import category from '@/components/category/category.vue'
 // import home from '@/components/home/home.vue'
