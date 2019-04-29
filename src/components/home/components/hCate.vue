@@ -9,7 +9,7 @@
         <div class="cate_news">
             <img :src="jdImg" />
             <ul>
-                <li class="ellipsis">推荐：华为p30pro 元件成本曝光</li>
+                <li class="ellipsis"><i>推荐</i> 华为p30pro 元件成本曝光</li>
             </ul>
             <span class="news_more">更多</span>
         </div>
@@ -46,6 +46,7 @@ export default {
             display:flex;
             flex-wrap:wrap;
             width:100%;
+            margin-bottom:20px;
             li{
                 display:flex;
                 align-items:center;
@@ -78,6 +79,9 @@ export default {
                 color:#181818;
                 li{
                     width:100%;
+                    i{
+                        color:#f23030;
+                    }
                 }
             }
             .news_more{
