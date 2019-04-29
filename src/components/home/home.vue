@@ -1,18 +1,39 @@
 <template >
   <div class="home">
+    
+    <!-- 头部搜索框 -->
+    <hsearch></hsearch>
+    <!-- 头部轮播 -->
+    <hBanner></hBanner>
+    <!-- 头部分类-->
+    <hCate></hCate>
+    <!-- 东家小院 -->
+    <dyard></dyard>
+    <!-- 每日逛 -->
     <gdaily></gdaily>
+    <!-- 为你推荐 -->
+    <foryou></foryou>
+
   </div>
 </template>
 
 <script>
-import gdaily from "./components/gdaily.vue"
+import foryou from './components/foryou'
+import hBanner from './components/hBanner'
+import hsearch from './components/hsearch'
+import hCate from './components/hCate'
+import dyard from './components/dyard'
 export default {
-  components:{
-    gdaily
+  components: {
+    foryou,
+    hBanner,
+    hsearch,
+    hCate,
+    dyard
   }
 }
 </script>
 
-<style scope>
+<style scoped lang='less'>
 
 </style>
