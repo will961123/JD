@@ -36,6 +36,7 @@ export default {
 .h_cate {
   width: 100%;
   background: white;
+
   .cate_list {
     display: flex;
     flex-wrap: wrap;
