@@ -14,9 +14,12 @@
 <style scoped>
 .head{
     position: fixed;
-    top:0;
-    height: 88px;
     z-index: 2;
+    top:0;
+    height: 104px;
+    z-index: 2;
+    width: 100%;
+    background: #e43130;
 }
 .head .img1{
     margin: 28px 0 0 30px;
@@ -39,7 +42,7 @@
 }
 .searchbox .search{
     position: absolute;
-    top:18px;
+    top:13px;
     left: 100px;
     width: 30px;
     height: 30px;
@@ -52,10 +55,14 @@
 
 }
 .head .login{
-    position: absolute;
+    position: relative;
     right: -210px;
     top: 26px;
     font-size: 30px;
     color: white;
+    z-index: 10;
+     top:-108px;
+    left: 640px;
 }
+
 </style>

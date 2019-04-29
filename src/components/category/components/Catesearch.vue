@@ -1,25 +1,29 @@
 <template>
     <div class="head ">
-        <img class="img1" src="../images/menu.png">
+        <img class="img1" src="../images/cateleft.png">
         <div class="searchbox">
             <img class="jd" src="../images/jingdong.png"/>
             <img class="search" src="../images/search.png"/>
             <input type="text" placeholder="电子琴"/>
         </div>
         <div class="login">
-            <p>登录</p>
+            <p><img src="../images/cateright.png"/></p>
         </div>
     </div>
 </template>
-<style scoped>
+<style scoped lang="less">
 .head{
     position: fixed;
     top:0;
-    height: 88px;
+    height: 104px;
     z-index: 2;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
 }
 .head .img1{
-    margin: 28px 0 0 30px;
+    margin: 28px 0 0 40px;
+    width: 40px;
+    height: 40px;
 }
 .searchbox{
     display: flex;
@@ -39,7 +43,7 @@
 }
 .searchbox .search{
     position: absolute;
-    top:18px;
+    top:13px;
     left: 100px;
     width: 30px;
     height: 30px;
@@ -52,10 +56,15 @@
 
 }
 .head .login{
-    position: absolute;
+    position: relative;
     right: -210px;
     top: 26px;
     font-size: 30px;
     color: white;
+     top:-108px;
+    left: 640px;
+    p img{
+        width:60px;
+    }
 }
 </style>
