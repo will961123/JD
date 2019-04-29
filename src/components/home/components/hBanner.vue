@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {gethBanner} from '@/api'
+import { gethBanner } from '@/api'
 export default {
   name: 'carrousel',
   data () {

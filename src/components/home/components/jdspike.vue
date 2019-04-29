@@ -38,7 +38,6 @@
               <li>
                 <span>{{leftTime.second}}</span>
                 <i></i>
-
               </li>
             </ul>
           </div>
