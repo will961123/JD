@@ -1,6 +1,5 @@
 <template >
   <div class="home">
-    
     <!-- 头部搜索框 -->
     <hsearch></hsearch>
     <!-- 头部轮播 -->
@@ -23,13 +22,15 @@ import hBanner from './components/hBanner'
 import hsearch from './components/hsearch'
 import hCate from './components/hCate'
 import dyard from './components/dyard'
+import gdaily from './components/gdaily';
 export default {
   components: {
     foryou,
     hBanner,
     hsearch,
     hCate,
-    dyard
+    dyard,
+    gdaily
   }
 }
 </script>
