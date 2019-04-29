@@ -2,18 +2,22 @@
   <div class="jdspike">
     <div class="newPerson">
       <div class="newPerson-container">
-        <a href="javascript::">
-          <img
-            src="http://m.360buyimg.com/mobilecms/s376x240_jfs/t1/34428/28/5156/115947/5cc2d753E129beb34/5d4a5c2ac7e3dd34.png!q70.jpg.dpg"
-            alt
-          >
-        </a>
-        <a href="javascript::">
-          <img
-            src="http://m.360buyimg.com/mobilecms/s376x240_jfs/t1/32449/33/15631/174497/5cc2d86bE0289110c/9c53e25651659d43.png!q70.jpg.dpg"
-            alt
-          >
-        </a>
+        <div class="ncc">
+          <div class="ncc-c">
+            <a href="javascript::">
+              <img
+                src="http://m.360buyimg.com/mobilecms/s376x240_jfs/t1/34428/28/5156/115947/5cc2d753E129beb34/5d4a5c2ac7e3dd34.png!q70.jpg.dpg"
+                alt
+              >
+            </a>
+            <a href="javascript::">
+              <img
+                src="http://m.360buyimg.com/mobilecms/s376x240_jfs/t1/32449/33/15631/174497/5cc2d86bE0289110c/9c53e25651659d43.png!q70.jpg.dpg"
+                alt
+              >
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <div class="spike">
@@ -31,14 +35,16 @@
                 <span>{{leftTime.minute}}</span>
                 <i>:</i>
               </li>
-              <li class="last">
+              <li>
                 <span>{{leftTime.second}}</span>
+                <i></i>
+
               </li>
             </ul>
           </div>
           <div class="tit_more_link">
             <a href="javascript::">更多秒杀</a>
-            <img src="../images/spike_jt.png" alt>
+            <i class="more_icon"></i>
           </div>
         </div>
         <div class="spike_c_wrap">
@@ -56,7 +62,7 @@
   </div>
 </template>
 <script>
-import getLeftTime from '@/utils/jdspiketime'
+import getLeftTime from '@/utils/jdspike.js'
 export default {
   data () {
     return {
@@ -112,8 +118,10 @@ export default {
       this.leftTime = getLeftTime('2019-04-29 23:59')
     }, 1000)
     this.$nextTick(() => {
-      var width = this.$refs.li[0].offsetWidth * this.contentList.length
-      this.$refs.myul.style.width = width + 'px'
+      var w = Math.ceil(
+        this.$refs.li[0].getBoundingClientRect().width * this.contentList.length
+      )
+      this.$refs.myul.style.width = w + 'px'
     })
   },
   destroyed () {
@@ -128,69 +136,128 @@ export default {
   overflow: hidden;
   font-size: 0;
   .newPerson-container {
-    display: flex;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    .newPerson-container > a {
+    width: 94%;
+    height: 240px;
+    font-size: 0;
+    margin-bottom: 0.3rem;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+
+    .ncc {
       width: 100%;
-      height: 100px;
-      flex: 1;
+      height: 100%;
+
+      .ncc-c {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+
+        a {
+          flex: 1;
+          width: calc(100% / 2);
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
     }
   }
 }
 .spike {
   width: 100%;
   box-shadow: 0 1px 1px #f2f2f2;
-  background: #fff;
+  background: #f6f6f6;
   font-size: 0;
   overflow: hidden;
   .spike_content {
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    background: #fff;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     font-size: 0;
     .title_wrap {
       display: flex;
-      flex: 1;
       background: url("../images/jdspike_bg.png") no-repeat;
       background-size: contain;
+      strong.tit_clock {
+        font-size: 24px;
+        line-height: 68px;
+        color: #232326;
+        font-weight: 700;
+        display: inline-block;
+        text-align: center;
+      }
+
+      .tit_time {
+        height: 50px;
+        line-height: 50px;
+      }
       .tit_time ul {
         width: 100%;
-        display: flex;
         justify-content: center;
+        margin: 5px 5px;
+        display: flex;
       }
       .tit_time ul li {
         font-size: 0;
-        line-height: 25px;
       }
       .tit_time ul li span {
-        width: 19px;
-        height: 25px;
-        font-size: 12px;
+        font-size: 16px;
         text-align: center;
-        display: inline-block;
-        background: #323232;
+        border: 1px solid #dfdfdf;
         border-radius: 5px;
-        color: white;
+        color: #000;
       }
       .tit_time ul li i {
-        font-size: 12px;
-        margin: 0 5px;
+        font-size: 24px;
+        margin: 0 2px;
       }
-      .tit_time ul li.last span {
-        background: #f3344a;
+      .tit_more_link {
+        flex: 1;
+        position: relative;
+        text-decoration-color: none;
+        font-size: 20px;
+        text-align: right;
+        padding-right: 20px;
+        cursor: pointer;
+        line-height: 68px;
+        i.more_icon {
+          display: inline-block;
+          width: 22px;
+          height: 22px;
+          background: url("../images/spike_jt.png") no-repeat;
+          background-size: cover;
+          position: absolute;
+          right: 16px;
+          top: 22px;
+        }
+
+        a {
+          display: block;
+          float: right;
+          margin-right: 22px;
+          color: #f23030;
+        }
+        .img {
+          display: block;
+          float: right;
+          width: 22px;
+          height: 22px;
+        }
       }
     }
     .spike_c_wrap {
       overflow-x: auto;
+      margin-top: 10px;
     }
     .spike_c_wrap ul {
-      /* display: flex; */
       font-size: 0;
     }
     .spike_c_wrap li {
@@ -202,7 +269,7 @@ export default {
       width: 100%;
     }
     .spike_c_wrap li p {
-      font-size: 12px;
+      font-size: 24px;
       overflow: hidden;
       text-overflow: ellipsis;
       display: -webkit-box;
@@ -211,15 +278,30 @@ export default {
       -webkit-box-orient: vertical;
     }
     .spike_c_wrap li > .r-price {
-      font-size: 13px;
+      margin-top: 20px;
+      display: block;
+      font-weight: 900;
+      text-align: center;
+      line-height: 52px;
+      font-family: JDZhengHT-EN-Bold;
+      font-size: 26px;
       color: #f3344a;
     }
     .spike_c_wrap li > .s-price {
-      font-size: 13px;
+      text-align: center;
+      font-size: 22px;
       color: #bababa;
       text-decoration: line-through;
       display: block;
+      line-height: 44px;
     }
   }
+}
+.title_wrap > img {
+  width: 138px;
+  height: 54px;
+  margin-top: 10px;
+  margin-right: 12px;
+  margin-left: 0.45rem;
 }
 </style>

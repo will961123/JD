@@ -1,15 +1,17 @@
 <template >
   <div class="home">
-    <!-- 头部轮播 -->
-    <hBanner></hBanner>
+
+    <spike></spike>
     <div class="aaa"></div>
   </div>
 </template>
 
 <script>
-import hBanner from './components/hBanner'
+
+import spike from './components/jdspike'
 export default {
   components: {
+    spike
   }
 }
 </script>
