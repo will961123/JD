@@ -1,16 +1,19 @@
 <template >
   <div class="home">
-    home
+    <!-- 头部轮播 -->
+    <hBanner></hBanner>
+    <div class="aaa"></div>
   </div>
 </template>
 
 <script>
-
+import hBanner from './components/hBanner'
 export default {
-
+  components: {
+  }
 }
 </script>
 
-<style scope>
+<style scoped lang='less'>
 
 </style>
