@@ -13,7 +13,6 @@
 </template>
 <style scoped lang="less">
 .head{
-    position: fixed;
     top:0;
     height: 104px;
     z-index: 2;

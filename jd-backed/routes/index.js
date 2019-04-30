@@ -272,4 +272,90 @@ router.get('/hforyou', function (req, res, next) {
   res.send(arr)
 })
 
+// 分类页左边部分列表
+router.get('/cateleft', function (req, res, next) {
+  var arr = [
+    {
+      id: 0,
+      title: '热门推荐'
+    },
+    {
+      id: 1,
+      title: '手机数码'
+    },
+    {
+      id: 2,
+      title: '家用电器'
+    },
+    {
+      id: 3,
+      title: '电脑办公'
+    },
+    {
+      id: 4,
+      title: '计生情趣'
+    },
+    {
+      id: 5,
+      title: '美妆护肤'
+    },
+    {
+      id: 6,
+      title: '个户情趣'
+    },
+    {
+      id: 7,
+      title: '汽车生活'
+    },
+    {
+      id: 8,
+      title: '京东超市'
+    },
+    {
+      id: 9,
+      title: '男鞋'
+    },
+    {
+      id: 10,
+      title: '京东超市'
+    },
+    {
+      id: 11,
+      title: '个人用品'
+    },
+    {
+      id: 12,
+      title: '电脑办公'
+    },
+    {
+      id: 13,
+      title: '京东超市'
+    },
+    {
+      id: 14,
+      title: '电脑办公'
+    },
+    {
+      id: 15,
+      title: '电脑办公'
+    },
+    {
+      id: 16,
+      title: '电脑办公'
+    },
+    {
+      id: 17,
+      title: '电脑办公'
+    },
+    {
+      id: 18,
+      title: '电脑办公'
+    }, {
+      id: 19,
+      title: '电脑办公'
+    }
+  ]
+  res.send(arr)
+})
+
 module.exports = router

@@ -36,3 +36,7 @@ export function gethGdaily () {
 export function gethForyou () {
   return axios.get('hforyou')
 }
+// 请求分类页左边列表部分的数据
+export function getCate () {
+  return axios.get('cateleft')
+}
