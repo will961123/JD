@@ -361,6 +361,7 @@ router.get('/cateleft', function (req, res, next) {
 /* 分类页右侧数据 */
 router.get('/cateright', function (req, res, next) {
   var arr = [
+    // 4
     [
       {
         title: '热门分类',
@@ -478,7 +479,182 @@ router.get('/cateright', function (req, res, next) {
         ]
       }
     ],
-    []
+    // 5
+    [
+      {
+        title: '热卖产品',
+        content: [
+          {
+            name: '避孕套',
+            img:
+              '//img11.360buyimg.com/focus/s140x140_jfs/t12967/337/1391919620/4957/c230e379/5a1fa4dfN13635e0b.jpg'
+          },
+          {
+            name: '飞机杯',
+            img:
+              '//img10.360buyimg.com/focus/s140x140_jfs/t12577/223/1408990949/3151/b6d3f3c2/5a1fa4c9N1722220b.jpg'
+          },
+          {
+            name: '润滑液',
+            img:
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16204/157/99115190/1594/56b918ba/5a27dd39Nb291d7b4.jpg'
+          },
+          {
+            name: '振动棒',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t7711/193/4061075422/3307/ca2e16f0/5a1fa4d3N73ba4e26.jpg'
+          },
+          {
+            name: '情趣内衣',
+            img:
+              '//img20.360buyimg.com/focus/s140x140_jfs/t12031/188/1751903538/3665/5002167a/5a27dd3dN8c2a767c.jpg'
+          },
+          {
+            name: '充气娃娃',
+            img:
+              '//img14.360buyimg.com/focus/s140x140_jfs/t13879/252/1741535676/2857/17a878cc/5a27dd43N3f71897a.jpg'
+          }
+        ]
+      },
+      {
+        title: '男用器具',
+        content: [
+          {
+            name: '狼牙套',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t15697/270/117263048/3424/d9ac82b4/5a27dd0fNe2bc9933.jpg'
+          },
+          {
+            name: '延时环',
+            img:
+              '//img11.360buyimg.com/focus/s140x140_jfs/t12844/238/1716863106/4896/66ecb649/5a27dd15N3c319e6e.jpg'
+          },
+          {
+            name: '名器',
+            img:
+              '//img10.360buyimg.com/focus/s140x140_jfs/t13363/207/1378105912/4445/5d6a8da8/5a1fa4a4Nbe0dd20a.jpg'
+          },
+          {
+            name: '实体娃娃',
+            img:
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13633/192/1750068170/3097/be361c7f/5a27dd19Na55905bf.jpg'
+          },
+          {
+            name: '飞机杯',
+            img:
+              '//img13.360buyimg.com/focus/s140x140_jfs/t13069/337/1417186237/3300/4269f51f/5a1fa4aaN5c41ddec.jpg'
+          },
+          {
+            name: '倒模',
+            img:
+              '//img10.360buyimg.com/focus/s140x140_jfs/t12874/255/15949646/3234/2ac08cca/5a1fa480Nb25ec042.jpg'
+          },
+          {
+            name: '后庭',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t15187/337/235838504/2416/5831d5d6/5a27dd09N6e341de3.jpg'
+          },
+          {
+            name: '情趣游戏',
+            img:
+              '//img14.360buyimg.com/focus/s140x140_jfs/t15517/83/118691147/2248/2ab34c4f/5a27dcf3Nc3c95962.jpg'
+          },
+          {
+            name: '充气娃娃',
+            img:
+              '//img14.360buyimg.com/focus/s140x140_jfs/t14548/326/252090716/3444/d65a0e4/5a27dd0eN06ceb604.jpg'
+          }
+        ]
+      }
+    ],
+    // 6
+    [
+      {
+        title: '当季主推',
+        content: [
+          {
+            name: '美白',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t19531/110/2538137867/14848/c3ec84ac/5afd3cc5N8aa4b7c8.jpg'
+          },
+          {
+            name: '防晒',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t17560/320/2504739891/10347/f04150c4/5afd3cbeN77d00886.jpg'
+          },
+          {
+            name: '控油',
+            img:
+              '//img14.360buyimg.com/focus/s140x140_jfs/t19291/98/2577005836/12222/7107fb29/5afd3cc9N3add85ae.jpg'
+          },
+          {
+            name: '明星同款面膜',
+            img:
+              '//img10.360buyimg.com/focus/s140x140_jfs/t19759/351/2599036909/13944/24601ad4/5afd3d66Nbb817b81.jpg'
+          },
+          {
+            name: '显白口红',
+            img:
+              '//img10.360buyimg.com/focus/s140x140_jfs/t20356/99/118471868/26414/e301e0b7/5afd3d61Ne42d8f0d.jpg'
+          },
+          {
+            name: '小美盒',
+            img:
+              '//img10.360buyimg.com/focus/s140x140_jfs/t19453/253/2549990863/33320/e0515773/5afd3d5cN85837566.jpg'
+          }
+        ]
+      },
+      {
+        title: '面部护肤',
+        content: [
+          {
+            name: '护肤礼盒',
+            img:
+              '//img20.360buyimg.com/focus/s140x140_jfs/t20959/91/124730120/12985/5284a79e/5afd3d41N088429d4.jpg'
+          },
+          {
+            name: '深层清洁',
+            img:
+              '//img11.360buyimg.com/focus/s140x140_jfs/t22396/17/121051148/28089/c4acdb0f/5afd3d3bN75fa18d3.jpg'
+          },
+          {
+            name: '敏感肌',
+            img:
+              '//img12.360buyimg.com/focus/s140x140_jfs/t20929/77/121480668/32196/9a7ba672/5afd3d35N2a6ee1be.jpg'
+          },
+          {
+            name: '卸妆',
+            img:
+              '//img13.360buyimg.com/focus/s140x140_jfs/t20917/65/125245513/25087/e5ba4ace/5afd3d2eNd15c7aa0.jpg'
+          },
+          {
+            name: '洁面',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t20383/58/124335317/14873/8e3616ff/5afd3d27Ne9bbcfbf.jpg'
+          },
+          {
+            name: '爽肤水/化妆水',
+            img:
+              '//img11.360buyimg.com/focus/s140x140_jfs/t18874/59/2559251858/5489/71cbf3ce/5afd3d21N7fc7e6b4.jpg'
+          },
+          {
+            name: '乳液/面霜',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t18103/87/2517823758/30777/deea9adf/5afd3d1cN8cd5e8cc.jpg'
+          },
+          {
+            name: '精华/肌底液',
+            img:
+              '//img20.360buyimg.com/focus/s140x140_jfs/t19432/52/2545941083/41798/3ba421cf/5afd3d11Nc13f1029.jpg'
+          },
+          {
+            name: '眼霜',
+            img:
+              '//img30.360buyimg.com/focus/s140x140_jfs/t19678/73/2552924985/24992/eb27e199/5afd3d16N945cdc81.jpg'
+          }
+        ]
+      }
+    ]
   ]
   res.send(arr)
 })

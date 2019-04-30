@@ -9,6 +9,8 @@ import VueLazyload from 'vue-lazyload'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 // 轮播css
 import 'swiper/dist/css/swiper.css'
+// 接收vuex的数据
+import store from '@/store/index.js'
 // fastclick插件
 Vue.use(VueLazyload, {
   preLoad: 1.3,
@@ -26,6 +28,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
