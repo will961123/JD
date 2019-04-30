@@ -453,7 +453,7 @@ router.get('/cateright', function (req, res, next) {
         ]
       }
     ],
-    // 4
+    // 4-6
     [
       {
         title: '热门分类',
@@ -571,7 +571,6 @@ router.get('/cateright', function (req, res, next) {
         ]
       }
     ],
-    // 5
     [
       {
         title: '热卖产品',
@@ -659,7 +658,6 @@ router.get('/cateright', function (req, res, next) {
         ]
       }
     ],
-    // 6
     [
       {
         title: '当季主推',
