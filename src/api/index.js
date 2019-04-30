@@ -40,7 +40,7 @@ export function gethForyou () {
 export function getCate () {
   return axios.get('cateleft')
 }
-// 请求分类页右边运动户外的数据
-export function getOutsports () {
-  return axios.get('outsports')
+// 请求而分类页面右侧数据
+export function getcateRight () {
+  return axios.get('cateright')
 }
