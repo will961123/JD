@@ -1,8 +1,8 @@
 <template>
     <div class="cate">
-        <div class="cateleft wrapper">
-            <ul classs="ful content">
-                <li v-for="(item,index) in cateList" :key="index">
+        <div class="cateleft wrapper" ref="top">
+            <ul classs="ful content" ref="ul">
+                <li v-for="(item,index) in cateList" :style="{height:liHeight+'px'}" :key="index" @click="changestatus(index)" :class="{active:index===currentIndex}">
                     {{item.title}}
                 </li>
             </ul>
@@ -11,21 +11,59 @@
 </template>
 <script>
 import {getCate} from '@/api/index.js'
-import BScroll from 'better-scroll'
+// import BScroll from 'better-scroll'
 export default {
   data () {
     return {
-      cateList: null
+      cateList: null,
+      currentIndex: 0,
+      liHeight: 46,
+      timer: null
+
     }
   },
   async mounted () {
     this.cateList = await getCate()
+    // this.$nextTick(() => {
+    //   var height = this.liHeight * this.cateList.length
+    //   this.$refs.ul.style.height = height + 'px'
+    // })
+  },
+  methods: {
+    // 点击的li字体样式
+    async changestatus (index) {
+      if (this.index === 8 && index > 8) {
+        return
+      }
+      this.currentIndex = index
+      if ((this.cateList.length * this.liHeight - this.$refs.top.scrollTop) > this.$refs.top.offsetHeight) {
+
+      } else {
+        return
+      }
+      console.log(this.currentIndex)
+      // 目标值target  初始值header=0
+      var target = this.currentIndex * this.liHeight
+      var header = 0
+      // 每次开始先清除定时器,以免影响计算
+      clearInterval(this.timer)
+      this.timer = setInterval(() => {
+        header = header + (target - header) / 10
+        if (header > target - 2) {
+          clearInterval(this.timer)
+        }
+        // div向上缩进到的位置，直到为0为止
+        this.$refs.top.scrollTop = header
+      }, 30)
+    }
+
   }
 }
 </script>
 <style scoped lang="less">
 .cate{
     height:calc(100% - 206px);
+    // background: white;
 }
 .cateleft{
     width: 170px;
@@ -35,7 +73,6 @@ export default {
     ul{
         width:100%;
 
-
         li{
             width: 100%;
             height: 92px;
@@ -43,6 +80,10 @@ export default {
             line-height: 92px;
             text-align: center;
             color: #333;
+            &.active{
+                color: #e87f77;
+                background:white;
+            }
         }
     }
 }
