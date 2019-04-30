@@ -6,10 +6,30 @@
             <img class="search" src="../images/search.png"/>
             <input type="text" placeholder="电子琴"/>
         </div>
-        <span><img src="../images/cateright.png"/></span>
+        <span><img src="../images/cateright.png" @click="change"/></span>
          <div class="bom"></div>
+         <img class="tip"  ref="tip" src="../images/tip.png"/>
     </div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+    //   show: false
+    }
+  },
+  methods: {
+    change () {
+    //   console.log(window.getComputedStyle(this.$refs.tip, null).display)
+      if (window.getComputedStyle(this.$refs.tip, null).display === 'none') {
+        this.$refs.tip.style.display = 'block'
+      } else {
+        this.$refs.tip.style.display = 'none'
+      }
+    }
+  }
+}
+</script>
 <style scoped lang="less">
 .head{
     width:375px;
@@ -66,5 +86,11 @@
     position: absolute;
     bottom:0px;
     left: 0px;
+}
+.tip{
+    position:absolute;
+    top: 130px;
+    right: -340px;
+    display: none;
 }
 </style>
