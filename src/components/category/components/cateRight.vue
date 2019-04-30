@@ -23,7 +23,7 @@ export default {
     }
   },
   async created () {
-    this.contentList = (await getcateRight())[0]
+    this.contentList = (await getcateRight())[this.$store.state.currentIndex]
   }
 }
 </script>
