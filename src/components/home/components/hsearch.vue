@@ -27,7 +27,7 @@ export default {
 .head {
   position: fixed;
   z-index: 2;
-  top: 0;
+  top: 1px;
   height: 104px;
   z-index: 2;
   width: 100%;
