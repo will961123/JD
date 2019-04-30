@@ -753,52 +753,52 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '个护馆',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t21343/109/200166835/32189/655b48ef/5b03c73fN69e0c2b7.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t21343/109/200166835/32189/655b48ef/5b03c73fN69e0c2b7.jpg'
           },
           {
             name: '清洁馆',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t22015/174/193799214/56285/64f190df/5b03bf93Na049c54e.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t22015/174/193799214/56285/64f190df/5b03bf93Na049c54e.jpg'
           },
           {
             name: '进口清洁',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t20482/61/128269126/48485/836a6d71/5afd574eNb1ad35ae.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t20482/61/128269126/48485/836a6d71/5afd574eNb1ad35ae.jpg'
           },
           {
             name: '卫生棉条',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t18214/1/2613174758/15599/5ed2de47/5afd5747N2fc58c3e.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t18214/1/2613174758/15599/5ed2de47/5afd5747N2fc58c3e.jpg'
           },
           {
             name: '湿厕纸',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t20365/251/116787241/43845/fa0bc54d/5afd5740Na342fa77.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t20365/251/116787241/43845/fa0bc54d/5afd5740Na342fa77.jpg'
           },
           {
             name: '走珠/止汗露',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t18676/160/2579989694/9033/3c4632ba/5afd5735Nfd44dcdd.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t18676/160/2579989694/9033/3c4632ba/5afd5735Nfd44dcdd.jpg'
           },
           {
             name: '花露水',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t22123/187/137040009/6892/6b0cbf68/5afd572dN7ed9c341.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t22123/187/137040009/6892/6b0cbf68/5afd572dN7ed9c341.jpg'
           },
           {
             name: '驱蚊用品',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t20293/233/118774843/46835/4e4eaf16/5afd5727N9f7271c7.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t20293/233/118774843/46835/4e4eaf16/5afd5727N9f7271c7.jpg'
           },
           {
             name: '本色纸',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t17062/178/2600012755/33321/1ad5ca0b/5afd571fN18ed0cd5.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t17062/178/2600012755/33321/1ad5ca0b/5afd571fN18ed0cd5.jpg'
           },
           {
             name: '免洗洗手液',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t16840/96/2521969144/9603/65ca0871/5afd571aN43e80da5.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t16840/96/2521969144/9603/65ca0871/5afd571aN43e80da5.jpg'
           }
         ]
       },
@@ -808,37 +808,37 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '得宝',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t19159/296/2561042023/49706/b5b9a38c/5afd5700N355dfa7d.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t19159/296/2561042023/49706/b5b9a38c/5afd5700N355dfa7d.jpg'
           },
           {
             name: '施华蔻专业',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t19489/212/2660233176/26301/ba832bb4/5b03ca93Nb4f64094.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t19489/212/2660233176/26301/ba832bb4/5b03ca93Nb4f64094.jpg'
           },
           {
             name: '舒洁',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t19819/28/553421672/50589/7cfc13ea/5afd56f2Nf2b8ca84.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t19819/28/553421672/50589/7cfc13ea/5afd56f2Nf2b8ca84.jpg'
           },
           {
             name: '馥绿德雅',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t17248/264/2595778521/6813/3309b403/5afd56ecN8257b620.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t17248/264/2595778521/6813/3309b403/5afd56ecN8257b620.jpg'
           },
           {
             name: '3M',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t18997/159/2614761718/41736/d0533a04/5afd56e7N9961fe19.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t18997/159/2614761718/41736/d0533a04/5afd56e7N9961fe19.jpg'
           },
           {
             name: '吕',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t19420/348/2539781815/6961/35348d70/5afd56e1N98a273a3.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t19420/348/2539781815/6961/35348d70/5afd56e1N98a273a3.jpg'
           },
           {
             name: '当妮',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t18196/253/2567807998/53005/61c50fea/5afd56dcNc16970a8.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t18196/253/2567807998/53005/61c50fea/5afd56dcNc16970a8.jpg'
           },
           {
             name: 'LG',
@@ -848,22 +848,22 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '橘子工坊',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t21721/134/120751456/39440/5d9584de/5afd56cfNaabd3f8c.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t21721/134/120751456/39440/5d9584de/5afd56cfNaabd3f8c.jpg'
           },
           {
             name: '花王',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t20101/223/562289297/12695/938bfb8/5afd56caNdb42ae94.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t20101/223/562289297/12695/938bfb8/5afd56caNdb42ae94.jpg'
           },
           {
             name: '汉高',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t19918/356/561154349/62704/6ca0c356/5afd56b8N1bd6906e.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t19918/356/561154349/62704/6ca0c356/5afd56b8N1bd6906e.jpg'
           },
           {
             name: '玛尔斯',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t19318/209/2602710979/6648/57bd4e7c/5afd56afN495321fb.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t19318/209/2602710979/6648/57bd4e7c/5afd56afN495321fb.jpg'
           }
         ]
       },
@@ -873,27 +873,27 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '抽纸',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t21769/101/124948952/48248/832ede7b/5afd568bN971e6358.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t21769/101/124948952/48248/832ede7b/5afd568bN971e6358.jpg'
           },
           {
             name: '卷纸',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t22387/82/128171200/41534/fde69788/5afd5686N67808fa9.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t22387/82/128171200/41534/fde69788/5afd5686N67808fa9.jpg'
           },
           {
             name: '手帕纸',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t18637/64/2549852710/37258/79908eff/5afd5681N00604b0d.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t18637/64/2549852710/37258/79908eff/5afd5681N00604b0d.jpg'
           },
           {
             name: '湿巾',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t22297/74/124765074/42169/447f046a/5afd567cNfc430327.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t22297/74/124765074/42169/447f046a/5afd567cNfc430327.jpg'
           },
           {
             name: '厨房纸巾',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t19225/80/2534738713/47306/263604a4/5afd5678N54ce98af.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t19225/80/2534738713/47306/263604a4/5afd5678N54ce98af.jpg'
           }
         ]
       },
@@ -903,22 +903,22 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '进口卫生巾',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t19702/170/2637035856/53602/b3d52749/5b03c41bN72fa8f49.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t19702/170/2637035856/53602/b3d52749/5b03c41bN72fa8f49.jpg'
           },
           {
             name: '卫生巾',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t19681/290/2527845655/17373/8fa138c2/5afd563eNd9dfefa2.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t19681/290/2527845655/17373/8fa138c2/5afd563eNd9dfefa2.jpg'
           },
           {
             name: '卫生护垫',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t18127/332/2572577399/15408/6055b08/5afd563aNa79b47b4.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t18127/332/2572577399/15408/6055b08/5afd563aNa79b47b4.jpg'
           },
           {
             name: '私处护理',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t18943/294/2522212188/10711/74553b18/5afd5635N4c315dce.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t18943/294/2522212188/10711/74553b18/5afd5635N4c315dce.jpg'
           }
         ]
       },
@@ -928,32 +928,32 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '洗衣液',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t19987/98/558215522/32047/351256ff/5afd562dN5db3a834.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t19987/98/558215522/32047/351256ff/5afd562dN5db3a834.jpg'
           },
           {
             name: '洗衣粉',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t19462/104/2571598475/45478/9f7da5fa/5afd5627Ne5de5630.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t19462/104/2571598475/45478/9f7da5fa/5afd5627Ne5de5630.jpg'
           },
           {
             name: '洗衣皂',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t21628/34/123674554/43500/dd39a8fa/5afd5622N45d600ba.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t21628/34/123674554/43500/dd39a8fa/5afd5622N45d600ba.jpg'
           },
           {
             name: '柔顺剂',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t18544/152/2609888412/32404/c9527c0f/5afd55faNa530f00e.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t18544/152/2609888412/32404/c9527c0f/5afd55faNa530f00e.jpg'
           },
           {
             name: '凝珠',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t20965/49/131053014/59271/c0533e1f/5afd55f4Na480a545.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t20965/49/131053014/59271/c0533e1f/5afd55f4Na480a545.jpg'
           },
           {
             name: '除菌液',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t18367/201/2501678110/38390/7617d219/5afd55efN699a9345.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t18367/201/2501678110/38390/7617d219/5afd55efN699a9345.jpg'
           }
         ]
       },
@@ -963,27 +963,27 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '洗洁精',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t18433/53/2532228382/29889/e1387b5c/5afd5586N7f9ba945.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t18433/53/2532228382/29889/e1387b5c/5afd5586N7f9ba945.jpg'
           },
           {
             name: '消毒液',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t19027/97/2581588567/48688/665a7663/5afd5581Nd2eeec39.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t19027/97/2581588567/48688/665a7663/5afd5581Nd2eeec39.jpg'
           },
           {
             name: '油污净',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t18658/258/2480489533/11269/7da282ac/5afd5b63Na1183476.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t18658/258/2480489533/11269/7da282ac/5afd5b63Na1183476.jpg'
           },
           {
             name: '洁厕剂',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t19114/59/2604474272/45896/7b35bd96/5afd556bNa5eec222.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t19114/59/2604474272/45896/7b35bd96/5afd556bNa5eec222.jpg'
           },
           {
             name: '除湿干燥剂',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t16765/283/2561851137/36053/8350e507/5afd5565Nf00ec7be.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16765/283/2561851137/36053/8350e507/5afd5565Nf00ec7be.jpg'
           }
         ]
       },
@@ -993,32 +993,32 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '进口洗发水',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t21517/44/203247372/26977/b52d91d0/5b03c48bNe06feb68.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t21517/44/203247372/26977/b52d91d0/5b03c48bNe06feb68.jpg'
           },
           {
             name: '洗发水',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t16846/245/2583886575/9376/d24e63cb/5afd554eN8fc3776a.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t16846/245/2583886575/9376/d24e63cb/5afd554eN8fc3776a.jpg'
           },
           {
             name: '护发素',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t17701/31/2532797830/12007/a4af1c3e/5afd5548Ncdf39713.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t17701/31/2532797830/12007/a4af1c3e/5afd5548Ncdf39713.jpg'
           },
           {
             name: '发膜/精油',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t17350/26/2574061368/8918/fe462b16/5afd5541Nd0d2a089.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t17350/26/2574061368/8918/fe462b16/5afd5541Nd0d2a089.jpg'
           },
           {
             name: '洗护套装',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t21418/329/136024742/20093/cd707128/5afd553bN8075c11b.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t21418/329/136024742/20093/cd707128/5afd553bN8075c11b.jpg'
           },
           {
             name: '旅行套装',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t20776/109/131863332/17080/d56a0194/5afd5536Ne0c20616.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t20776/109/131863332/17080/d56a0194/5afd5536Ne0c20616.jpg'
           }
         ]
       },
@@ -1028,32 +1028,32 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '进口染发',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t19921/283/641055923/30819/17816fc8/5b03c4edN0293de4d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t19921/283/641055923/30819/17816fc8/5b03c4edN0293de4d.jpg'
           },
           {
             name: '造型',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t19723/106/2560766009/6347/6080ffc3/5afd552aNd7d0b91f.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t19723/106/2560766009/6347/6080ffc3/5afd552aNd7d0b91f.jpg'
           },
           {
             name: '染发',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t21934/229/123334440/15585/ca009d11/5afd5522Nd55c3db9.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t21934/229/123334440/15585/ca009d11/5afd5522Nd55c3db9.jpg'
           },
           {
             name: '烫发',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t17062/210/2612623125/8453/6e50eb1/5afd551eN93e59df8.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t17062/210/2612623125/8453/6e50eb1/5afd551eN93e59df8.jpg'
           },
           {
             name: '假发',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t18463/295/2549595995/8360/4faa89b7/5afd5518N3ca7a401.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t18463/295/2549595995/8360/4faa89b7/5afd5518N3ca7a401.jpg'
           },
           {
             name: '美发工具',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t20440/47/128875611/17639/84bdc840/5afd5513N63fb05bb.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t20440/47/128875611/17639/84bdc840/5afd5513N63fb05bb.jpg'
           }
         ]
       },
@@ -1063,67 +1063,67 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '进口沐浴露',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t21892/274/217406252/26431/5fd60e42/5b03c653Nde350f5a.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t21892/274/217406252/26431/5fd60e42/5b03c653Nde350f5a.jpg'
           },
           {
             name: '沐浴露',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t20701/96/209105998/23881/dd74771e/5b03c72eNb5aacdaf.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t20701/96/209105998/23881/dd74771e/5b03c72eNb5aacdaf.jpg'
           },
           {
             name: '香皂',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t17215/352/2622299547/16734/bac5a131/5afd5502Nf40a3adf.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t17215/352/2622299547/16734/bac5a131/5afd5502Nf40a3adf.jpg'
           },
           {
             name: '浴盐',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t21718/198/117863030/9195/74c5a809/5afd54faNf1fe657c.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t21718/198/117863030/9195/74c5a809/5afd54faNf1fe657c.jpg'
           },
           {
             name: '护手霜',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t21244/264/114225784/15357/3ba45a5c/5afd54f3N449f5147.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t21244/264/114225784/15357/3ba45a5c/5afd54f3N449f5147.jpg'
           },
           {
             name: '脱毛膏/工具',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t16750/97/2578880190/4870/7e7841c7/5afd54edN440c4f1c.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t16750/97/2578880190/4870/7e7841c7/5afd54edN440c4f1c.jpg'
           },
           {
             name: '男士洗液',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t19468/145/2579322903/5560/3273faf7/5afd54e4N628b3a7f.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t19468/145/2579322903/5560/3273faf7/5afd54e4N628b3a7f.jpg'
           },
           {
             name: '润肤',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t21691/178/119690497/7769/f72006f8/5afd54d5N68aa22d0.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t21691/178/119690497/7769/f72006f8/5afd54d5N68aa22d0.jpg'
           },
           {
             name: '精油',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t22270/158/129352763/7887/d556f009/5afd54c6N469e8a8d.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t22270/158/129352763/7887/d556f009/5afd54c6N469e8a8d.jpg'
           },
           {
             name: '手膜/足膜',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t22399/146/123296437/15657/faedbfbf/5afd54bfNc34196f9.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t22399/146/123296437/15657/faedbfbf/5afd54bfNc34196f9.jpg'
           },
           {
             name: '美颈',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t17494/3/2556643261/9278/1f1db232/5afd54b1N529ab54e.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t17494/3/2556643261/9278/1f1db232/5afd54b1N529ab54e.jpg'
           },
           {
             name: '美胸',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t18124/272/2527140035/5820/25843950/5afd54abN71ee4bcf.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t18124/272/2527140035/5820/25843950/5afd54abN71ee4bcf.jpg'
           },
           {
             name: '身体护理套装',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t19486/77/2530339313/13232/958fce1d/5afd54a6Nca72e456.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t19486/77/2530339313/13232/958fce1d/5afd54a6Nca72e456.jpg'
           }
         ]
       },
@@ -1133,47 +1133,47 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '进口牙膏',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t19876/2/637557546/23939/63bf594c/5b03c6f3N208f158d.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t19876/2/637557546/23939/63bf594c/5b03c6f3N208f158d.jpg'
           },
           {
             name: '牙膏',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t21709/123/122452202/11282/d3edbcd9/5afd5488N55584ee6.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t21709/123/122452202/11282/d3edbcd9/5afd5488N55584ee6.jpg'
           },
           {
             name: '牙刷',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t20131/362/126324506/7570/25c9cf01/5afd5480Ne350e657.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t20131/362/126324506/7570/25c9cf01/5afd5480Ne350e657.jpg'
           },
           {
             name: '牙线/牙线棒',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t21859/125/124128973/13401/bc1d5345/5afd547bN1a1fc36f.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t21859/125/124128973/13401/bc1d5345/5afd547bN1a1fc36f.jpg'
           },
           {
             name: '牙贴',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t22117/98/133319209/19987/c1187729/5afd5474Nc701fb7b.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t22117/98/133319209/19987/c1187729/5afd5474Nc701fb7b.jpg'
           },
           {
             name: '牙粉',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t16819/126/2534285097/11610/55ac454e/5afd546bN27c05a25.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16819/126/2534285097/11610/55ac454e/5afd546bN27c05a25.jpg'
           },
           {
             name: '假牙清洁',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t18814/256/2629829638/22748/9c4777f8/5afd5464N404defd5.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t18814/256/2629829638/22748/9c4777f8/5afd5464N404defd5.jpg'
           },
           {
             name: '漱口水',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t18268/223/2565676410/10145/6887ef16/5afd545eNdbaea1e6.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t18268/223/2565676410/10145/6887ef16/5afd545eNdbaea1e6.jpg'
           },
           {
             name: '口喷',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t22102/77/122022394/8918/37f7713c/5afd5454N092841af.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t22102/77/122022394/8918/37f7713c/5afd5454N092841af.jpg'
           }
         ]
       },
@@ -1183,47 +1183,47 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '拖把',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t17941/2/2535332698/24917/14a0feee/5afd5421Nd372f042.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t17941/2/2535332698/24917/14a0feee/5afd5421Nd372f042.jpg'
           },
           {
             name: '垃圾袋',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t18769/229/2589911314/45558/4c81e6d8/5afd5419Nb94c25df.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t18769/229/2589911314/45558/4c81e6d8/5afd5419Nb94c25df.jpg'
           },
           {
             name: '垃圾桶',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t19255/280/2541925874/45344/9e64db12/5afd5414Nb7959be9.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t19255/280/2541925874/45344/9e64db12/5afd5414Nb7959be9.jpg'
           },
           {
             name: '扫把',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t22141/30/129055155/25348/7d3d6880/5afd540fN9e8ce7ca.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t22141/30/129055155/25348/7d3d6880/5afd540fN9e8ce7ca.jpg'
           },
           {
             name: '脸盆/水桶',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t20311/84/130146107/23953/34191d35/5afd540aNe43c3b40.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t20311/84/130146107/23953/34191d35/5afd540aNe43c3b40.jpg'
           },
           {
             name: '抹布/百洁布',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t19468/364/2568165364/41541/68bf2b38/5afd5404N063a997a.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t19468/364/2568165364/41541/68bf2b38/5afd5404N063a997a.jpg'
           },
           {
             name: '手套/鞋套/围裙',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t21556/83/125761257/39986/6c21f126/5afd53ffN669c9d7b.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t21556/83/125761257/39986/6c21f126/5afd53ffN669c9d7b.jpg'
           },
           {
             name: '清洁刷具',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t21106/103/143965304/25758/19e2ee6d/5afd53faN71843d91.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t21106/103/143965304/25758/19e2ee6d/5afd53faN71843d91.jpg'
           },
           {
             name: '一次性清洁用品',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t21568/70/121334743/40181/1541ac83/5afd53eaN07f163e9.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t21568/70/121334743/40181/1541ac83/5afd53eaN07f163e9.jpg'
           }
         ]
       },
@@ -1233,17 +1233,17 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '杀蟑',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t17407/139/2630394382/46387/c7a93f9a/5afd53e3N37baa82d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t17407/139/2630394382/46387/c7a93f9a/5afd53e3N37baa82d.jpg'
           },
           {
             name: '驱鼠',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t20968/63/126209561/70712/37832654/5afd53ddN777c317a.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t20968/63/126209561/70712/37832654/5afd53ddN777c317a.jpg'
           },
           {
             name: '灭蚁',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t20971/59/120673409/42910/dd224b8a/5afd53d7Nf05b1a34.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t20971/59/120673409/42910/dd224b8a/5afd53d7Nf05b1a34.jpg'
           }
         ]
       }
@@ -1255,32 +1255,32 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '机油',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t12934/187/1360887703/3624/2773362c/5a1fb8f6N7d4de465.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t12934/187/1360887703/3624/2773362c/5a1fb8f6N7d4de465.jpg'
           },
           {
             name: '汽车坐垫',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13861/165/1416050485/4023/7a99270b/5a1fb902N806b102c.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13861/165/1416050485/4023/7a99270b/5a1fb902N806b102c.jpg'
           },
           {
             name: '洗车水枪',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12775/362/1793763591/8646/9054789/5a28b10cN62861b9b.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12775/362/1793763591/8646/9054789/5a28b10cN62861b9b.jpg'
           },
           {
             name: '行车记录仪',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12901/240/1394851486/8943/454985f7/5a1fb8fcNb81047cc.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12901/240/1394851486/8943/454985f7/5a1fb8fcNb81047cc.jpg'
           },
           {
             name: '轮胎',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t12508/203/1731926315/5258/efc05e60/5a28b101Ne8ebee02.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t12508/203/1731926315/5258/efc05e60/5a28b101Ne8ebee02.jpg'
           },
           {
             name: '应急救援',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t15556/93/149991245/6163/3387b1e9/5a28b106N59344f7a.png'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t15556/93/149991245/6163/3387b1e9/5a28b106N59344f7a.png'
           }
         ]
       },
@@ -1290,62 +1290,62 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '全部车型',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t1/8473/10/11628/10657/5c2dbb1cE47193b77/7f241ac8f7889f1d.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t1/8473/10/11628/10657/5c2dbb1cE47193b77/7f241ac8f7889f1d.jpg'
           },
           {
             name: '大众',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t1/9840/16/11639/17257/5c2dba16E8de6ef2a/b4183d6f61a3cc7d.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t1/9840/16/11639/17257/5c2dba16E8de6ef2a/b4183d6f61a3cc7d.jpg'
           },
           {
             name: '日产',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t1/29923/3/3983/10680/5c2dba1eEedd1bb07/9247922649b54d4f.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t1/29923/3/3983/10680/5c2dba1eEedd1bb07/9247922649b54d4f.jpg'
           },
           {
             name: '丰田',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t1/14600/17/4110/8646/5c2dba26E73f41fef/780a4ace76c4ef0b.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t1/14600/17/4110/8646/5c2dba26E73f41fef/780a4ace76c4ef0b.jpg'
           },
           {
             name: '奥迪',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t1/20898/17/4012/8445/5c2dba2dEe1e47052/88025b2f8a3db243.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t1/20898/17/4012/8445/5c2dba2dEe1e47052/88025b2f8a3db243.jpg'
           },
           {
             name: '斯柯达',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t1/28703/6/3981/13957/5c2dba45E83f19186/4d0151e9e7e4339e.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t1/28703/6/3981/13957/5c2dba45E83f19186/4d0151e9e7e4339e.jpg'
           },
           {
             name: '凯迪拉克',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t1/11453/36/4857/10519/5c2dba4cE7a14795e/121dbd0a81825ba1.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t1/11453/36/4857/10519/5c2dba4cE7a14795e/121dbd0a81825ba1.jpg'
           },
           {
             name: '名爵',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t1/20359/29/3972/11650/5c2dba51E4a1d501d/92f55a0ead318176.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t1/20359/29/3972/11650/5c2dba51E4a1d501d/92f55a0ead318176.jpg'
           },
           {
             name: '二手车',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t1/23427/14/4078/12094/5c2dba57Ec642cfba/5aba4c49135df8d1.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t1/23427/14/4078/12094/5c2dba57Ec642cfba/5aba4c49135df8d1.jpg'
           },
           {
             name: '奥迪Q5L',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t1/25344/18/4032/10180/5c2dba5cEf14408f8/7c7935f09b2c80cb.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t1/25344/18/4032/10180/5c2dba5cEf14408f8/7c7935f09b2c80cb.jpg'
           },
           {
             name: '轩逸',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t1/8485/11/11631/7335/5c2dba62Eb87567b9/1c81c420bd0cbc2d.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t1/8485/11/11631/7335/5c2dba62Eb87567b9/1c81c420bd0cbc2d.jpg'
           },
           {
             name: '迈腾',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t1/15567/16/4031/8798/5c2dba68E01a7fb14/ae668e176faeae21.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t1/15567/16/4031/8798/5c2dba68E01a7fb14/ae668e176faeae21.jpg'
           }
         ]
       },
@@ -1355,92 +1355,92 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '香水',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t13759/326/1785480674/5074/ee5e11b5/5a28ae70N2103e1ad.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t13759/326/1785480674/5074/ee5e11b5/5a28ae70N2103e1ad.jpg'
           },
           {
             name: '功能小件',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12031/185/1786124151/4188/4fbcefa1/5a28ae4aNc332a72c.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12031/185/1786124151/4188/4fbcefa1/5a28ae4aNc332a72c.jpg'
           },
           {
             name: '挂件',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t14563/22/263252417/4276/1685f17/5a28ae7cN14672d9f.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t14563/22/263252417/4276/1685f17/5a28ae7cN14672d9f.jpg'
           },
           {
             name: '车贴',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t16231/145/125924495/8318/b0a5af3e/5a28ae6dNbf8afd0d.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t16231/145/125924495/8318/b0a5af3e/5a28ae6dNbf8afd0d.jpg'
           },
           {
             name: '车钥匙扣',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t15562/128/151306023/5669/a6f309c5/5a28ae93Nbd3a7965.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t15562/128/151306023/5669/a6f309c5/5a28ae93Nbd3a7965.jpg'
           },
           {
             name: '车衣',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t15379/29/278452727/7734/e1b9d130/5a28ae5aN98fe0b9b.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t15379/29/278452727/7734/e1b9d130/5a28ae5aN98fe0b9b.jpg'
           },
           {
             name: '车身装饰件',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t15544/115/145409852/6600/97483c30/5a28ae20N34461e66.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t15544/115/145409852/6600/97483c30/5a28ae20N34461e66.jpg'
           },
           {
             name: '头枕腰靠',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12583/257/1424307664/3966/97f9ef9e/5a1fb88cN34faafa3.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12583/257/1424307664/3966/97f9ef9e/5a1fb88cN34faafa3.jpg'
           },
           {
             name: '脚垫',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t13558/280/1399434919/6271/78dd6573/5a1fb894Nc897f859.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t13558/280/1399434919/6271/78dd6573/5a1fb894Nc897f859.jpg'
           },
           {
             name: '方向盘套',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t16423/215/131062453/8070/c711537e/5a28aea0N7af6bf25.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t16423/215/131062453/8070/c711537e/5a28aea0N7af6bf25.jpg'
           },
           {
             name: '座垫座套',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13519/285/1392060463/6297/5fae6c1f/5a1fb899Nb3443228.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13519/285/1392060463/6297/5fae6c1f/5a1fb899Nb3443228.jpg'
           },
           {
             name: '炭包/净化剂',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t12829/44/1779550237/5321/8e2f3d05/5a28ae7cN20404195.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t12829/44/1779550237/5321/8e2f3d05/5a28ae7cN20404195.jpg'
           },
           {
             name: '扶手箱',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13657/356/1757783714/5103/598ae62d/5a28ae82N504ac8dc.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13657/356/1757783714/5103/598ae62d/5a28ae82N504ac8dc.jpg'
           },
           {
             name: '雨眉',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13078/50/1778005408/5790/8a6d0d64/5a28ae59N22d853cf.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13078/50/1778005408/5790/8a6d0d64/5a28ae59N22d853cf.jpg'
           },
           {
             name: '遮阳/雪挡',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t14863/70/275582573/5863/248a3f1b/5a28ae6eNb762e067.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t14863/70/275582573/5863/248a3f1b/5a28ae6eNb762e067.jpg'
           },
           {
             name: '后备箱垫',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t15349/194/244306114/5635/3f5a463b/5a28ae6cN06d8cc96.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t15349/194/244306114/5635/3f5a463b/5a28ae6cN06d8cc96.jpg'
           },
           {
             name: '行李架/箱',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13150/17/1760591829/4365/fe14f4be/5a28ae61N7f8f6567.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13150/17/1760591829/4365/fe14f4be/5a28ae61N7f8f6567.jpg'
           },
           {
             name: '踏板',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t14170/17/1750695410/5296/94ba6c25/5a28ae63N6907c7e8.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t14170/17/1750695410/5296/94ba6c25/5a28ae63N6907c7e8.jpg'
           }
         ]
       },
@@ -1450,57 +1450,57 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '毛巾掸子',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t13771/348/1795045462/2101/2bda7fa5/5a28aeb0Na5fe4e35.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t13771/348/1795045462/2101/2bda7fa5/5a28aeb0Na5fe4e35.jpg'
           },
           {
             name: '车蜡',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12004/25/1783042437/5806/616369c8/5a28aec7N79fdf965.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12004/25/1783042437/5806/616369c8/5a28aec7N79fdf965.jpg'
           },
           {
             name: '补漆笔',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t16099/205/78831984/2225/60b553eb/5a28aeb0N4506c877.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t16099/205/78831984/2225/60b553eb/5a28aeb0N4506c877.jpg'
           },
           {
             name: '清洁剂',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t14935/325/267760917/4118/afd00ce5/5a28aecaN768ebd0c.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t14935/325/267760917/4118/afd00ce5/5a28aecaN768ebd0c.jpg'
           },
           {
             name: '玻璃水',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t12715/298/1405099616/3387/25a26330/5a1fb8a0N16f3c4c8.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t12715/298/1405099616/3387/25a26330/5a1fb8a0N16f3c4c8.jpg'
           },
           {
             name: '洗车水枪',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t14029/295/1407967263/5905/84225f11/5a1fb8a5Ndce3bc9a.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t14029/295/1407967263/5905/84225f11/5a1fb8a5Ndce3bc9a.jpg'
           },
           {
             name: '洗车配件',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t12655/10/1745900547/2390/7412cf2a/5a28ae93N47c04444.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t12655/10/1745900547/2390/7412cf2a/5a28ae93N47c04444.jpg'
           },
           {
             name: '洗车机',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12781/349/1412442353/3384/d1141386/5a1fb8abN74454957.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12781/349/1412442353/3384/d1141386/5a1fb8abN74454957.jpg'
           },
           {
             name: '镀晶镀膜',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t13402/244/1755048828/2329/ff48b7a3/5a28ae9eN0e0d518c.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t13402/244/1755048828/2329/ff48b7a3/5a28ae9eN0e0d518c.jpg'
           },
           {
             name: '底盘装甲',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t12301/336/1763842936/2725/dcb7ec53/5a28aeb5N9101722c.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t12301/336/1763842936/2725/dcb7ec53/5a28aeb5N9101722c.jpg'
           },
           {
             name: '汽车贴膜',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t13897/34/1795082987/4366/d620529e/5a28aec2N38d4edad.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t13897/34/1795082987/4366/d620529e/5a28aec2N38d4edad.jpg'
           }
         ]
       },
@@ -1510,92 +1510,92 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '车载充电器',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13120/234/1430829795/2613/71a128ac/5a1fb8d2N53bbd2ba.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13120/234/1430829795/2613/71a128ac/5a1fb8d2N53bbd2ba.jpg'
           },
           {
             name: '车载影音',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t16009/169/139891622/3304/fc0d3aa4/5a28af18N58a860d2.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t16009/169/139891622/3304/fc0d3aa4/5a28af18N58a860d2.jpg'
           },
           {
             name: '车载吸尘器',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t12859/303/1767137526/4646/5604f297/5a28af63N96093470.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t12859/303/1767137526/4646/5604f297/5a28af63N96093470.jpg'
           },
           {
             name: '行车记录仪',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12709/153/1391603259/4200/cffde7ca/5a1fb8d8Nec239440.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12709/153/1391603259/4200/cffde7ca/5a1fb8d8Nec239440.jpg'
           },
           {
             name: '倒车雷达',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13483/284/1797719351/4493/652fbe79/5a28af7dN193b42d2.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13483/284/1797719351/4493/652fbe79/5a28af7dN193b42d2.jpg'
           },
           {
             name: '车载电器配件',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t12868/357/1789898584/3125/b7129c1d/5a28af37N7e845bae.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t12868/357/1789898584/3125/b7129c1d/5a28af37N7e845bae.jpg'
           },
           {
             name: '车载蓝牙',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13069/106/1777037925/3254/730b096/5a28af8eN8ea0527d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13069/106/1777037925/3254/730b096/5a28af8eN8ea0527d.jpg'
           },
           {
             name: '逆变器',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t16468/11/126989101/3833/666e2171/5a28af4cN3c45de83.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t16468/11/126989101/3833/666e2171/5a28af4cN3c45de83.jpg'
           },
           {
             name: '导航仪',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t15559/197/150160286/4180/eb63333/5a28af76Na536ce46.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t15559/197/150160286/4180/eb63333/5a28af76Na536ce46.jpg'
           },
           {
             name: '车载净化器',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13798/153/1786906064/2534/353f50db/5a28af69Ndceb2c4f.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13798/153/1786906064/2534/353f50db/5a28af69Ndceb2c4f.jpg'
           },
           {
             name: '车载生活电器',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t15148/355/283891285/2287/f1b2a8a/5a28af32N9edd6163.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t15148/355/283891285/2287/f1b2a8a/5a28af32N9edd6163.jpg'
           },
           {
             name: '车机导航',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t12445/352/1400583521/2808/f265274c/5a1fb8ccNc70d25f5.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t12445/352/1400583521/2808/f265274c/5a1fb8ccNc70d25f5.jpg'
           },
           {
             name: '安全预警仪',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t13666/275/1787641785/4758/37d354aa/5a28af6eNeea7197b.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t13666/275/1787641785/4758/37d354aa/5a28af6eNeea7197b.jpg'
           },
           {
             name: '应急电源',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13297/328/1797220076/3205/21e1ccb2/5a28af51N289374f3.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13297/328/1797220076/3205/21e1ccb2/5a28af51N289374f3.jpg'
           },
           {
             name: '汽车音响',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t13909/195/1739333054/4211/9df117ac/5a28af5bN88ae73d3.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t13909/195/1739333054/4211/9df117ac/5a28af5bN88ae73d3.jpg'
           },
           {
             name: '车载冰箱',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t14659/96/296441048/3472/fcf57b43/5a28af56N0e0c1047.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t14659/96/296441048/3472/fcf57b43/5a28af56N0e0c1047.jpg'
           },
           {
             name: '对讲电台',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t14125/314/1764298249/2331/5b04902d/5a28af83Nd51234b9.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t14125/314/1764298249/2331/5b04902d/5a28af83Nd51234b9.jpg'
           },
           {
             name: '智能驾驶',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t16171/358/36053646/2556/cbed37df/5a28af87Ndc6b55ae.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16171/358/36053646/2556/cbed37df/5a28af87Ndc6b55ae.jpg'
           }
         ]
       },
@@ -1605,79 +1605,79 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '雨刷',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t14110/128/1794506186/3303/eea90382/5a28aec5Ne425914d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t14110/128/1794506186/3303/eea90382/5a28aec5Ne425914d.jpg'
           },
           {
             name: '添加剂',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t12982/344/1362492420/4302/4c0f74a6/5a1fb8b4N19ad1bca.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t12982/344/1362492420/4302/4c0f74a6/5a1fb8b4N19ad1bca.jpg'
           },
           {
             name: '防冻液',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t16540/330/130514054/12069/95c44e67/5a28aefbN02da5d33.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16540/330/130514054/12069/95c44e67/5a28aefbN02da5d33.jpg'
           },
           {
             name: '滤清器',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t12490/335/1739415266/3110/2c3d09c3/5a28af03N07cb55ad.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t12490/335/1739415266/3110/2c3d09c3/5a28af03N07cb55ad.jpg'
           },
           {
             name: '车灯',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t16090/311/113413633/3443/b0a1bdfe/5a28af10Nd511ffdd.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t16090/311/113413633/3443/b0a1bdfe/5a28af10Nd511ffdd.jpg'
           },
           {
             neme: '轮胎',
-            img: 'http://img12.360buyimg.com/focus/s140x140_jfs/t12619/8/1412949255/2805/d742996f/5a1fb8baNbe801af8.jpg'
+            img: '//img12.360buyimg.com/focus/s140x140_jfs/t12619/8/1412949255/2805/d742996f/5a1fb8baNbe801af8.jpg'
           },
           {
             neme: '蓄电池',
-            img: 'http://img12.360buyimg.com/focus/s140x140_jfs/t12475/328/1793519538/3709/a8304a7c/5a28aef4N004a0d07.jpg'
+            img: '//img12.360buyimg.com/focus/s140x140_jfs/t12475/328/1793519538/3709/a8304a7c/5a28aef4N004a0d07.jpg'
           },
           {
             neme: '刹车片/盘',
-            img: 'http://img11.360buyimg.com/focus/s140x140_jfs/t15214/193/274548195/3255/a9333caf/5a28aef7N05d04baf.jpg'
+            img: '//img11.360buyimg.com/focus/s140x140_jfs/t15214/193/274548195/3255/a9333caf/5a28aef7N05d04baf.jpg'
           },
           {
             neme: '火花塞',
-            img: 'http://img12.360buyimg.com/focus/s140x140_jfs/t14668/261/268602675/2789/10a1e817/5a28af1aN3b2757cd.jpg'
+            img: '//img12.360buyimg.com/focus/s140x140_jfs/t14668/261/268602675/2789/10a1e817/5a28af1aN3b2757cd.jpg'
           },
           {
             neme: '轮毂',
-            img: 'http://img11.360buyimg.com/focus/s140x140_jfs/t15370/262/285003205/4050/555e6e8/5a28af0bNe7504197.jpg'
+            img: '//img11.360buyimg.com/focus/s140x140_jfs/t15370/262/285003205/4050/555e6e8/5a28af0bNe7504197.jpg'
           },
           {
             neme: '维修配件',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t12793/133/1771242864/3813/23e34620/5a28af05N66f07996.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t12793/133/1771242864/3813/23e34620/5a28af05N66f07996.jpg'
           },
           {
             neme: '汽修工具',
-            img: 'http://img20.360buyimg.com/focus/s140x140_jfs/t12280/328/1780073746/4890/e9598c34/5a28aed6Ne7048664.jpg'
+            img: '//img20.360buyimg.com/focus/s140x140_jfs/t12280/328/1780073746/4890/e9598c34/5a28aed6Ne7048664.jpg'
           },
           {
             neme: '改装配件',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t14707/81/321199285/2634/e3cc0499/5a28aed4N3c5ea973.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t14707/81/321199285/2634/e3cc0499/5a28aed4N3c5ea973.jpg'
           },
           {
             neme: '正时皮带',
-            img: 'http://img11.360buyimg.com/focus/s140x140_jfs/t15841/167/157843162/3914/6ad382d5/5a28aeefNe427e09c.jpg'
+            img: '//img11.360buyimg.com/focus/s140x140_jfs/t15841/167/157843162/3914/6ad382d5/5a28aeefNe427e09c.jpg'
           },
           {
             neme: '汽车喇叭',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t14773/170/274667667/3560/93c6fc19/5a28aee2Nb121ce32.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t14773/170/274667667/3560/93c6fc19/5a28aee2Nb121ce32.jpg'
           },
           {
             neme: '机油',
-            img: 'http://img20.360buyimg.com/focus/s140x140_jfs/t12508/233/1395849766/11705/1fcbfbee/5a1fb8c0Nc032bfba.jpg'
+            img: '//img20.360buyimg.com/focus/s140x140_jfs/t12508/233/1395849766/11705/1fcbfbee/5a1fb8c0Nc032bfba.jpg'
           },
           {
             neme: '减震器',
-            img: 'http://img10.360buyimg.com/focus/s140x140_jfs/t16309/291/123892973/1964/b4a25276/5a28aeffNca84e133.jpg'
+            img: '//img10.360buyimg.com/focus/s140x140_jfs/t16309/291/123892973/1964/b4a25276/5a28aeffNca84e133.jpg'
           },
           {
             neme: '汽车玻璃',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t15847/116/153996247/1915/cb6457c8/5a28aee4N6d58092c.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t15847/116/153996247/1915/cb6457c8/5a28aee4N6d58092c.jpg'
           }
         ]
       },
@@ -1687,47 +1687,47 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           },
           {
             name: '进口洗发水',
             img:
-              'htttp:'
+              ''
           }
 
         ]
@@ -1738,47 +1738,47 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '充气泵',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t12052/73/1403537398/6420/6cdab9b3/5a1fb87eN492a80d1.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t12052/73/1403537398/6420/6cdab9b3/5a1fb87eN492a80d1.jpg'
           },
           {
             name: '胎压监测',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t12607/279/1434843620/5174/4193569e/5a1fb883N2b7cae26.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t12607/279/1434843620/5174/4193569e/5a1fb883N2b7cae26.jpg'
           },
           {
             name: '储物箱',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t7666/126/4293816903/3695/ea27e6ce/5a28ae2bN42b8fce6.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t7666/126/4293816903/3695/ea27e6ce/5a28ae2bN42b8fce6.jpg'
           },
           {
             name: '应急救援',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t16504/187/343184/7861/6f3b0acd/5a28ae41Ne66a694c.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16504/187/343184/7861/6f3b0acd/5a28ae41Ne66a694c.jpg'
           },
           {
             name: '自驾野营',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12493/22/1772407355/3901/e286b50/5a28ae34N27003782.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12493/22/1772407355/3901/e286b50/5a28ae34N27003782.jpg'
           },
           {
             name: '车载床',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t16123/62/83517748/5520/ee46f113/5a28ae45Ndf989349.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t16123/62/83517748/5520/ee46f113/5a28ae45Ndf989349.jpg'
           },
           {
             name: '防盗设备',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t14146/21/1778772054/6668/223e656b/5a28ae39N7312afd9.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t14146/21/1778772054/6668/223e656b/5a28ae39N7312afd9.jpg'
           },
           {
             name: '保温箱',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12655/225/1771786042/8355/577c5e8f/5a28ae27Na951b751.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12655/225/1771786042/8355/577c5e8f/5a28ae27Na951b751.jpg'
           },
           {
             name: '灭火器',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13984/192/1422847813/5163/36b1368c/5a1fb879N5ba11fd1.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13984/192/1422847813/5163/36b1368c/5a1fb879N5ba11fd1.jpg'
           }
 
         ]
@@ -1789,32 +1789,32 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '摩托车头盔',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t14581/93/272460507/5965/614ef46a/5a28addeN258ae607.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t14581/93/272460507/5965/614ef46a/5a28addeN258ae607.jpg'
           },
           {
             name: '摩托车配件',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13942/109/1758550963/1822/dcac801b/5a28adf3N21a5cbb8.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13942/109/1758550963/1822/dcac801b/5a28adf3N21a5cbb8.jpg'
           },
           {
             name: '摩托车',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13048/205/1421698063/2625/e9550dbc/5a1fb85fNcd4cd883.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13048/205/1421698063/2625/e9550dbc/5a1fb85fNcd4cd883.jpg'
           },
           {
             name: '豪爵摩托',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t13954/109/1403915152/5396/bad96a75/5a1fb853Ncc712498.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t13954/109/1403915152/5396/bad96a75/5a1fb853Ncc712498.jpg'
           },
           {
             name: '五羊本田摩托',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12025/44/1405522589/6235/99f09982/5a1fb858N81a5f98f.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12025/44/1405522589/6235/99f09982/5a1fb858N81a5f98f.jpg'
           },
           {
             name: '摩托车装备',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13405/180/1730865936/5159/87868482/5a28adf9N02752fbc.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13405/180/1730865936/5159/87868482/5a28adf9N02752fbc.jpg'
           }
         ]
       },
@@ -1824,27 +1824,27 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '保养维修',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t14044/152/1397921810/4336/115112a3/5a1fb872Nd04e9dc9.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t14044/152/1397921810/4336/115112a3/5a1fb872Nd04e9dc9.jpg'
           },
           {
             name: '清洗美容',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12196/294/1407194755/3353/dd879ec0/5a1fb86dN0d5ba26d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12196/294/1407194755/3353/dd879ec0/5a1fb86dN0d5ba26d.jpg'
           },
           {
             name: '功能升级',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13663/196/1399478600/3202/6a7e8ec1/5a1fb867Ndaa4c0aa.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13663/196/1399478600/3202/6a7e8ec1/5a1fb867Ndaa4c0aa.jpg'
           },
           {
             name: '改装服务',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13780/141/1769890332/2745/d3794275/5a28ae21N015e1cc6.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13780/141/1769890332/2745/d3794275/5a28ae21N015e1cc6.jpg'
           },
           {
             name: 'ETC',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12121/116/1826260526/10120/e28d50b8/5a28ae1dNccdca100.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12121/116/1826260526/10120/e28d50b8/5a28ae1dNccdca100.jpg'
           }
         ]
       }
@@ -1856,32 +1856,32 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '纸品湿巾',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13684/103/181232450/2817/1bd36d3d/5a057f17Nc76b625d.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13684/103/181232450/2817/1bd36d3d/5a057f17Nc76b625d.jpg'
           },
           {
             name: '衣物清洁',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t12136/32/190594635/3030/39a660be/5a057ef3N4b20576c.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t12136/32/190594635/3030/39a660be/5a057ef3N4b20576c.jpg'
           },
           {
             name: '洗发护发',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12046/51/196865136/2542/dd0cb394/5a057eeaNe24e73fb.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12046/51/196865136/2542/dd0cb394/5a057eeaNe24e73fb.jpg'
           },
           {
             name: '家庭清洁',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t11257/264/1649145508/5426/5f7c71bb/5a057ee0N0dc59d02.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t11257/264/1649145508/5426/5f7c71bb/5a057ee0N0dc59d02.jpg'
           },
           {
             name: '口腔护理',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t11596/91/1612970162/2450/608966a4/5a057efdN543407fa.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t11596/91/1612970162/2450/608966a4/5a057efdN543407fa.jpg'
           },
           {
             name: '一次性用品',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t7282/295/4716826036/4665/da4c4dd2/5a057ed7N507ef94b.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t7282/295/4716826036/4665/da4c4dd2/5a057ed7N507ef94b.jpg'
           }
         ]
       },
@@ -1891,37 +1891,37 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '休闲零食',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t11431/77/1274462175/4200/a52ec5cc/59ffd6e2N287c043d.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t11431/77/1274462175/4200/a52ec5cc/59ffd6e2N287c043d.jpg'
           },
           {
             name: '坚果炒货',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t11461/336/1331406760/15773/60c49ab7/59ffd6d0Ncb29412d.png'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t11461/336/1331406760/15773/60c49ab7/59ffd6d0Ncb29412d.png'
           },
           {
             name: '糖巧',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t11890/195/1248876103/12648/403ce46a/59ffd6b9Nc88344b5.png'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t11890/195/1248876103/12648/403ce46a/59ffd6b9Nc88344b5.png'
           },
           {
             name: '饼干蛋糕',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t11500/115/1293305736/3233/7bb2056a/59ffd6ccNb9875d1d.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t11500/115/1293305736/3233/7bb2056a/59ffd6ccNb9875d1d.jpg'
           },
           {
             name: '肉干肉脯',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t11749/28/952474396/2583/64b85652/59fc31b6N4feb7d84.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t11749/28/952474396/2583/64b85652/59fc31b6N4feb7d84.jpg'
           },
           {
             name: '蜜饯果干',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t11275/128/1281544342/3341/64f437e/59ffd6fbN047718c7.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t11275/128/1281544342/3341/64f437e/59ffd6fbN047718c7.jpg'
           },
           {
             name: '无糖食品',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t7570/153/3996735769/2714/a58d5793/59ffd6ffN95ab2f9b.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t7570/153/3996735769/2714/a58d5793/59ffd6ffN95ab2f9b.jpg'
           }
         ]
       },
@@ -1931,42 +1931,42 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '牛奶制品',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t13120/365/181384138/2502/3eb53542/5a056b11N78c98876.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t13120/365/181384138/2502/3eb53542/5a056b11N78c98876.jpg'
           },
           {
             name: '茗茶',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t12181/363/183823010/2568/e92c4fe7/5a056b66Ne82a1269.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t12181/363/183823010/2568/e92c4fe7/5a056b66Ne82a1269.jpg'
           },
           {
             name: '饮用水',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13309/261/184399972/3734/830948b1/5a0569bdN28dfb4c9.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13309/261/184399972/3734/830948b1/5a0569bdN28dfb4c9.jpg'
           },
           {
             name: '成人奶粉',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12670/113/174191651/3245/1cc36ac6/5a056b6cN3b68c208.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12670/113/174191651/3245/1cc36ac6/5a056b6cN3b68c208.jpg'
           },
           {
             name: '饮料',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t7516/287/4519159825/3304/56011181/5a056afaN5db50aa8.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t7516/287/4519159825/3304/56011181/5a056afaN5db50aa8.jpg'
           },
           {
             name: '咖啡奶茶',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t11491/1/1626234598/3499/92c24af5/5a056b14N6404e9ff.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t11491/1/1626234598/3499/92c24af5/5a056b14N6404e9ff.jpg'
           },
           {
             name: '冲饮谷物',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t14080/138/185079854/2956/b464265a/5a056b7aN919c5f27.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t14080/138/185079854/2956/b464265a/5a056b7aN919c5f27.jpg'
           },
           {
             name: '蜂蜜/柚子茶',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12043/48/185384379/3589/9bfccb6c/5a056b72Nc867599a.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12043/48/185384379/3589/9bfccb6c/5a056b72Nc867599a.jpg'
           }
         ]
       },
@@ -1976,37 +1976,37 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '厨具',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t11752/101/1638319353/2874/c10cce77/5a058fb9Ncf8c0a7d.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t11752/101/1638319353/2874/c10cce77/5a058fb9Ncf8c0a7d.jpg'
           },
           {
             name: '女士内裤',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t11476/251/1649188972/2550/74e2eaef/5a058fe2N0110e541.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t11476/251/1649188972/2550/74e2eaef/5a058fe2N0110e541.jpg'
           },
           {
             name: '毛巾浴巾',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t12028/314/184912884/3052/b3a30cf7/5a058ffcN7568d47a.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t12028/314/184912884/3052/b3a30cf7/5a058ffcN7568d47a.jpg'
           },
           {
             name: '男袜',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t11404/234/1669889518/2261/2ab6200a/5a058fd7Nca78ace0.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t11404/234/1669889518/2261/2ab6200a/5a058fd7Nca78ace0.jpg'
           },
           {
             name: '女袜',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12517/41/189740623/2878/9efb544e/5a058fccN60cc0b78.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12517/41/189740623/2878/9efb544e/5a058fccN60cc0b78.jpg'
           },
           {
             name: '浴室用品',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12901/340/182237035/3038/549a612e/5a058f98Nd9f9d618.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12901/340/182237035/3038/549a612e/5a058f98Nd9f9d618.jpg'
           },
           {
             name: '文胸',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t12955/64/172063752/1876/271495d9/5a058fc4N15c3857f.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t12955/64/172063752/1876/271495d9/5a058fc4N15c3857f.jpg'
           }
         ]
       },
@@ -2016,92 +2016,92 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '车载充电器',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13120/234/1430829795/2613/71a128ac/5a1fb8d2N53bbd2ba.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13120/234/1430829795/2613/71a128ac/5a1fb8d2N53bbd2ba.jpg'
           },
           {
             name: '车载影音',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t16009/169/139891622/3304/fc0d3aa4/5a28af18N58a860d2.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t16009/169/139891622/3304/fc0d3aa4/5a28af18N58a860d2.jpg'
           },
           {
             name: '车载吸尘器',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t12859/303/1767137526/4646/5604f297/5a28af63N96093470.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t12859/303/1767137526/4646/5604f297/5a28af63N96093470.jpg'
           },
           {
             name: '行车记录仪',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12709/153/1391603259/4200/cffde7ca/5a1fb8d8Nec239440.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12709/153/1391603259/4200/cffde7ca/5a1fb8d8Nec239440.jpg'
           },
           {
             name: '倒车雷达',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13483/284/1797719351/4493/652fbe79/5a28af7dN193b42d2.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13483/284/1797719351/4493/652fbe79/5a28af7dN193b42d2.jpg'
           },
           {
             name: '车载电器配件',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t12868/357/1789898584/3125/b7129c1d/5a28af37N7e845bae.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t12868/357/1789898584/3125/b7129c1d/5a28af37N7e845bae.jpg'
           },
           {
             name: '车载蓝牙',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13069/106/1777037925/3254/730b096/5a28af8eN8ea0527d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13069/106/1777037925/3254/730b096/5a28af8eN8ea0527d.jpg'
           },
           {
             name: '逆变器',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t16468/11/126989101/3833/666e2171/5a28af4cN3c45de83.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t16468/11/126989101/3833/666e2171/5a28af4cN3c45de83.jpg'
           },
           {
             name: '导航仪',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t15559/197/150160286/4180/eb63333/5a28af76Na536ce46.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t15559/197/150160286/4180/eb63333/5a28af76Na536ce46.jpg'
           },
           {
             name: '车载净化器',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13798/153/1786906064/2534/353f50db/5a28af69Ndceb2c4f.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13798/153/1786906064/2534/353f50db/5a28af69Ndceb2c4f.jpg'
           },
           {
             name: '车载生活电器',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t15148/355/283891285/2287/f1b2a8a/5a28af32N9edd6163.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t15148/355/283891285/2287/f1b2a8a/5a28af32N9edd6163.jpg'
           },
           {
             name: '车机导航',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t12445/352/1400583521/2808/f265274c/5a1fb8ccNc70d25f5.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t12445/352/1400583521/2808/f265274c/5a1fb8ccNc70d25f5.jpg'
           },
           {
             name: '安全预警仪',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t13666/275/1787641785/4758/37d354aa/5a28af6eNeea7197b.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t13666/275/1787641785/4758/37d354aa/5a28af6eNeea7197b.jpg'
           },
           {
             name: '应急电源',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13297/328/1797220076/3205/21e1ccb2/5a28af51N289374f3.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13297/328/1797220076/3205/21e1ccb2/5a28af51N289374f3.jpg'
           },
           {
             name: '汽车音响',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t13909/195/1739333054/4211/9df117ac/5a28af5bN88ae73d3.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t13909/195/1739333054/4211/9df117ac/5a28af5bN88ae73d3.jpg'
           },
           {
             name: '车载冰箱',
             img:
-              'htttp://img10.360buyimg.com/focus/s140x140_jfs/t14659/96/296441048/3472/fcf57b43/5a28af56N0e0c1047.jpg'
+              '//img10.360buyimg.com/focus/s140x140_jfs/t14659/96/296441048/3472/fcf57b43/5a28af56N0e0c1047.jpg'
           },
           {
             name: '对讲电台',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t14125/314/1764298249/2331/5b04902d/5a28af83Nd51234b9.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t14125/314/1764298249/2331/5b04902d/5a28af83Nd51234b9.jpg'
           },
           {
             name: '智能驾驶',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t16171/358/36053646/2556/cbed37df/5a28af87Ndc6b55ae.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16171/358/36053646/2556/cbed37df/5a28af87Ndc6b55ae.jpg'
           }
         ]
       },
@@ -2111,79 +2111,79 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '雨刷',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t14110/128/1794506186/3303/eea90382/5a28aec5Ne425914d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t14110/128/1794506186/3303/eea90382/5a28aec5Ne425914d.jpg'
           },
           {
             name: '添加剂',
             img:
-              'htttp://img13.360buyimg.com/focus/s140x140_jfs/t12982/344/1362492420/4302/4c0f74a6/5a1fb8b4N19ad1bca.jpg'
+              '//img13.360buyimg.com/focus/s140x140_jfs/t12982/344/1362492420/4302/4c0f74a6/5a1fb8b4N19ad1bca.jpg'
           },
           {
             name: '防冻液',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t16540/330/130514054/12069/95c44e67/5a28aefbN02da5d33.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t16540/330/130514054/12069/95c44e67/5a28aefbN02da5d33.jpg'
           },
           {
             name: '滤清器',
             img:
-              'htttp://img14.360buyimg.com/focus/s140x140_jfs/t12490/335/1739415266/3110/2c3d09c3/5a28af03N07cb55ad.jpg'
+              '//img14.360buyimg.com/focus/s140x140_jfs/t12490/335/1739415266/3110/2c3d09c3/5a28af03N07cb55ad.jpg'
           },
           {
             name: '车灯',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t16090/311/113413633/3443/b0a1bdfe/5a28af10Nd511ffdd.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t16090/311/113413633/3443/b0a1bdfe/5a28af10Nd511ffdd.jpg'
           },
           {
             neme: '轮胎',
-            img: 'http://img12.360buyimg.com/focus/s140x140_jfs/t12619/8/1412949255/2805/d742996f/5a1fb8baNbe801af8.jpg'
+            img: '//img12.360buyimg.com/focus/s140x140_jfs/t12619/8/1412949255/2805/d742996f/5a1fb8baNbe801af8.jpg'
           },
           {
             neme: '蓄电池',
-            img: 'http://img12.360buyimg.com/focus/s140x140_jfs/t12475/328/1793519538/3709/a8304a7c/5a28aef4N004a0d07.jpg'
+            img: '//img12.360buyimg.com/focus/s140x140_jfs/t12475/328/1793519538/3709/a8304a7c/5a28aef4N004a0d07.jpg'
           },
           {
             neme: '刹车片/盘',
-            img: 'http://img11.360buyimg.com/focus/s140x140_jfs/t15214/193/274548195/3255/a9333caf/5a28aef7N05d04baf.jpg'
+            img: '//img11.360buyimg.com/focus/s140x140_jfs/t15214/193/274548195/3255/a9333caf/5a28aef7N05d04baf.jpg'
           },
           {
             neme: '火花塞',
-            img: 'http://img12.360buyimg.com/focus/s140x140_jfs/t14668/261/268602675/2789/10a1e817/5a28af1aN3b2757cd.jpg'
+            img: '//img12.360buyimg.com/focus/s140x140_jfs/t14668/261/268602675/2789/10a1e817/5a28af1aN3b2757cd.jpg'
           },
           {
             neme: '轮毂',
-            img: 'http://img11.360buyimg.com/focus/s140x140_jfs/t15370/262/285003205/4050/555e6e8/5a28af0bNe7504197.jpg'
+            img: '//img11.360buyimg.com/focus/s140x140_jfs/t15370/262/285003205/4050/555e6e8/5a28af0bNe7504197.jpg'
           },
           {
             neme: '维修配件',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t12793/133/1771242864/3813/23e34620/5a28af05N66f07996.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t12793/133/1771242864/3813/23e34620/5a28af05N66f07996.jpg'
           },
           {
             neme: '汽修工具',
-            img: 'http://img20.360buyimg.com/focus/s140x140_jfs/t12280/328/1780073746/4890/e9598c34/5a28aed6Ne7048664.jpg'
+            img: '//img20.360buyimg.com/focus/s140x140_jfs/t12280/328/1780073746/4890/e9598c34/5a28aed6Ne7048664.jpg'
           },
           {
             neme: '改装配件',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t14707/81/321199285/2634/e3cc0499/5a28aed4N3c5ea973.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t14707/81/321199285/2634/e3cc0499/5a28aed4N3c5ea973.jpg'
           },
           {
             neme: '正时皮带',
-            img: 'http://img11.360buyimg.com/focus/s140x140_jfs/t15841/167/157843162/3914/6ad382d5/5a28aeefNe427e09c.jpg'
+            img: '//img11.360buyimg.com/focus/s140x140_jfs/t15841/167/157843162/3914/6ad382d5/5a28aeefNe427e09c.jpg'
           },
           {
             neme: '汽车喇叭',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t14773/170/274667667/3560/93c6fc19/5a28aee2Nb121ce32.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t14773/170/274667667/3560/93c6fc19/5a28aee2Nb121ce32.jpg'
           },
           {
             neme: '机油',
-            img: 'http://img20.360buyimg.com/focus/s140x140_jfs/t12508/233/1395849766/11705/1fcbfbee/5a1fb8c0Nc032bfba.jpg'
+            img: '//img20.360buyimg.com/focus/s140x140_jfs/t12508/233/1395849766/11705/1fcbfbee/5a1fb8c0Nc032bfba.jpg'
           },
           {
             neme: '减震器',
-            img: 'http://img10.360buyimg.com/focus/s140x140_jfs/t16309/291/123892973/1964/b4a25276/5a28aeffNca84e133.jpg'
+            img: '//img10.360buyimg.com/focus/s140x140_jfs/t16309/291/123892973/1964/b4a25276/5a28aeffNca84e133.jpg'
           },
           {
             neme: '汽车玻璃',
-            img: 'http://img30.360buyimg.com/focus/s140x140_jfs/t15847/116/153996247/1915/cb6457c8/5a28aee4N6d58092c.jpg'
+            img: '//img30.360buyimg.com/focus/s140x140_jfs/t15847/116/153996247/1915/cb6457c8/5a28aee4N6d58092c.jpg'
           }
         ]
       },
@@ -2193,32 +2193,32 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '摩托车头盔',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t14581/93/272460507/5965/614ef46a/5a28addeN258ae607.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t14581/93/272460507/5965/614ef46a/5a28addeN258ae607.jpg'
           },
           {
             name: '摩托车配件',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t13942/109/1758550963/1822/dcac801b/5a28adf3N21a5cbb8.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t13942/109/1758550963/1822/dcac801b/5a28adf3N21a5cbb8.jpg'
           },
           {
             name: '摩托车',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13048/205/1421698063/2625/e9550dbc/5a1fb85fNcd4cd883.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13048/205/1421698063/2625/e9550dbc/5a1fb85fNcd4cd883.jpg'
           },
           {
             name: '豪爵摩托',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t13954/109/1403915152/5396/bad96a75/5a1fb853Ncc712498.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t13954/109/1403915152/5396/bad96a75/5a1fb853Ncc712498.jpg'
           },
           {
             name: '五羊本田摩托',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12025/44/1405522589/6235/99f09982/5a1fb858N81a5f98f.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12025/44/1405522589/6235/99f09982/5a1fb858N81a5f98f.jpg'
           },
           {
             name: '摩托车装备',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t13405/180/1730865936/5159/87868482/5a28adf9N02752fbc.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t13405/180/1730865936/5159/87868482/5a28adf9N02752fbc.jpg'
           }
         ]
       },
@@ -2228,27 +2228,27 @@ router.get('/cateright', function (req, res, next) {
           {
             name: '保养维修',
             img:
-              'htttp://img11.360buyimg.com/focus/s140x140_jfs/t14044/152/1397921810/4336/115112a3/5a1fb872Nd04e9dc9.jpg'
+              '//img11.360buyimg.com/focus/s140x140_jfs/t14044/152/1397921810/4336/115112a3/5a1fb872Nd04e9dc9.jpg'
           },
           {
             name: '清洗美容',
             img:
-              'htttp://img12.360buyimg.com/focus/s140x140_jfs/t12196/294/1407194755/3353/dd879ec0/5a1fb86dN0d5ba26d.jpg'
+              '//img12.360buyimg.com/focus/s140x140_jfs/t12196/294/1407194755/3353/dd879ec0/5a1fb86dN0d5ba26d.jpg'
           },
           {
             name: '功能升级',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13663/196/1399478600/3202/6a7e8ec1/5a1fb867Ndaa4c0aa.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13663/196/1399478600/3202/6a7e8ec1/5a1fb867Ndaa4c0aa.jpg'
           },
           {
             name: '改装服务',
             img:
-              'htttp://img20.360buyimg.com/focus/s140x140_jfs/t13780/141/1769890332/2745/d3794275/5a28ae21N015e1cc6.jpg'
+              '//img20.360buyimg.com/focus/s140x140_jfs/t13780/141/1769890332/2745/d3794275/5a28ae21N015e1cc6.jpg'
           },
           {
             name: 'ETC',
             img:
-              'htttp://img30.360buyimg.com/focus/s140x140_jfs/t12121/116/1826260526/10120/e28d50b8/5a28ae1dNccdca100.jpg'
+              '//img30.360buyimg.com/focus/s140x140_jfs/t12121/116/1826260526/10120/e28d50b8/5a28ae1dNccdca100.jpg'
           }
         ]
       }
