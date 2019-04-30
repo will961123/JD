@@ -11,7 +11,7 @@
 </template>
 <script>
 import {getCate} from '@/api/index.js'
-import BScroll from 'better-scroll'
+// import BScroll from 'better-scroll'
 export default {
   data () {
     return {
@@ -34,7 +34,6 @@ export default {
     overflow-y:auto;
     ul{
         width:100%;
-
 
         li{
             width: 100%;
