@@ -26,6 +26,7 @@ export default {
 <style scoped lang="less">
 .cate{
     height:calc(100% - 206px);
+    float: left;
 }
 .cateleft{
     width: 170px;

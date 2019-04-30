@@ -27,6 +27,7 @@ export default {
   height: 100%;
   width: 100%;
   .rightbox {
+    height: calc(100% - 190px);
     width: calc(100% - 170px);
     overflow: hidden;
   }

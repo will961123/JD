@@ -40,3 +40,7 @@ export function gethForyou () {
 export function getCate () {
   return axios.get('cateleft')
 }
+// 请求而分类页面右侧数据
+export function getcateRight () {
+  return axios.get('cateright')
+}
