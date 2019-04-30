@@ -1,10 +1,8 @@
 <template >
   <div class="home">
-
     <!-- 头部搜索框 -->
-    <hsearch></hsearch>
+    <hsearch :s='scrolly'></hsearch>
     <!-- 头部轮播 -->
-    <hsearch></hsearch>
     <hBanner></hBanner>
     <!-- 头部分类-->
     <hCate></hCate>
@@ -36,9 +34,19 @@ export default {
     dyard,
     gdaily,
     jdspike
+  },
+  data () {
+    return {
+      scrolly: 0
+    }
+  },
+  created () {
+    var that = this
+    document.body.onscroll = function () {
+      that.scrolly = this.scrollY
+    }
   }
 }
 </script>
 <style scoped lang='less'>
-
 </style>
