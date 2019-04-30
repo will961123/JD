@@ -19,12 +19,27 @@ import { getcateRight } from '@/api'
 export default {
   data () {
     return {
-      contentList: []
+      index: 0,
+      contentList: null
     }
   },
   async created () {
     this.contentList = (await getcateRight())[this.$store.state.currentIndex]
+  },
+  computed: {
+    currentIndex () {
+      return this.$store.state.currentIndex
+    }
+  },
+  watch: {
+    // 不能用箭头函数
+    '$store.state.currentIndex': function (newVal, oldVal) {
+      getcateRight().then((data) => {
+        this.contentList = data[newVal]
+      })
+    }
   }
+  //  this.$store.state.currentIndex
 }
 </script>
 
