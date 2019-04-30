@@ -11,7 +11,6 @@
 </template>
 <script>
 import {getCate} from '@/api/index.js'
-// import BScroll from 'better-scroll'
 export default {
   data () {
     return {
@@ -24,14 +23,15 @@ export default {
   },
   async mounted () {
     this.cateList = await getCate()
-    // this.$nextTick(() => {
-    //   var height = this.liHeight * this.cateList.length
-    //   this.$refs.ul.style.height = height + 'px'
-    // })
   },
   methods: {
     // 点击的li字体样式
-    async changestatus (index) {
+    changestatus (index) {
+      // 触发vuex的修改数据方法
+      this.$store.dispatch('change', index)
+      // 打印vuex index
+      console.log(this.$store.state.currentIndex)
+
       if (this.index === 8 && index > 8) {
         return
       }
@@ -41,7 +41,6 @@ export default {
       } else {
         return
       }
-      console.log(this.currentIndex)
       // 目标值target  初始值header=0
       var target = this.currentIndex * this.liHeight
       var header = 0
@@ -54,7 +53,7 @@ export default {
         }
         // div向上缩进到的位置，直到为0为止
         this.$refs.top.scrollTop = header
-      }, 30)
+      }, 10)
     }
 
   }
