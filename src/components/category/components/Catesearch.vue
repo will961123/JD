@@ -6,64 +6,65 @@
             <img class="search" src="../images/search.png"/>
             <input type="text" placeholder="电子琴"/>
         </div>
-        <div class="login">
-            <p><img src="../images/cateright.png"/></p>
-        </div>
+        <span><img src="../images/cateright.png"/></span>
+         <div class="bom"></div>
     </div>
 </template>
 <style scoped lang="less">
 .head{
-    top:0;
+    width:375px;
     height: 104px;
-    z-index: 2;
-    width: 100%;
-    border-bottom: 2px solid #ddd;
+    padding-top: 26px;
+    padding-left: 30px;
+    position: relative;
 }
 .head .img1{
-    margin: 28px 0 0 40px;
-    width: 40px;
+    width:40px;
     height: 40px;
+    float: left;
 }
 .searchbox{
-    display: flex;
+    width:364px;
+    float: left;
     position: relative;
-    top: -50px;
-    left:120px;
+    top: -40px;
+    left: 90px;
 }
 .searchbox .jd{
     width: 40px;
-    height:35px;
+    height: 35px;
     position: absolute;
-    top: 15px;
-    left:30px;
-    padding-right: 10px;
-    margin-right: 10px;
-    border-right: 2px solid #999;
+     top: 15px;
+  left: 30px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 2px solid #999;
 }
 .searchbox .search{
-    position: absolute;
-    top:13px;
-    left: 100px;
     width: 30px;
-    height: 30px;
+    height:30px;
+    position: absolute;
+     top: 13px;
+  left: 100px;
 }
 .searchbox input{
-    height:60px;
+    width: 100%;
+    height: 60px;
+    border-radius:40px;
     padding-left: 136px;
-    padding-right: 20px;
-    border-radius: 40px;
-
 }
-.head .login{
-    position: relative;
-    right: -210px;
+.head span{
+    display: inline-block;
+    position: absolute;
+    right: -4.04rem;
     top: 26px;
-    font-size: 30px;
-    color: white;
-     top:-108px;
-    left: 640px;
-    p img{
-        width:60px;
-    }
+}
+.bom{
+    width: 750px;
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
 }
 </style>

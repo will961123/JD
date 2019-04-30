@@ -27,9 +27,6 @@ export default {
 .l-content{
     width: 170px;
     height:100%;
-    overflow-y:auto;
-        float: left;
-        position:relative;
     ul{
         width:100%;
         li{
