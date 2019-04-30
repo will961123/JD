@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+.category{
+  height:100%
+}
 </style>
