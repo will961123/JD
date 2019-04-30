@@ -358,4 +358,27 @@ router.get('/cateleft', function (req, res, next) {
   res.send(arr)
 })
 
+// 分类页右边运动户外
+router.get('/cateleft', function (req, res, next) {
+  var arr = [
+    {
+      'title': '运动热门够',
+      'content': [
+        { name: '跑步鞋', img: '//img30.360buyimg.com/focus/s140x140_jfs/t13993/246/156269250/8757/12386c/5a1fb5e7N12a676b6.jpg' },
+        { name: '体育用品', img: '//img13.360buyimg.com/focus/s140x140_jfs/t12313/239/1414060687/10293/ca8ad748/5a1fb5e1Nd80abbc2.jpg' }
+
+      ]
+    },
+    {
+      'title': '健身训练',
+      'content': [
+        { name: '仰卧板/收腹机', img: '//img13.360buyimg.com/focus/s140x140_jfs/t12628/6/1754416208/2433/a08f9900/5a27e63aNc3f81cfb.jpg' },
+        { name: '哑铃', img: '//img13.360buyimg.com/focus/s140x140_jfs/t13321/210/1412509830/3035/a09e6c43/5a1fb54dNc8ade0cc.jpg' }
+
+      ]
+    }
+  ]
+  res.send(arr)
+})
+
 module.exports = router
