@@ -1682,57 +1682,6 @@ router.get('/cateright', function (req, res, next) {
         ]
       },
       {
-        title: '洗发护发',
-        content: [
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          },
-          {
-            name: '进口洗发水',
-            img:
-              ''
-          }
-
-        ]
-      },
-      {
         title: '安全自驾',
         content: [
           {
