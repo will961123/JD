@@ -289,7 +289,7 @@ router.get('/cateleft', function (req, res, next) {
     },
     {
       id: 6,
-      title: '个户情趣'
+      title: '京东超市'
     },
     {
       id: 7,
@@ -297,136 +297,52 @@ router.get('/cateleft', function (req, res, next) {
     },
     {
       id: 8,
-      title: '京东超市'
+      title: '个护清洁'
     },
     {
       id: 9,
-      title: '男鞋'
+      title: '男装'
     },
     {
       id: 10,
-      title: '京东超市'
+      title: '男鞋'
     },
     {
       id: 11,
-      title: '个人用品'
+      title: '女装'
     },
     {
       id: 12,
-      title: '电脑办公'
+      title: '户外运动'
     },
     {
       id: 13,
-      title: '京东超市'
+      title: '内衣搭配'
     },
     {
       id: 14,
-      title: '电脑办公'
+      title: '男装'
     },
     {
       id: 15,
-      title: '电脑办公'
+      title: '男鞋'
     },
     {
       id: 16,
-      title: '电脑办公'
+      title: '女装'
     },
     {
       id: 17,
-      title: '电脑办公'
+      title: '男装'
     },
     {
       id: 18,
-      title: '电脑办公'
-    }, {
+      title: '男鞋'
+    },
+    {
       id: 19,
-      title: '电脑办公'
+      title: '女装'
     }
-  ]
-  res.send(arr)
-})
-
-// 分类页右边运动户外至
-router.get('/Outsports', function (req, res, next) {
-  var arr = [
-    // 16-19
-    [
-      {
-        'title': '运动热门购',
-        'content': [
-          { 'name': '跑步鞋', 'img': '//img30.360buyimg.com/focus/s140x140_jfs/t13993/246/156269250/8757/12386c/5a1fb5e7N12a676b6.jpg' },
-          { 'name': '体育用品', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12313/239/1414060687/10293/ca8ad748/5a1fb5e1Nd80abbc2.jpg' },
-          { 'name': '鱼竿鱼线', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t14857/15/278809348/9274/471af69b/5a28a1cbN31dc4638.jpg' },
-          { 'name': '山地车', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12256/40/1732819447/8543/fbd86360/5a28a1c1N59fcfd07.jpg' },
-          { 'name': '篮球鞋', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t14251/57/273900758/6114/905ba6f4/5a28a1c6Nf348ad99.jpg' },
-          { 'name': '跑步机', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14425/134/260129361/6373/1652f8da/5a28a1d8N132b23ae.jpg' },
-          { 'name': '足球鞋', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t15955/30/148996016/7549/c8ef04b6/5a28a1dcN41f94944.jpg' },
-          { 'name': '冲锋衣裤', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12262/75/1430212632/7910/cafe32a7/5a1fb5dbN1b8d927a.jpg' }
-        ]
-      },
-      {
-        'title': '健身训练',
-        'content': [
-          { 'name': '仰卧板/收腹机', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12628/6/1754416208/2433/a08f9900/5a27e63aNc3f81cfb.jpg' },
-          { 'name': '哑铃', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t13321/210/1412509830/3035/a09e6c43/5a1fb54dNc8ade0cc.jpg' },
-          { 'name': '其他器械', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14278/128/244801323/2902/b1ba65fd/5a27e617Nf1d7fbb2.jpg' }
-        ]
-      }
-    ],
-    [
-      {
-        'title': '内衣配饰',
-        'content': [
-          { 'name': '内衣馆', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t16150/44/2324422460/7691/5b32064a/5a9fac31N41dea2e0.jpg' },
-          { 'name': '大牌文胸', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t11533/246/2280103259/9386/6933199f/5a15214dNbf54520c.jpg' },
-          { 'name': '自营内衣', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12850/93/849533335/10330/7fdd04a9/5a15213fN09318254.jpg' },
-          { 'name': '内衣爆款', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t11740/78/2314676437/4215/a56b7f6a/5a152146N3051a63d.jpg' },
-          { 'name': '女士围巾', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14365/252/779942291/2641/6f49b88f/5a38c43eN7beb8890.jpg' },
-          { 'name': '配饰馆', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12670/112/2276556764/4046/3fb6acb2/5a38c444N8b95d4c1.jpg' }
-        ]
-      },
-      {
-        'title': '内裤',
-        'content': [
-          { 'name': '男士内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12538/310/864919269/6647/41520471/5a15147bN74c49044.jpg' },
-          { 'name': '女士内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12862/195/820653102/5281/33322b68/5a151484N7d472a83.jpg' },
-          { 'name': '平角内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t13141/156/856372705/8217/cf9a81e8/5a15141bN693b9da4.jpg' },
-          { 'name': '蕾丝内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t11326/68/2313427984/5200/6f2d749e/5a1512a6Nac606ead.jpg' },
-          { 'name': '无痕内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t11326/68/2313427984/5200/6f2d749e/5a1512a6Nac606ead.jpg' },
-          { 'name': '低腰内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14194/304/860436894/6536/e1914cf2/5a1512baNb75597d1.jpg' },
-          { 'name': '三角内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12880/82/810004296/4172/a5fb6b74/5a15142aN471bc5ff.jpg' },
-          { 'name': '中腰内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t13306/317/861414554/6573/4a853d68/5a1512acN653b02f4.jpg' },
-          { 'name': '高腰内裤', 'img': '//img30.360buyimg.com/focus/s140x140_jfs/t11929/249/2361224378/3601/7c52bd14/5a1512bcN88c433e5.jpg' }
-        ]
-      }
-    ],
-    [
-      {
-        'title': '食品生鲜',
-        'content': [
-          { 'name': '休闲零食', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t16150/44/2324422460/7691/5b32064a/5a9fac31N41dea2e0.jpg' },
-          { 'name': '牛奶', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t11533/246/2280103259/9386/6933199f/5a15214dNbf54520c.jpg' },
-          { 'name': '饼干蛋糕', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12850/93/849533335/10330/7fdd04a9/5a15213fN09318254.jpg' },
-          { 'name': '糖果/巧克力', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t11740/78/2314676437/4215/a56b7f6a/5a152146N3051a63d.jpg' },
-          { 'name': '方便/食品', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14365/252/779942291/2641/6f49b88f/5a38c43eN7beb8890.jpg' },
-          { 'name': '油', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12670/112/2276556764/4046/3fb6acb2/5a38c444N8b95d4c1.jpg' },
-          { 'name': '饮料', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t16150/44/2324422460/7691/5b32064a/5a9fac31N41dea2e0.jpg' },
-          { 'name': '米面调料', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t11533/246/2280103259/9386/6933199f/5a15214dNbf54520c.jpg' },
-          { 'name': '冲调品', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12850/93/849533335/10330/7fdd04a9/5a15213fN09318254.jpg' },
-          { 'name': '咖啡豆', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t11740/78/2314676437/4215/a56b7f6a/5a152146N3051a63d.jpg' },
-          { 'name': '水', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14365/252/779942291/2641/6f49b88f/5a38c43eN7beb8890.jpg' }
-        ]
-      },
-      {
-        'title': '内裤',
-        'content': [
-          { 'name': '坚果炒货', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12538/310/864919269/6647/41520471/5a15147bN74c49044.jpg' },
-          { 'name': '休闲零食', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12862/195/820653102/5281/33322b68/5a151484N7d472a83.jpg' },
-          { 'name': '肉铺肉干', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t13141/156/856372705/8217/cf9a81e8/5a15141bN693b9da4.jpg' }
-        ]
-      }
-    ]
-
   ]
   res.send(arr)
 })
@@ -644,8 +560,24 @@ router.get('/cateright', function (req, res, next) {
           'img': '//img11.360buyimg.com/focus/s140x140_jfs/t13267/86/981023661/1871/6fae5f11/5a17f203N50016f64.jpg'
         },
         {
+          'name': '电饼铛',
+          'img': '//img11.360buyimg.com/focus/s140x140_jfs/t11503/25/2307123595/2987/a79ac767/5a17f1e3Nf7957b34.jpg'
+        },
+        {
           'name': '豆浆机',
-          'img': '//img11.360buyimg.com/focus/s140x140_jfs/t13267/86/981023661/1871/6fae5f11/5a17f203N50016f64.jpg'
+          'img': '//img11.360buyimg.com/focus/s140x140_jfs/t11503/25/2307123595/2987/a79ac767/5a17f1e3Nf7957b34.jpg'
+        },
+        {
+          'name': '多用途锅',
+          'img': '//img11.360buyimg.com/focus/s140x140_jfs/t13192/9/990491166/2453/36169f1b/5a17f1ccN019c7fda.jpg'
+        },
+        {
+          'name': '料理机',
+          'img': '//img13.360buyimg.com/focus/s140x140_jfs/t11284/298/2465125571/2619/ffe2cde5/5a17f237Nb9978251.jpg'
+        },
+        {
+          'name': '榨汁机/原汁机',
+          'img': '//img13.360buyimg.com/focus/s140x140_jfs/t13264/165/968827574/9255/7d10ad8c/5a17f224N9756f6e5.jpg'
         }
         ]
       },
@@ -983,7 +915,7 @@ router.get('/cateright', function (req, res, next) {
         },
         {
           name: 'LG',
-          img: 'htttp//img13.360buyimg.com/focus/s140x140_jfs/t21079/224/118757583/10390/664c2986/5afd56d5N4a00680d.jpg'
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t21079/224/118757583/10390/664c2986/5afd56d5N4a00680d.jpg'
         },
         {
           name: '橘子工坊',
@@ -2152,7 +2084,7 @@ router.get('/cateright', function (req, res, next) {
         },
         {
           name: '新品卫衣',
-          img: '// img14.360buyimg.com/focus/s140x140_jfs/t17824/6/1287333457/6576/aeae36f6/5ac48017N9347122f.jpg'
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t17824/6/1287333457/6576/aeae36f6/5ac48017N9347122f.jpg'
         }, {
           name: '连帽卫衣',
           img: '//img12.360buyimg.com/focus/s140x140_jfs/t16987/129/1278260758/4740/58f780b2/5ac4801bN5bd994fa.jpg'
@@ -2236,7 +2168,569 @@ router.get('/cateright', function (req, res, next) {
           img: '//img20.360buyimg.com/focus/s140x140_jfs/t11608/19/2161730920/5152/2fca75c0/5a13945cN82a4c505.jpg'
         }, {
           name: '正装鞋',
-          img: 'src="//img20.360buyimg.com/focus/s140x140_jfs/t13552/146/765573445/2431/4311417d/5a13947dN5d024b9f.jpg"'
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t13552/146/765573445/2431/4311417d/5a13947dN5d024b9f.jpg'
+        }, {
+          name: '增高鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t11524/266/2251412452/3733/5935ecbd/5a139440N023ac2b2.jpg'
+        }, {
+          name: '拖鞋/人字拖',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t13234/118/798001202/2581/6e6cc64d/5a139429N8c5c158d.jpg'
+        }, {
+          name: '男靴',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t13810/253/776987983/5634/d19769f6/5a13946cNa011ca58.jpg'
+        }, {
+          name: '乐福鞋',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t13036/184/750618513/5315/27749ec8/5a13945aN0c00392c.jpg'
+        }, {
+          name: '帆布鞋',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t14044/257/783366361/3748/3d98f985/5a139451N8d193f3b.jpg'
+        }, {
+          name: '工装鞋',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t12208/123/779741933/3594/a525bdff/5a13942fNfc1f3bb3.jpg'
+        }, {
+          name: '鞋配件',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t12502/2/786527218/2504/49d81455/5a139351N42847264.jpg'
+        }, {
+          name: '雨鞋/雨靴',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t12448/91/793144855/2913/5338be51/5a139359N8bc8ebbd.jpg'
+        }, {
+          name: '定制鞋',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t11653/185/2188705091/2427/1d7001c0/5a139415Nac3157d5.jpg'
+        }]
+      }],
+    [
+      {
+        title: '热卖选购',
+        content: [{
+          name: '早春新品',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t16828/262/724741631/2535/ba1020b7/5a9fb675N29136079.jpg'
+        }, {
+          name: '连衣裙',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t16891/72/715748110/3080/182127b5/5a9fb67aN37c4848f.jpg'
+        }, {
+          name: '衬衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t18130/206/667191027/4173/bf767ab4/5a9fb67fN3834e3c9.jpg'
+        }, {
+          name: 'T恤',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19471/233/655303672/4619/b23fea4b/5a9fb684Ne1ec9fe8.jpg'
+        }, {
+          name: '牛仔裤',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t18343/191/641645855/3307/d3a4e7b4/5a9fb694N13609fcd.jpg'
+        }, {
+          name: '卫衣',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t19270/200/692436631/4169/b502c81c/5a9fb68eN125c9ddd.jpg'
+        }, {
+          name: '针织衫',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t11794/114/2228059199/2529/60e8b474/5a12b21eN10fd877c.jpg'
+        }, {
+          name: '牛仔外套',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t16375/270/2298165642/4388/99ff4997/5a9fb689Nc0bd43f4.jpg'
+        }, {
+          name: '自营女装',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t13384/36/731966283/4383/871c7195/5a12b20aNeb8e3e2d.jpg'
+        }]
+      }, {
+        title: '上装',
+        content: [{
+          name: '打底衫',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t13357/141/724977729/3459/e3a3c8e1/5a127ee9Nbc443a5f.jpg'
+        }, {
+          name: '短外套',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t16960/330/672781171/5066/76e6f8c9/5a9fbfdcNc891be87.jpg'
+        }, {
+          name: '百搭衬衫',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t16126/212/2272437372/3302/c9af3547/5a9fbfa0N591929da.jpg'
+        }, {
+          name: '风衣',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t15313/145/2476673176/2856/879136d7/5a9fc012N86f3fb22.jpg'
+        }, {
+          name: '长袖T恤',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t16750/238/698160610/5156/5b1f25b/5a9fbfccN574cba12.jpg'
+        }, {
+          name: '卫衣',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t11953/286/2195921828/5728/75b86d5b/5a127fbaN2780918c.jpg'
+        }, {
+          name: '小西装',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19156/326/678660620/3005/436c3bc0/5a9fc007N3ef48a88.jpg'
+        }, {
+          name: '宽松卫衣',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t15667/299/2238226291/4404/19e817ba/5a9fbff4N02a4be7b.jpg'
+        }, {
+          name: '雪纺衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t15157/330/2467589403/6327/a53fc93/5a9fc00dN205f4cc7.jpg'
+        }, {
+          name: '长袖衬衫',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19723/352/684172430/6158/801dfc66/5a9fbfc2N85844dd0.jpg'
+        }, {
+          name: '字母T恤',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t19732/6/697088077/2894/2788a72/5a9fbfd2Ncc01c1b5.jpg'
+        }, {
+          name: '棒球衫',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t17245/317/695141729/3579/69cca106/5a9fbfe6N60e7552b.jpg'
+        }, {
+          name: '白衬衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t14266/108/2448202334/2099/c038057b/5a9fbfc7N33c2ad32.jpg'
+        }, {
+          name: '针织衫',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t19132/3/704890448/3460/dd1b10d7/5a9fbff9Nadff76ec.jpg'
+        }, {
+          name: '连帽卫衣',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t18223/92/697465593/4089/d86e35c9/5a9fbfefN8a66a14c.jpg'
+        }, {
+          name: '半高领针织',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t19300/1/682216747/2622/f4390db4/5a9fc001N69a37487.jpg'
+        }]
+      }],
+    // 13-14
+    [
+      {
+        'title': '运动热门购',
+        'content': [
+          { 'name': '跑步鞋', 'img': '//img30.360buyimg.com/focus/s140x140_jfs/t13993/246/156269250/8757/12386c/5a1fb5e7N12a676b6.jpg' },
+          { 'name': '体育用品', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12313/239/1414060687/10293/ca8ad748/5a1fb5e1Nd80abbc2.jpg' },
+          { 'name': '鱼竿鱼线', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t14857/15/278809348/9274/471af69b/5a28a1cbN31dc4638.jpg' },
+          { 'name': '山地车', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12256/40/1732819447/8543/fbd86360/5a28a1c1N59fcfd07.jpg' },
+          { 'name': '篮球鞋', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t14251/57/273900758/6114/905ba6f4/5a28a1c6Nf348ad99.jpg' },
+          { 'name': '跑步机', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14425/134/260129361/6373/1652f8da/5a28a1d8N132b23ae.jpg' },
+          { 'name': '足球鞋', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t15955/30/148996016/7549/c8ef04b6/5a28a1dcN41f94944.jpg' },
+          { 'name': '冲锋衣裤', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12262/75/1430212632/7910/cafe32a7/5a1fb5dbN1b8d927a.jpg' }
+        ]
+      },
+      {
+        'title': '健身训练',
+        'content': [
+          { 'name': '仰卧板/收腹机', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12628/6/1754416208/2433/a08f9900/5a27e63aNc3f81cfb.jpg' },
+          { 'name': '哑铃', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t13321/210/1412509830/3035/a09e6c43/5a1fb54dNc8ade0cc.jpg' },
+          { 'name': '其他器械', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14278/128/244801323/2902/b1ba65fd/5a27e617Nf1d7fbb2.jpg' }
+        ]
+      }
+    ],
+    [
+      {
+        'title': '内衣配饰',
+        'content': [
+          { 'name': '内衣馆', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t16150/44/2324422460/7691/5b32064a/5a9fac31N41dea2e0.jpg' },
+          { 'name': '大牌文胸', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t11533/246/2280103259/9386/6933199f/5a15214dNbf54520c.jpg' },
+          { 'name': '自营内衣', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12850/93/849533335/10330/7fdd04a9/5a15213fN09318254.jpg' },
+          { 'name': '内衣爆款', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t11740/78/2314676437/4215/a56b7f6a/5a152146N3051a63d.jpg' },
+          { 'name': '女士围巾', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14365/252/779942291/2641/6f49b88f/5a38c43eN7beb8890.jpg' },
+          { 'name': '配饰馆', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12670/112/2276556764/4046/3fb6acb2/5a38c444N8b95d4c1.jpg' }
+        ]
+      },
+      {
+        'title': '内裤',
+        'content': [
+          { 'name': '男士内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12538/310/864919269/6647/41520471/5a15147bN74c49044.jpg' },
+          { 'name': '女士内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12862/195/820653102/5281/33322b68/5a151484N7d472a83.jpg' },
+          { 'name': '平角内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t13141/156/856372705/8217/cf9a81e8/5a15141bN693b9da4.jpg' },
+          { 'name': '蕾丝内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t11326/68/2313427984/5200/6f2d749e/5a1512a6Nac606ead.jpg' },
+          { 'name': '无痕内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t11326/68/2313427984/5200/6f2d749e/5a1512a6Nac606ead.jpg' },
+          { 'name': '低腰内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14194/304/860436894/6536/e1914cf2/5a1512baNb75597d1.jpg' },
+          { 'name': '三角内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12880/82/810004296/4172/a5fb6b74/5a15142aN471bc5ff.jpg' },
+          { 'name': '中腰内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t13306/317/861414554/6573/4a853d68/5a1512acN653b02f4.jpg' },
+          { 'name': '高腰内裤', 'img': '//img30.360buyimg.com/focus/s140x140_jfs/t11929/249/2361224378/3601/7c52bd14/5a1512bcN88c433e5.jpg' }
+        ]
+      }
+    ],
+    // 15--20重复
+    [
+      {
+        title: '热卖选购',
+        content: [{
+          name: '夹克',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t17449/23/1286271766/3527/870ce296/5ac4780cN6087feb5.jpg'
+        },
+        {
+          name: 'T恤',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t19312/140/1294064569/4871/1c61d372/5ac47812N52823c3e.jpg'
+        },
+        {
+          name: '针织衫',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t19783/251/1331277260/4287/bb458049/5ac4781bN48dc86e1.jpg'
+        },
+        {
+          name: '衬衫',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t18397/74/1297264628/2293/fcca865c/5ac47821N48c68336.jpg'
+        },
+        {
+          name: '卫衣',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t18886/239/1308846966/4452/3baec65f/5ac4782aN695a7262.jpg'
+        },
+        {
+          name: '风衣',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t17890/31/1269777779/2792/917e13d0/5ac47830N63e76af2.jpg'
+        },
+        {
+          name: '牛仔裤',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19222/87/1339548468/5738/68f3d8aa/5ac47841Nff658599.jpg'
+        },
+        {
+          name: '休闲裤',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t17758/181/1301850814/2848/ad32e7c9/5ac47845N7374a31d.jpg'
+        },
+        {
+          name: '自营男装',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t12229/123/574341075/8851/ee1f0b1c/5a0ebc2fNd418b77e.jpg'
+        }
+        ]
+      },
+      {
+        title: '男士内搭',
+        content: [{
+          name: '新品T恤',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t17641/277/1305218449/8776/e5182bbe/5ac47ffaN8a7b2e14.png'
+        }, {
+          name: '短袖T恤',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t18436/155/1324938407/6646/1a66cfa0/5ac47fffNe7a93aca.jpg'
+        }, {
+          name: '新品衬衫',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19030/113/1250466624/3376/b981fe07/5ac48007Nb30b2118.jpg'
+        }, {
+          name: '短袖衬衫',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t16786/289/1311106267/4182/c345e2ef/5ac4800eN78bdf977.jpg'
+        },
+        {
+          name: '新品卫衣',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t17824/6/1287333457/6576/aeae36f6/5ac48017N9347122f.jpg'
+        }, {
+          name: '连帽卫衣',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t16987/129/1278260758/4740/58f780b2/5ac4801bN5bd994fa.jpg'
+        },
+        {
+          name: '潮牌卫衣',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t19366/130/1283276181/8302/a9d5eb82/5ac48021Ne7b57893.jpg'
+        },
+        {
+          name: '长袖T恤',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t18988/341/1273630612/8382/4109693d/5ac47fa6Nd128653e.jpg'
+        },
+        {
+          name: '长袖衬衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t18310/26/1273827800/2024/a6774615/5ac47fdaN6069d640.jpg'
+        },
+        {
+          name: '免烫衬衫',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t19750/102/1313789327/2597/1536d07c/5ac47fdeNbebe151e.jpg'
+        },
+        {
+          name: '针织衫',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t19270/191/1278480597/3933/bc516fa7/5ac47fe7N2718dc4b.jpg'
+        }, {
+          name: 'POLO衫',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t17149/171/1334340006/3690/4e8b276a/5ac47ff1N20a0a421.jpg'
+        }
+        ]
+      }
+    ],
+    [
+      {
+        title: '热卖分类',
+        content: [{
+          name: '休闲鞋',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t12970/248/784792784/3062/9cc4be84/5a13957cN60262247.jpg'
+        }, {
+          name: '皮鞋',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t11089/341/2234800375/3425/8950afe8/5a139577N054caadb.jpg'
+        }, {
+          name: '男靴',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13225/243/786727983/5634/d19769f6/5a139554N4c666839.jpg'
+        }, {
+          name: '帆布鞋',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t11992/144/2244194535/2627/3de251a9/5a139564Naee94e4a.jpg'
+        }, {
+          name: '板鞋',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t13318/275/759603762/2622/2e47bbbf/5a139565N882a63c6.jpg'
+        }, {
+          name: '自营鞋靴',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t12985/234/771522231/6499/d3fc17ef/5a13955fN0af349c3.jpg'
+        }, {
+          name: '新品推荐',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t18736/325/1285877732/4829/519f1c1c/5ac479f5Ne0b09e66.jpg'
+        }]
+      }, {
+        title: '流行男鞋',
+        content: [{
+          name: '休闲鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13807/314/786063079/2610/c0e7de7b/5a139490Nc7fa0e4a.jpg'
+        }, {
+          name: '休闲户外鞋',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t12889/167/800455171/2803/81e2a0ef/5a139431Nb7ff4008.jpg'
+        }, {
+          name: '凉鞋',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t11824/310/2093755858/3582/469cedf4/5a139411N2cd65a08.jpg'
+        }, {
+          name: '功能鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13780/219/751655881/2924/ade4fd33/5a139431N4e649769.jpg'
+        }, {
+          name: '豆豆鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13561/339/767385863/4182/707daf17/5a13945aN18bb6107.jpg'
+        }, {
+          name: '商务休闲鞋',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t13138/355/835254734/2223/adb0cd95/5a139489N23c871c6.jpg'
+        }, {
+          name: '传统布鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t11803/345/2212661587/2218/85b38b81/5a139422N611a859c.jpg'
+        }, {
+          name: '板鞋',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t11608/19/2161730920/5152/2fca75c0/5a13945cN82a4c505.jpg'
+        }, {
+          name: '正装鞋',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t13552/146/765573445/2431/4311417d/5a13947dN5d024b9f.jpg'
+        }, {
+          name: '增高鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t11524/266/2251412452/3733/5935ecbd/5a139440N023ac2b2.jpg'
+        }, {
+          name: '拖鞋/人字拖',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t13234/118/798001202/2581/6e6cc64d/5a139429N8c5c158d.jpg'
+        }, {
+          name: '男靴',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t13810/253/776987983/5634/d19769f6/5a13946cNa011ca58.jpg'
+        }, {
+          name: '乐福鞋',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t13036/184/750618513/5315/27749ec8/5a13945aN0c00392c.jpg'
+        }, {
+          name: '帆布鞋',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t14044/257/783366361/3748/3d98f985/5a139451N8d193f3b.jpg'
+        }, {
+          name: '工装鞋',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t12208/123/779741933/3594/a525bdff/5a13942fNfc1f3bb3.jpg'
+        }, {
+          name: '鞋配件',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t12502/2/786527218/2504/49d81455/5a139351N42847264.jpg'
+        }, {
+          name: '雨鞋/雨靴',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t12448/91/793144855/2913/5338be51/5a139359N8bc8ebbd.jpg'
+        }, {
+          name: '定制鞋',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t11653/185/2188705091/2427/1d7001c0/5a139415Nac3157d5.jpg'
+        }]
+      }],
+    [
+      {
+        title: '热卖选购',
+        content: [{
+          name: '早春新品',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t16828/262/724741631/2535/ba1020b7/5a9fb675N29136079.jpg'
+        }, {
+          name: '连衣裙',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t16891/72/715748110/3080/182127b5/5a9fb67aN37c4848f.jpg'
+        }, {
+          name: '衬衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t18130/206/667191027/4173/bf767ab4/5a9fb67fN3834e3c9.jpg'
+        }, {
+          name: 'T恤',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19471/233/655303672/4619/b23fea4b/5a9fb684Ne1ec9fe8.jpg'
+        }, {
+          name: '牛仔裤',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t18343/191/641645855/3307/d3a4e7b4/5a9fb694N13609fcd.jpg'
+        }, {
+          name: '卫衣',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t19270/200/692436631/4169/b502c81c/5a9fb68eN125c9ddd.jpg'
+        }, {
+          name: '针织衫',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t11794/114/2228059199/2529/60e8b474/5a12b21eN10fd877c.jpg'
+        }, {
+          name: '牛仔外套',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t16375/270/2298165642/4388/99ff4997/5a9fb689Nc0bd43f4.jpg'
+        }, {
+          name: '自营女装',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t13384/36/731966283/4383/871c7195/5a12b20aNeb8e3e2d.jpg'
+        }]
+      }, {
+        title: '上装',
+        content: [{
+          name: '打底衫',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t13357/141/724977729/3459/e3a3c8e1/5a127ee9Nbc443a5f.jpg'
+        }, {
+          name: '短外套',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t16960/330/672781171/5066/76e6f8c9/5a9fbfdcNc891be87.jpg'
+        }, {
+          name: '百搭衬衫',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t16126/212/2272437372/3302/c9af3547/5a9fbfa0N591929da.jpg'
+        }, {
+          name: '风衣',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t15313/145/2476673176/2856/879136d7/5a9fc012N86f3fb22.jpg'
+        }, {
+          name: '长袖T恤',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t16750/238/698160610/5156/5b1f25b/5a9fbfccN574cba12.jpg'
+        }, {
+          name: '卫衣',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t11953/286/2195921828/5728/75b86d5b/5a127fbaN2780918c.jpg'
+        }, {
+          name: '小西装',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19156/326/678660620/3005/436c3bc0/5a9fc007N3ef48a88.jpg'
+        }, {
+          name: '宽松卫衣',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t15667/299/2238226291/4404/19e817ba/5a9fbff4N02a4be7b.jpg'
+        }, {
+          name: '雪纺衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t15157/330/2467589403/6327/a53fc93/5a9fc00dN205f4cc7.jpg'
+        }, {
+          name: '长袖衬衫',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19723/352/684172430/6158/801dfc66/5a9fbfc2N85844dd0.jpg'
+        }, {
+          name: '字母T恤',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t19732/6/697088077/2894/2788a72/5a9fbfd2Ncc01c1b5.jpg'
+        }, {
+          name: '棒球衫',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t17245/317/695141729/3579/69cca106/5a9fbfe6N60e7552b.jpg'
+        }, {
+          name: '白衬衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t14266/108/2448202334/2099/c038057b/5a9fbfc7N33c2ad32.jpg'
+        }, {
+          name: '针织衫',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t19132/3/704890448/3460/dd1b10d7/5a9fbff9Nadff76ec.jpg'
+        }, {
+          name: '连帽卫衣',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t18223/92/697465593/4089/d86e35c9/5a9fbfefN8a66a14c.jpg'
+        }, {
+          name: '半高领针织',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t19300/1/682216747/2622/f4390db4/5a9fc001N69a37487.jpg'
+        }]
+      }],
+    [
+      {
+        title: '热卖选购',
+        content: [{
+          name: '夹克',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t17449/23/1286271766/3527/870ce296/5ac4780cN6087feb5.jpg'
+        },
+        {
+          name: 'T恤',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t19312/140/1294064569/4871/1c61d372/5ac47812N52823c3e.jpg'
+        },
+        {
+          name: '针织衫',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t19783/251/1331277260/4287/bb458049/5ac4781bN48dc86e1.jpg'
+        },
+        {
+          name: '衬衫',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t18397/74/1297264628/2293/fcca865c/5ac47821N48c68336.jpg'
+        },
+        {
+          name: '卫衣',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t18886/239/1308846966/4452/3baec65f/5ac4782aN695a7262.jpg'
+        },
+        {
+          name: '风衣',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t17890/31/1269777779/2792/917e13d0/5ac47830N63e76af2.jpg'
+        },
+        {
+          name: '牛仔裤',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19222/87/1339548468/5738/68f3d8aa/5ac47841Nff658599.jpg'
+        },
+        {
+          name: '休闲裤',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t17758/181/1301850814/2848/ad32e7c9/5ac47845N7374a31d.jpg'
+        },
+        {
+          name: '自营男装',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t12229/123/574341075/8851/ee1f0b1c/5a0ebc2fNd418b77e.jpg'
+        }
+        ]
+      },
+      {
+        title: '男士内搭',
+        content: [{
+          name: '新品T恤',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t17641/277/1305218449/8776/e5182bbe/5ac47ffaN8a7b2e14.png'
+        }, {
+          name: '短袖T恤',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t18436/155/1324938407/6646/1a66cfa0/5ac47fffNe7a93aca.jpg'
+        }, {
+          name: '新品衬衫',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t19030/113/1250466624/3376/b981fe07/5ac48007Nb30b2118.jpg'
+        }, {
+          name: '短袖衬衫',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t16786/289/1311106267/4182/c345e2ef/5ac4800eN78bdf977.jpg'
+        },
+        {
+          name: '新品卫衣',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t17824/6/1287333457/6576/aeae36f6/5ac48017N9347122f.jpg'
+        }, {
+          name: '连帽卫衣',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t16987/129/1278260758/4740/58f780b2/5ac4801bN5bd994fa.jpg'
+        },
+        {
+          name: '潮牌卫衣',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t19366/130/1283276181/8302/a9d5eb82/5ac48021Ne7b57893.jpg'
+        },
+        {
+          name: '长袖T恤',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t18988/341/1273630612/8382/4109693d/5ac47fa6Nd128653e.jpg'
+        },
+        {
+          name: '长袖衬衫',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t18310/26/1273827800/2024/a6774615/5ac47fdaN6069d640.jpg'
+        },
+        {
+          name: '免烫衬衫',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t19750/102/1313789327/2597/1536d07c/5ac47fdeNbebe151e.jpg'
+        },
+        {
+          name: '针织衫',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t19270/191/1278480597/3933/bc516fa7/5ac47fe7N2718dc4b.jpg'
+        }, {
+          name: 'POLO衫',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t17149/171/1334340006/3690/4e8b276a/5ac47ff1N20a0a421.jpg'
+        }
+        ]
+      }
+    ],
+    [
+      {
+        title: '热卖分类',
+        content: [{
+          name: '休闲鞋',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t12970/248/784792784/3062/9cc4be84/5a13957cN60262247.jpg'
+        }, {
+          name: '皮鞋',
+          img: '//img12.360buyimg.com/focus/s140x140_jfs/t11089/341/2234800375/3425/8950afe8/5a139577N054caadb.jpg'
+        }, {
+          name: '男靴',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13225/243/786727983/5634/d19769f6/5a139554N4c666839.jpg'
+        }, {
+          name: '帆布鞋',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t11992/144/2244194535/2627/3de251a9/5a139564Naee94e4a.jpg'
+        }, {
+          name: '板鞋',
+          img: '//img13.360buyimg.com/focus/s140x140_jfs/t13318/275/759603762/2622/2e47bbbf/5a139565N882a63c6.jpg'
+        }, {
+          name: '自营鞋靴',
+          img: '//img11.360buyimg.com/focus/s140x140_jfs/t12985/234/771522231/6499/d3fc17ef/5a13955fN0af349c3.jpg'
+        }, {
+          name: '新品推荐',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t18736/325/1285877732/4829/519f1c1c/5ac479f5Ne0b09e66.jpg'
+        }]
+      }, {
+        title: '流行男鞋',
+        content: [{
+          name: '休闲鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13807/314/786063079/2610/c0e7de7b/5a139490Nc7fa0e4a.jpg'
+        }, {
+          name: '休闲户外鞋',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t12889/167/800455171/2803/81e2a0ef/5a139431Nb7ff4008.jpg'
+        }, {
+          name: '凉鞋',
+          img: '//img10.360buyimg.com/focus/s140x140_jfs/t11824/310/2093755858/3582/469cedf4/5a139411N2cd65a08.jpg'
+        }, {
+          name: '功能鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13780/219/751655881/2924/ade4fd33/5a139431N4e649769.jpg'
+        }, {
+          name: '豆豆鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t13561/339/767385863/4182/707daf17/5a13945aN18bb6107.jpg'
+        }, {
+          name: '商务休闲鞋',
+          img: '//img30.360buyimg.com/focus/s140x140_jfs/t13138/355/835254734/2223/adb0cd95/5a139489N23c871c6.jpg'
+        }, {
+          name: '传统布鞋',
+          img: '//img14.360buyimg.com/focus/s140x140_jfs/t11803/345/2212661587/2218/85b38b81/5a139422N611a859c.jpg'
+        }, {
+          name: '板鞋',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t11608/19/2161730920/5152/2fca75c0/5a13945cN82a4c505.jpg'
+        }, {
+          name: '正装鞋',
+          img: '//img20.360buyimg.com/focus/s140x140_jfs/t13552/146/765573445/2431/4311417d/5a13947dN5d024b9f.jpg'
         }, {
           name: '增高鞋',
           img: '//img14.360buyimg.com/focus/s140x140_jfs/t11524/266/2251412452/3733/5935ecbd/5a139440N023ac2b2.jpg'

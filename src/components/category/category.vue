@@ -1,8 +1,10 @@
 <template>
   <div class="category">
+    <!-- 更多 -->
     <catesearch></catesearch>
     <!-- 左边列表栏部分 -->
     <cateleft></cateleft>
+    <!-- 右边部分 -->
     <div class="rightbox">
       <cateright></cateright>
     </div>
