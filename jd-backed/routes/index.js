@@ -346,6 +346,91 @@ router.get('/cateleft', function (req, res, next) {
   res.send(arr)
 })
 
+// 分类页右边运动户外至
+router.get('/Outsports', function (req, res, next) {
+  var arr = [
+    // 16-19
+    [
+      {
+        'title': '运动热门购',
+        'content': [
+          { 'name': '跑步鞋', 'img': '//img30.360buyimg.com/focus/s140x140_jfs/t13993/246/156269250/8757/12386c/5a1fb5e7N12a676b6.jpg' },
+          { 'name': '体育用品', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12313/239/1414060687/10293/ca8ad748/5a1fb5e1Nd80abbc2.jpg' },
+          { 'name': '鱼竿鱼线', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t14857/15/278809348/9274/471af69b/5a28a1cbN31dc4638.jpg' },
+          { 'name': '山地车', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12256/40/1732819447/8543/fbd86360/5a28a1c1N59fcfd07.jpg' },
+          { 'name': '篮球鞋', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t14251/57/273900758/6114/905ba6f4/5a28a1c6Nf348ad99.jpg' },
+          { 'name': '跑步机', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14425/134/260129361/6373/1652f8da/5a28a1d8N132b23ae.jpg' },
+          { 'name': '足球鞋', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t15955/30/148996016/7549/c8ef04b6/5a28a1dcN41f94944.jpg' },
+          { 'name': '冲锋衣裤', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12262/75/1430212632/7910/cafe32a7/5a1fb5dbN1b8d927a.jpg' }
+        ]
+      },
+      {
+        'title': '健身训练',
+        'content': [
+          { 'name': '仰卧板/收腹机', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12628/6/1754416208/2433/a08f9900/5a27e63aNc3f81cfb.jpg' },
+          { 'name': '哑铃', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t13321/210/1412509830/3035/a09e6c43/5a1fb54dNc8ade0cc.jpg' },
+          { 'name': '其他器械', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14278/128/244801323/2902/b1ba65fd/5a27e617Nf1d7fbb2.jpg' }
+        ]
+      }
+    ],
+    [
+      {
+        'title': '内衣配饰',
+        'content': [
+          { 'name': '内衣馆', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t16150/44/2324422460/7691/5b32064a/5a9fac31N41dea2e0.jpg' },
+          { 'name': '大牌文胸', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t11533/246/2280103259/9386/6933199f/5a15214dNbf54520c.jpg' },
+          { 'name': '自营内衣', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12850/93/849533335/10330/7fdd04a9/5a15213fN09318254.jpg' },
+          { 'name': '内衣爆款', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t11740/78/2314676437/4215/a56b7f6a/5a152146N3051a63d.jpg' },
+          { 'name': '女士围巾', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14365/252/779942291/2641/6f49b88f/5a38c43eN7beb8890.jpg' },
+          { 'name': '配饰馆', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12670/112/2276556764/4046/3fb6acb2/5a38c444N8b95d4c1.jpg' }
+        ]
+      },
+      {
+        'title': '内裤',
+        'content': [
+          { 'name': '男士内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12538/310/864919269/6647/41520471/5a15147bN74c49044.jpg' },
+          { 'name': '女士内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12862/195/820653102/5281/33322b68/5a151484N7d472a83.jpg' },
+          { 'name': '平角内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t13141/156/856372705/8217/cf9a81e8/5a15141bN693b9da4.jpg' },
+          { 'name': '蕾丝内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t11326/68/2313427984/5200/6f2d749e/5a1512a6Nac606ead.jpg' },
+          { 'name': '无痕内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t11326/68/2313427984/5200/6f2d749e/5a1512a6Nac606ead.jpg' },
+          { 'name': '低腰内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14194/304/860436894/6536/e1914cf2/5a1512baNb75597d1.jpg' },
+          { 'name': '三角内裤', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12880/82/810004296/4172/a5fb6b74/5a15142aN471bc5ff.jpg' },
+          { 'name': '中腰内裤', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t13306/317/861414554/6573/4a853d68/5a1512acN653b02f4.jpg' },
+          { 'name': '高腰内裤', 'img': '//img30.360buyimg.com/focus/s140x140_jfs/t11929/249/2361224378/3601/7c52bd14/5a1512bcN88c433e5.jpg' }
+        ]
+      }
+    ],
+    [
+      {
+        'title': '食品生鲜',
+        'content': [
+          { 'name': '休闲零食', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t16150/44/2324422460/7691/5b32064a/5a9fac31N41dea2e0.jpg' },
+          { 'name': '牛奶', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t11533/246/2280103259/9386/6933199f/5a15214dNbf54520c.jpg' },
+          { 'name': '饼干蛋糕', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12850/93/849533335/10330/7fdd04a9/5a15213fN09318254.jpg' },
+          { 'name': '糖果/巧克力', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t11740/78/2314676437/4215/a56b7f6a/5a152146N3051a63d.jpg' },
+          { 'name': '方便/食品', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14365/252/779942291/2641/6f49b88f/5a38c43eN7beb8890.jpg' },
+          { 'name': '油', 'img': '//img12.360buyimg.com/focus/s140x140_jfs/t12670/112/2276556764/4046/3fb6acb2/5a38c444N8b95d4c1.jpg' },
+          { 'name': '饮料', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t16150/44/2324422460/7691/5b32064a/5a9fac31N41dea2e0.jpg' },
+          { 'name': '米面调料', 'img': '//img14.360buyimg.com/focus/s140x140_jfs/t11533/246/2280103259/9386/6933199f/5a15214dNbf54520c.jpg' },
+          { 'name': '冲调品', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t12850/93/849533335/10330/7fdd04a9/5a15213fN09318254.jpg' },
+          { 'name': '咖啡豆', 'img': '//img20.360buyimg.com/focus/s140x140_jfs/t11740/78/2314676437/4215/a56b7f6a/5a152146N3051a63d.jpg' },
+          { 'name': '水', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t14365/252/779942291/2641/6f49b88f/5a38c43eN7beb8890.jpg' }
+        ]
+      },
+      {
+        'title': '内裤',
+        'content': [
+          { 'name': '坚果炒货', 'img': '//img13.360buyimg.com/focus/s140x140_jfs/t12538/310/864919269/6647/41520471/5a15147bN74c49044.jpg' },
+          { 'name': '休闲零食', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t12862/195/820653102/5281/33322b68/5a151484N7d472a83.jpg' },
+          { 'name': '肉铺肉干', 'img': '//img10.360buyimg.com/focus/s140x140_jfs/t13141/156/856372705/8217/cf9a81e8/5a15141bN693b9da4.jpg' }
+        ]
+      }
+    ]
+
+  ]
+  res.send(arr)
+})
+
 /* 分类页右侧数据 */
 router.get('/cateright', function (req, res, next) {
   var arr = [
