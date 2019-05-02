@@ -31,6 +31,7 @@ export default {
       return this.$store.state.currentIndex
     }
   },
+  // 监听vuex
   watch: {
     // 不能用箭头函数
     '$store.state.currentIndex': function (newVal, oldVal) {
