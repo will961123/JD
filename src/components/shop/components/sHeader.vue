@@ -8,16 +8,20 @@
     <div class="searchbox">
       <div class="search">
         <img src="../images/liwu.png" alt>
-        <input type="text" placeholder="去京东拼购搜索沐浴露">
+        <input type="text" placeholder="去京东拼购搜索 沐浴露">
       </div>
     </div>
     <div class="catebox">
-      <a class="first">
+      <a href="javascript:;" class="first">
         <p class="on">精选</p>
       </a>
       <div class="catediv">
-        <ul class="cateul">
-          <li>手机</li>
+        <ul ref="myul" class="cateul">
+          <li ref="myli" class="cateli" v-for="(item, index) in cateList" :key="index">
+            <a href="javascript:;">
+              <p>{{item}}</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -25,7 +29,35 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      cateList: [
+        '手机',
+        '鞋包',
+        '服饰',
+        '日用',
+        '家电',
+        '食品',
+        '汽车',
+        '家具',
+        '美妆',
+        '内衣',
+        '家装',
+        '数码',
+        '母婴',
+        '居家',
+        '生鲜',
+        '配饰',
+        '文娱'
+      ]
+    }
+  },
+  mounted () {
+    this.$refs.myul.style.width =
+      this.$refs.myli[0].getBoundingClientRect().width * 17 + 'px'
+  }
+}
 </script>
 
 <style lang="less" scoped>
@@ -101,6 +133,20 @@ export default {}
   .on {
     border-bottom: 1px solid red;
     color: red;
+  }
+  .catediv {
+    overflow-x: auto;
+    .cateul {
+      .cateli {
+        float: left;
+        a {
+          color: #666;
+          p {
+            margin: 0 20px;
+          }
+        }
+      }
+    }
   }
 }
 </style>
