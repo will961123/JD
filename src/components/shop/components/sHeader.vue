@@ -13,13 +13,13 @@
     </div>
     <div class="catebox">
       <a href="javascript:;" class="first">
-        <p class="on">精选</p>
+        <p class="">精选</p>
       </a>
       <div class="catediv">
         <ul ref="myul" class="cateul">
-          <li ref="myli" class="cateli" v-for="(item, index) in cateList" :key="index">
+          <li @click="changeIdx(index)" ref="myli" class="cateli" v-for="(item, index) in cateList" :key="index">
             <a href="javascript:;">
-              <p>{{item}}</p>
+              <p :class="index===currentIndex?'on':''">{{item}}</p>
             </a>
           </li>
         </ul>
@@ -32,6 +32,7 @@
 export default {
   data () {
     return {
+      currentIndex: 0,
       cateList: [
         '手机',
         '鞋包',
@@ -56,6 +57,11 @@ export default {
   mounted () {
     this.$refs.myul.style.width =
       this.$refs.myli[0].getBoundingClientRect().width * 17 + 'px'
+  },
+  methods: {
+    changeIdx (index) {
+      this.currentIndex = index
+    }
   }
 }
 </script>
@@ -123,7 +129,8 @@ export default {
   line-height: 80px;
   box-sizing: border-box;
   .first {
-    padding: 0 20px;
+    margin: 0 20px;
+    color: #666;
     float: left;
     box-sizing: border-box;
     p {
