@@ -48,3 +48,8 @@ export function getcateRight () {
 export function getShopHot () {
   return axios.get('shophot')
 }
+
+// 拼购页 精选区今日必拼
+export function getTodayPin () {
+  return axios.get('sTodayBuy')
+}
