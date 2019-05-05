@@ -47,7 +47,7 @@ export default {
   },
   created () {
     setInterval(() => {
-      this.Time = getTime('2019-05-05 23:59')
+      this.Time = getTime('2020-05-05 23:59')
     }, 1000)
   },
   async mounted () {
@@ -114,6 +114,7 @@ export default {
 .miao-bottom .skill ul li span {
   color: red;
   font-size: 20px;
+  border:1px solid #ccc;
 }
 .Miao ul{
     display:flex;

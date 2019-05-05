@@ -3145,4 +3145,59 @@ router.get('/everydaynew', function (req, res, next) {
   }]
   res.send(arr)
 })
+router.get('/miaosha', function (req, res, next) {
+  var arr = [
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    }
+  ]
+  res.send(arr)
+})
 module.exports = router
