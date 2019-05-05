@@ -59,3 +59,6 @@ export function getTodayPin () {
 export function getEverydaynew () {
   return axios.get('everydaynew')
 }
+export function getMiaoSha () {
+  return axios.get('miaosha')
+}
