@@ -33,5 +33,15 @@ export default {
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fff;
 }
+.swiper-pagination2 span{
+  width:10px;
+  height:10px;
+  background:#999;
+  margin-right:10px;
+}
 
+.swiper-pagination2 .swiper-pagination-bullet-active {
+  width:30px;
+  border-radius:30%;
+}
 </style>
