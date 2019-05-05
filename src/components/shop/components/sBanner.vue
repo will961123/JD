@@ -5,7 +5,7 @@
         <img class="simg" :src="slide.img" alt>
       </a>
     </swiper-slide>
-    <div class="swiper-pagination" slot="pagination"></div>
+    <div class="swiper-pagination swiper-pagination1" slot="pagination"></div>
   </swiper>
 </template>
 
