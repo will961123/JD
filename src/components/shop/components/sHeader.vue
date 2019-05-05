@@ -135,10 +135,11 @@ export default {
     box-sizing: border-box;
     p {
       box-sizing: border-box;
+      line-height: 76px;
     }
   }
   .on {
-    border-bottom: 1px solid red;
+    border-bottom: 6px solid red;
     color: red;
   }
   .catediv {
@@ -146,6 +147,7 @@ export default {
     .cateul {
       .cateli {
         float: left;
+        line-height: 76px;
         a {
           color: #666;
           p {
