@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="Bnav">
     <ul class="bnav">
       <router-link tag="li" to="/home">
         <i class="iconfont icon-home"></i>
@@ -25,13 +25,17 @@
   </div>
 </template>
 <style  scoped>
-.bnav {
-  width: 100%;
+.Bnav{
   position: fixed;
   left: 0;
   bottom: 0;
+  width: 100%;
+    background-color: #FFFFFF;
+    z-index: 99;
+}
+.bnav {
+  width: 100%;
   display: flex;
-  background-color: #FFFFFF;
   align-items: center;
   height: 100px;
 }

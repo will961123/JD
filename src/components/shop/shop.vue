@@ -4,16 +4,20 @@
     <sHeader></sHeader>
     <!-- 头部banner -->
     <sBanner></sBanner>
+    <!-- 每日上新 -->
+    <everydaynew></everydaynew>
   </div>
 </template>
 
 <script>
 import sHeader from './components/sHeader'
 import sBanner from './components/sBanner'
+import everydaynew from './components/everydaynew'
 export default {
   components: {
     sHeader,
-    sBanner
+    sBanner,
+    everydaynew
   }
 }
 </script>
