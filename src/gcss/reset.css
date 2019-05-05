@@ -65,6 +65,8 @@ hgroup,
 menu,
 nav,
 section,
+i,
+em,
 sumary {
 
 margin: 0;
@@ -92,6 +94,9 @@ border: 0;
 
 appearance: none;
 
+}
+em{
+    font-style: normal;
 }
 
 ol,

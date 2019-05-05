@@ -48,7 +48,11 @@ export function getcateRight () {
 export function getShopHot () {
   return axios.get('shophot')
 }
-// 购物车，秒杀区
-export function getMiaoSha () {
-  return axios.get('miaosha')
+
+// 拼购页 精选区今日必拼
+export function getTodayPin () {
+  return axios.get('sTodayBuy')
+}
+export function getEverydaynew () {
+  return axios.get('everydaynew')
 }

@@ -37,10 +37,9 @@ export default {
             }
             .p{
               font-size:24px;
-              color:#666;  
+              color:#666;
               text-align: center;
             }
-           
         }
     }
 </style>
