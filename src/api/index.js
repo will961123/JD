@@ -48,3 +48,6 @@ export function getcateRight () {
 export function getShopHot () {
   return axios.get('shophot')
 }
+export function getEverydaynew () {
+  return axios.get('everydaynew')
+}
