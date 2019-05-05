@@ -2846,5 +2846,51 @@ router.get('/cateright', function (req, res, next) {
   ]
   res.send(arr)
 })
+// 精选页9.9包邮菜单栏
+router.get('/shophot', function (req, res, next) {
+  var arr = [
+    {
+      img: '//img14.360buyimg.com/jdphoto/jfs/t1/29835/2/6408/4827/5c5139d6E5bf4ac5c/acb10cf198cbf8c4.png!q70.webp',
+      name: '9.9包邮'
+    },
+    {
+      img: '//img10.360buyimg.com/jdphoto/jfs/t1/16610/39/6413/5001/5c514053Eaf4eddfc/128094e0b7bcb74e.png!q70.webp',
+      name: '1元福利'
+    },
+    {
+      img: '//img30.360buyimg.com/jdphoto/jfs/t1/7914/18/13869/5088/5c514138E5f2160fe/289b178bf228f322.png!q70.webp',
+      name: '好货清单'
+    },
+    {
+      img: '//img12.360buyimg.com/jdphoto/jfs/t1/22795/32/6449/5369/5c514148Ed54a0e81/cc10349285f3e45a.png!q70.webp',
+      name: '自营优选'
+    },
+    {
+      img: '//img12.360buyimg.com/jdphoto/jfs/t1/28142/32/6416/5244/5c514161E4afc441f/d5a0c5862931caa4.png!q70.webp',
+      name: '平价超市'
+    },
+    {
+      img: '//img12.360buyimg.com/jdphoto/jfs/t1/29516/28/6926/6262/5c63de3dE7e80526d/5223684ad5bfdb93.png!q70.webp',
+      name: '名品清仓'
+    },
+    {
+      img: '//img12.360buyimg.com/jdphoto/jfs/t1/11114/35/7351/4029/5c541a02E7cf70275/79bfa5eaae80a0a9.png!q70.webp',
+      name: '工厂直供'
+    },
+    {
+      img: '//img20.360buyimg.com/jdphoto/jfs/t1/7345/35/15911/8184/5c74e104E3bf7ff8a/9d99c8b6fbca294b.gif',
+      name: '京东砍价'
+    },
+    {
+      img: '//img12.360buyimg.com/jdphoto/jfs/t1/8247/39/13964/5649/5c514681Ef3f4ef4c/a84c972de0142520.png!q70.webp',
+      name: '签到领红包'
+    },
+    {
+      img: '//img12.360buyimg.com/jdphoto/jfs/t1/8247/39/13964/5649/5c514681Ef3f4ef4c/a84c972de0142520.png!q70.webp',
+      name: '新品低价拼'
+    }
+  ]
+  res.send(arr)
+})
 
 module.exports = router

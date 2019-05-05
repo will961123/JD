@@ -44,3 +44,7 @@ export function getCate () {
 export function getcateRight () {
   return axios.get('cateright')
 }
+// 拼购页，精选区菜单栏
+export function getShopHot () {
+  return axios.get('shophot')
+}
