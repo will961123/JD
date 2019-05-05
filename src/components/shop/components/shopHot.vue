@@ -40,7 +40,6 @@ export default {
               color:#666;
               text-align: center;
             }
-
         }
     }
 </style>

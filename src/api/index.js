@@ -53,3 +53,6 @@ export function getShopHot () {
 export function getTodayPin () {
   return axios.get('sTodayBuy')
 }
+export function getEverydaynew () {
+  return axios.get('everydaynew')
+}
