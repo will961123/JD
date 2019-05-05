@@ -2892,5 +2892,49 @@ router.get('/shophot', function (req, res, next) {
   ]
   res.send(arr)
 })
-
+router.get('/miaosha', function (req, res, next) {
+  var arr = [
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/41566/14/74/85265/5cc04b77E6026cd67/afcdb8c3badd3152.jpg!q70.dpg',
+      price: '￥3799.00',
+      sprice: '￥4200'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/39865/5/2666/192082/5cc19ff2E69772a07/c738e2a79c613ae2.jpg!q70.dpg',
+      price: '￥899.00',
+      sprice: '￥400'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/43671/31/578/177069/5cc2baa6Ea336a75b/b7b066931ea53457.jpg!q70.dpg',
+      price: '￥799.00',
+      sprice: '￥400'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/23126/34/8509/317951/5c773281Ec1a17292/37555060b2a27ef1.jpg!q70.dpg',
+      price: '￥3799.00',
+      sprice: '￥4200'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/41566/14/74/85265/5cc04b77E6026cd67/afcdb8c3badd3152.jpg!q70.dpg',
+      price: '￥3799.00',
+      sprice: '￥4200'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/41566/14/74/85265/5cc04b77E6026cd67/afcdb8c3badd3152.jpg!q70.dpg',
+      price: '￥3799.00',
+      sprice: '￥4200'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/41566/14/74/85265/5cc04b77E6026cd67/afcdb8c3badd3152.jpg!q70.dpg',
+      price: '￥3799.00',
+      sprice: '￥4200'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/41566/14/74/85265/5cc04b77E6026cd67/afcdb8c3badd3152.jpg!q70.dpg',
+      price: '￥3799.00',
+      sprice: '￥4200'
+    }
+  ]
+  res.send(arr)
+})
 module.exports = router
