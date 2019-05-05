@@ -21,7 +21,7 @@ export default {
 <style>
 #app {
   height: 100%;
-  background: #F0F2F5
+  background: #f0f2f5;
 }
 .swiper-pagination span {
   width: 12px !important;
@@ -33,15 +33,25 @@ export default {
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fff;
 }
-.swiper-pagination2 span{
-  width:10px;
-  height:10px;
-  background:#999;
-  margin-right:10px;
+
+.swiper-pagination1 span {
+  background: hsla(0, 0%, 100%, 0.7) !important;
+  border: none;
+}
+
+.swiper-pagination1 .swiper-pagination-bullet-active {
+  width: 20px !important;
+  border-radius: 30% !important;
+  background:red !important;
+}
+
+.swiper-pagination2 span {
+  background: #999 !important;
+  border: none;
 }
 
 .swiper-pagination2 .swiper-pagination-bullet-active {
-  width:30px;
-  border-radius:30%;
+  width: 30px !important;
+  border-radius: 30% !important;
 }
 </style>
