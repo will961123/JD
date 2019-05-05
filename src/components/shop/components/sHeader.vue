@@ -13,7 +13,7 @@
     </div>
     <div class="catebox">
       <a href="javascript:;" class="first">
-        <p class="">精选</p>
+        <p class="on">精选</p>
       </a>
       <div class="catediv">
         <ul ref="myul" class="cateul">
@@ -29,34 +29,21 @@
 </template>
 
 <script>
+import {getShopToplist} from '@/api'
 export default {
   data () {
     return {
       currentIndex: 0,
-      cateList: [
-        '手机',
-        '鞋包',
-        '服饰',
-        '日用',
-        '家电',
-        '食品',
-        '汽车',
-        '家具',
-        '美妆',
-        '内衣',
-        '家装',
-        '数码',
-        '母婴',
-        '居家',
-        '生鲜',
-        '配饰',
-        '文娱'
-      ]
+      cateList: []
     }
   },
-  mounted () {
-    this.$refs.myul.style.width =
-      this.$refs.myli[0].getBoundingClientRect().width * 17 + 'px'
+  async mounted () {
+    this.cateList = await getShopToplist()
+    var that = this
+    this.$nextTick(function () {
+      that.$refs.myul.style.width =
+      that.$refs.myli[0].getBoundingClientRect().width * 17 + 'px'
+    })
   },
   methods: {
     changeIdx (index) {
@@ -134,6 +121,7 @@ export default {
     float: left;
     box-sizing: border-box;
     p {
+      height: 80px;
       box-sizing: border-box;
       line-height: 76px;
     }

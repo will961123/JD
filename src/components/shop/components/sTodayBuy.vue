@@ -52,7 +52,7 @@ export default {
           clickable: true
         },
         autoplay: true,
-        loop: true,
+        // loop: true,
         speed: 400
       }
     }
