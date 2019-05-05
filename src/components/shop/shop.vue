@@ -4,16 +4,20 @@
     <sHeader></sHeader>
     <!-- 头部banner -->
     <sBanner></sBanner>
+    <!-- 名品特卖 -->
+    <specialSale></specialSale>
   </div>
 </template>
 
 <script>
 import sHeader from './components/sHeader'
 import sBanner from './components/sBanner'
+import specialSale from './components/specialSale'
 export default {
   components: {
     sHeader,
-    sBanner
+    sBanner,
+    specialSale
   }
 }
 </script>
