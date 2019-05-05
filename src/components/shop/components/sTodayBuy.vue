@@ -23,7 +23,7 @@
                 </swiper-slide>
 
              </swiper>
-             <div class="swiper-pagination2" slot="pagination"></div>
+             <div class="swiper-pagination swiper-pagination2" slot="pagination"></div>
         </div>
     </div>
 </template>
@@ -33,7 +33,7 @@ import getTime from '../../../utils/time'
 export default {
   mounted () {
     setInterval(() => {
-      this.date = getTime('2019-5-5 18:00:00')
+      this.date = getTime('2019-5-5 22:00:00')
     }, 1000)
   },
   data () {
@@ -72,7 +72,8 @@ export default {
       ],
       swiperOption: {
         pagination: {
-          el: '.swiper-pagination'
+          el: '.swiper-pagination',
+          clickable: true
         },
         autoplay: true,
         loop: true,
@@ -160,12 +161,9 @@ export default {
 }
 .buy-slider{
     position:relative;
-    .swiper-pagination2{
+    .swiper-pagination{
         position:absolute;
         left:40%;
-        span{
-
-        }
     }
 }
 </style>
