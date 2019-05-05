@@ -1,12 +1,14 @@
 <template>
-  <swiper :options="swiperOption">
-    <swiper-slide v-for="(slide, index) in swiperSlides" :key="index">
-      <a href="javascript:;">
-        <img class="simg" :src="slide.img" alt>
-      </a>
-    </swiper-slide>
-    <div class="swiper-pagination swiper-pagination1" slot="pagination"></div>
-  </swiper>
+  <div class="banner">
+    <swiper :options="swiperOption">
+      <swiper-slide v-for="(slide, index) in swiperSlides" :key="index">
+        <a href="javascript:;">
+          <img class="simg" :src="slide.img" alt>
+        </a>
+      </swiper-slide>
+      <div class="swiper-pagination1" slot="pagination"></div>
+    </swiper>
+  </div>
 </template>
 
 <script>
@@ -16,7 +18,8 @@ export default {
     return {
       swiperOption: {
         pagination: {
-          el: '.swiper-pagination'
+          el: '.swiper-pagination1',
+          clickable: true
         },
         autoplay: true
       },
@@ -40,6 +43,8 @@ export default {
 <style scoped lang='less'>
 .simg {
   width: 100%;
-  //   height: 366px;
+}
+.banner{
+  position: relative;
 }
 </style>
