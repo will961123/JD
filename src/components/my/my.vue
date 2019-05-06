@@ -1,16 +1,25 @@
 <template>
   <div class="my">
     <p @click="changeStore">点我</p>
-    <mHeader></mHeader>
-    <div class="alrady" v-if="$store.state.myShow.main">
-      <myAlidyMain></myAlidyMain>
+
+    <div class="load" v-if="$store.state.myShow.load">
+
     </div>
+    <div class="alrady" v-if="$store.state.myShow.main">
+      <mHeader></mHeader>
+      <userInfo></userInfo>
+      <myAlidyMain></myAlidyMain>
+      <foryou></foryou>
+    </div>
+
   </div>
 </template>
 
 <script>
 import mHeader from './components/mHeader'
 import myAlidyMain from './components/myAlidyMain'
+import foryou from './components/foryou'
+import userInfo from './components/userInfo'
 export default {
   data () {
     return {
@@ -19,7 +28,9 @@ export default {
   },
   components: {
     mHeader,
-    myAlidyMain
+    myAlidyMain,
+    foryou,
+    userInfo
   },
   watch: {
     '$store.state.myShow.main': function (newval, oldval) {
@@ -30,9 +41,13 @@ export default {
     changeStore () {
       this.$store.dispatch('changeMyshow', 'main')
     }
+
   }
 }
 </script>
 
 <style lang="less" scoped>
+.my{
+  padding-bottom: 200px;
+}
 </style>

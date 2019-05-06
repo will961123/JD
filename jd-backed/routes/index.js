@@ -5578,4 +5578,65 @@ router.get('/sRightMain', function (req, res, next) {
   ]
   res.send(arr)
 })
+// 我的为你推荐数据
+router.get('/myforyou', function (req, res, next) {
+  var arr = [{
+    img: '//img14.360buyimg.com/n7/jfs/t1/33942/12/6230/210631/5cc154b1E9a6441c4/4b8023ca763ecfad.jpg!q70.dpg',
+    dis: '臻惜 4层本色抽纸家庭装餐巾纸 母婴纸巾 30包【每包9毛】',
+    price: '26.9',
+    single: '39',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/43655/24/150/111912/5cc10884E2147f398/c10efc2a57227e82.jpg!q70.dpg',
+    dis: '馨语【50卷】4层纯原生竹浆本色卷纸小卷工厂直供竹纤维餐巾纸卫生纸 10卷',
+    price: '7.9',
+    single: '19.9',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/8238/24/3755/269589/5bd7fb1eE670cc9d4/ed927445b3a9fb9c.jpg!q70.dpg',
+    dis: '【工厂直供】28包/8包可选餐巾纸整箱抽纸巾原木卫生纸家庭装面巾纸母婴纸巾婴儿纸巾擦手纸原生纯木纸巾 蓝色经典8包',
+    price: '9.9',
+    single: '28',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/28666/26/1258/236379/5c10c202E09d38f0e/699e6cde6f1d1691.jpg!q70.dpg',
+    dis: '竹林子30包4层原生竹浆本色抽纸整箱批发家庭装餐巾纸家用纸巾抽婴儿卫生纸实惠装面巾纸抽纸巾 黑本 30包',
+    price: '31.9',
+    single: '35.5',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/40993/10/2830/283301/5ccc045eE0c8a6591/6bf62f3d06806f32.jpg!q70.dpg',
+    dis: '30包/4包可选抽纸餐巾纸整箱面巾纸 竹浆本色卫生纸家庭装面巾纸厕纸宝宝用纸巾抽纸批发抽纸 4包',
+    price: '5.9',
+    sub: '满减',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/30185/2/14851/121704/5cbf2dc4Ec2ff184a/8d7f5bcb69ec2920.jpg!q70.dpg',
+    dis: '三星SL-M2020/2021同款黑白激光打印机高速小型便携家用办公A4学生作业打印机进口USB打印',
+    price: '559',
+    sub: '券',
+    useq: '529'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t21334/285/2377507972/251101/9e355180/5b532911Nbbfbbd5d.jpg!q70.dpg',
+    dis: '花花公子PLAYBOY短袖T恤男中年休闲薄款纯棉打底衫韩版半袖t恤潮体恤男装圆领上衣 黑色 175（推荐135-155斤）',
+    price: '139',
+    sub: '券'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/9040/17/2461/609896/5bd2a9d5E333fbc75/1e5fa9d993faff72.jpg!q70.dpg',
+    dis: '臻惜 4层原木抽纸家用纸巾餐巾纸 母婴适用 30包【每包9毛】',
+    pin: true,
+    price: '28.9',
+    single: '32.9'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t24910/170/933849/202328/e2a4cb29/5b629786N5d5f921c.jpg!q70.dpg',
+    dis: '凝点（Cppc） 抽纸整箱装 本色竹浆纤维擦手纸餐巾纸 妇幼婴儿卫生纸面 抽取式面巾纸家庭装 1包【体验装】',
+    price: '1.5'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t11677/337/2356710920/101855/2c0de0f0/5a166e03N69ecd710.jpg!q70.dpg',
+    dis: '兄弟（brother）DCP1618W 黑白激光多功能一体机（打印、复印、扫描、无线网络）',
+    price: '1239',
+    sub: '秒杀'
+  }]
+  res.send(arr)
+})
 module.exports = router

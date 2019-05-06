@@ -39,10 +39,7 @@
             <h2>{{itema.dis}}</h2>
             <div class="price">
               <i>2人拼</i>
-              <span>
-                ￥
-                <em>{{itema.priceint}}</em>.
-                <i>{{itema.pricedec}}</i>
+              <span>￥<em>{{itema.priceint}}</em>.<i>{{itema.pricedec}}</i>
               </span>
             </div>
           </li>
