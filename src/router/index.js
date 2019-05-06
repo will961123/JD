@@ -6,6 +6,7 @@ import Router from 'vue-router'
 // import home from '@/components/home/home.vue'
 // import my from '@/components/my/my.vue'
 // import shop from '@/components/shop/shop.vue'
+
 Vue.use(Router)
 
 export default new Router({
