@@ -37,7 +37,7 @@ export default {
   margin: 28px 0 0 30px;
 }
 .searchbox {
-  display: flex;
+
   position: relative;
   top: -50px;
   left: 120px;
@@ -67,7 +67,6 @@ export default {
 }
 .head .login {
   position: relative;
-  right: -210px;
   top: 26px;
   font-size: 30px;
   color: white;
