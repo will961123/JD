@@ -4,7 +4,8 @@
   src: url(../font/iconfont.eot) format('embedded-opentype'),
     url(../font/iconfont.svg) format('svg'),
     url(../font/iconfont.ttf) format('truetype'),
-    url(../font/iconfont.woff) format('woff')
+    url(../font/iconfont.woff) format('woff'),
+    url(../font/iconfont.woff2) format('woff2')
 }
 [class^="iconfont"],
 [class*=" iconfont"] {
@@ -24,4 +25,7 @@
 }
 .icon-mine::after{
   content: '\e608'
+}
+.icon-gototop::after{
+  content: '\e6a4'
 }
