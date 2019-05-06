@@ -1,14 +1,4 @@
 <template>
-<<<<<<< HEAD
-    <Login/>
-</template>
-
-<script>
-import Login from './components/login'
-export default {
-  components: {
-    Login
-=======
   <div class="my">
     <mHeader></mHeader>
     <foryou></foryou>
@@ -25,7 +15,6 @@ export default {
     mHeader,
     foryou,
     userInfo
->>>>>>> 47ae3d06f41ccfc6f7495ec1fe5de36a6087ac67
   }
 }
 </script>
