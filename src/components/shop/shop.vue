@@ -1,16 +1,20 @@
 <template>
   <div class="shop">
-    <!-- 头部更多 -->
+    <!-- 头部搜索框&分类 -->
     <sHeader></sHeader>
-    <!-- 头部banner -->
+
+    <div class="jingxuan" v-show="isShow===-1">
+      <!-- 精选banner -->
     <sBanner></sBanner>
-    <shopHot></shopHot>
-    <!--今日必拼-->
-    <sTodayBuy></sTodayBuy>
-    <!-- 名品特卖 -->
-    <specialSale></specialSale>
-    <!-- 每日上新 -->
-    <everydaynew></everydaynew>
+      <!-- 精选-分类 -->
+      <shopHot></shopHot>
+      <!--精选-今日必拼-->
+      <sTodayBuy></sTodayBuy>
+      <!-- 精选-名品特卖 -->
+      <specialSale></specialSale>
+      <!-- 精选-每日上新 -->
+      <everydaynew></everydaynew>
+    </div>
   </div>
 </template>
 <script>
@@ -28,12 +32,22 @@ export default {
     sTodayBuy,
     specialSale,
     shopHot
+  },
+  data () {
+    return {
+      isShow: -1
+    }
+  },
+  watch: {
+    '$store.state.shopListIndex': function (nval, oval) {
+      this.isShow = nval
+    }
   }
 }
 </script>
 
 <style lang="less" scoped>
-.shop{
-  background: white
+.shop {
+  background: white;
 }
 </style>

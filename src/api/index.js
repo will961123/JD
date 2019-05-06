@@ -44,10 +44,21 @@ export function getCate () {
 export function getcateRight () {
   return axios.get('cateright')
 }
-// 拼购页，精选区菜单栏
+// 请求拼购-精选 头部list
+export function getShopToplist () {
+  return axios.get('shopToplist')
+}
+// 请求拼购-精选 菜单栏
 export function getShopHot () {
   return axios.get('shophot')
 }
+// 请求拼购-精选 今日必拼
+export function getTodayPin () {
+  return axios.get('sTodayBuy')
+}
 export function getEverydaynew () {
   return axios.get('everydaynew')
+}
+export function getMiaoSha () {
+  return axios.get('miaosha')
 }
