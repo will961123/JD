@@ -41,6 +41,7 @@ export default {
   z-index: 99;
   i {
     font-size: 76px;
+    color: red;
   }
 }
 </style>

@@ -2,7 +2,8 @@
   <div class="rightMain">
     <ul class="mainUl">
       <li v-for="(item, index) in contentList" :key="index" class="mainLi">
-        <img class="titleImg" v-lazy="item.img">
+        <!-- <img class="titleImg" v-lazy="item.img"> -->
+        <img class="titleImg" :src="item.img">
         <div class="info">
           <p class="titleName">{{item.titleName}}</p>
           <div class="price">
