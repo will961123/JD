@@ -13,19 +13,19 @@
           <span>
             ￥
             <em>{{parseInt(item.price)}}</em>
-            <i>{{((item.price).split(parseInt(item.price)))[1]}}</i>
+            <i>{{((item.price+'').split(parseInt(item.price+'')))[1]}}</i>
           </span>
-          <span v-show="item.sub" class="sub">{{item.sub}}</span>
+          <div v-show="item.sub" class="sub">{{item.sub}}</div>
           <span b-show="item.useq" class="useq">{{item.useq}}</span>
-          <div v-show="item.single" class="single">单价买 ￥{{item.single}}</div>
         </div>
+         <div v-show="item.single" class="single">单价买 ￥{{item.single}}</div>
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-import {getMyforyou} from '@/api'
+import { getMyforyou } from '@/api'
 export default {
   data () {
     return {
@@ -98,6 +98,8 @@ export default {
   .allshop {
     width: 100%;
     background: #f7f7f7;
+    overflow: hidden;
+    padding-bottom: 100px;
     li {
       width: 50%;
       float: left;
@@ -115,7 +117,6 @@ export default {
       }
       p {
         margin: 20px 0 8px;
-        height: 72px;
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
@@ -123,20 +124,17 @@ export default {
         -webkit-box-orient: vertical;
       }
       .priceinfo {
+        margin-top: 10px;
+        overflow: hidden;
         color: #e93b3d;
-        .sub {
-          border: 1px solid red;
-          height: 29px;
-          line-height: 29px;
-          margin-top: 4px;
-        }
+        display: flex;
+        align-items: center;
         .useq {
           font-size: 10px;
           color: #000;
         }
         span {
           color: red;
-          float: left;
           margin-right: 8px;
           line-height: 40px;
           em {
@@ -150,14 +148,16 @@ export default {
           font-size: 10px;
           height: 29px;
           line-height: 29px;
+          margin-right: 8px;
         }
-        .single {
+
+      }
+      .single {
           color: #999;
           text-decoration: line-through;
           line-height: 36px;
           clear: both;
         }
-      }
     }
   }
 }

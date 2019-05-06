@@ -1,9 +1,7 @@
 <template>
   <div class="my">
-    <p @click="changeStore">点我</p>
-
     <div class="load" v-if="$store.state.myShow.load">
-
+      <login></login>
     </div>
     <div class="alrady" v-if="$store.state.myShow.main">
       <mHeader></mHeader>
@@ -20,6 +18,7 @@ import mHeader from './components/mHeader'
 import myAlidyMain from './components/myAlidyMain'
 import foryou from './components/foryou'
 import userInfo from './components/userInfo'
+import login from './components/login'
 export default {
   data () {
     return {
@@ -30,7 +29,8 @@ export default {
     mHeader,
     myAlidyMain,
     foryou,
-    userInfo
+    userInfo,
+    login
   },
   watch: {
     '$store.state.myShow.main': function (newval, oldval) {
@@ -47,7 +47,4 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.my{
-  padding-bottom: 200px;
-}
 </style>

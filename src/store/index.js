@@ -26,12 +26,11 @@ var mutations = {
     state.shopListIndex = index
   },
   // 修改myshow
-  changeMyshow (state, key) {
+  changeMyshow (state, name) {
     for (let key in state.myShow) {
       state.myShow[key] = false
-      console.log(state.myShow[key])
     }
-    state.myShow[key] = !state.myShow[key]
+    state.myShow[name] = !state.myShow[name]
   }
 }
 
