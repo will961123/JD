@@ -96,6 +96,7 @@ export default {
 <style lang="less" scoped >
 .login {
   background: #fff;
+  height: 100%;
   .login-header {
     position: relative;
     width: 100%;

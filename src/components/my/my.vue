@@ -47,4 +47,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.my{
+  height: 100%;
+}
+.load{
+  height: 100%;
+}
 </style>
