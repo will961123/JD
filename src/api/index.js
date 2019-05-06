@@ -11,66 +11,66 @@ axios.interceptors.response.use(function (response) {
 )
 
 // 请求hbanner 首页轮播图后台
-export function gethBanner() {
+export function gethBanner () {
   return axios.get('hbanner')
 }
 // 请求hcate 首页头部分类分类
-export function gethCate() {
+export function gethCate () {
   // 代理后 去请求自己就好了
   // return axios.get('http://localhost:8080/cate')
   return axios.get('hcate')
 }
 // 请求hjdspk 首页头部京东秒杀
-export function gethJdspk() {
+export function gethJdspk () {
   return axios.get('hjdspk')
 }
 // 请求hdyard 首页东家小院后台
-export function gethDyard() {
+export function gethDyard () {
   return axios.get('hdyard')
 }
 // 请求hgdaily 首页东家小院后台
-export function gethGdaily() {
+export function gethGdaily () {
   return axios.get('hgdaily')
 }
 // 请求hforyou 首页下部为你推荐
-export function gethForyou() {
+export function gethForyou () {
   return axios.get('hforyou')
 }
 // 请求分类页左边列表部分的数据
-export function getCate() {
+export function getCate () {
   return axios.get('cateleft')
 }
 // 请求而分类页面右侧数据
-export function getcateRight() {
+export function getcateRight () {
   return axios.get('cateright')
 }
 // 请求拼购-精选 头部list
-export function getShopToplist() {
+export function getShopToplist () {
   return axios.get('shopToplist')
 }
 // 请求拼购-精选 菜单栏
-export function getShopHot() {
+export function getShopHot () {
   return axios.get('shophot')
 }
 // 请求拼购-精选 今日必拼
-export function getTodayPin() {
+export function getTodayPin () {
   return axios.get('sTodayBuy')
 }
-export function getEverydaynew() {
+export function getEverydaynew () {
   return axios.get('everydaynew')
 }
-export function getMiaoSha() {
+export function getMiaoSha () {
   return axios.get('miaosha')
 }
-export function getWant() {
+export function getWant () {
   return axios.get('want')
 }
 // 请求拼购-右侧top
-export function getRightTop() {
+export function getRightTop () {
   return axios.get('sRightTop')
 }
 
 // 请求拼购-右侧main
-export function getRightMain() {
+export function getRightMain () {
   return axios.get('sRightMain')
 }
