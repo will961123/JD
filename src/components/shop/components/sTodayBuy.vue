@@ -35,7 +35,7 @@ export default {
   async mounted () {
     this.swiperSlides = await getTodayPin()
     setInterval(() => {
-      this.date = getTime('2019-5-5 22:00:00')
+      this.date = getTime('2019-5-6 22:00:00')
     }, 1000)
   },
   data () {
