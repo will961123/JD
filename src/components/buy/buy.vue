@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import bHeader from "./components/bHeader";
-import welfare from "./components/welfare";
-import miaosha from "./components/miaosha";
-import want from "./components/want";
+import bHeader from './components/bHeader'
+import welfare from './components/welfare'
+import miaosha from './components/miaosha'
+import want from './components/want'
 export default {
   components: {
     bHeader,
@@ -20,7 +20,7 @@ export default {
     miaosha,
     want
   }
-};
+}
 </script>
 
 <style lang="less" scoped>
