@@ -1,16 +1,26 @@
 <template>
   <div class="shop">
-    <!-- 头部更多 -->
+    <!-- 头部搜索框&分类 -->
     <sHeader></sHeader>
-    <!-- 头部banner -->
+
+    <div class="jingxuan" v-show="isShow===-1">
+      <!-- 精选banner -->
     <sBanner></sBanner>
-    <shopHot></shopHot>
-    <!--今日必拼-->
-    <sTodayBuy></sTodayBuy>
-    <!-- 名品特卖 -->
-    <specialSale></specialSale>
-    <!-- 每日上新 -->
-    <everydaynew></everydaynew>
+      <!-- 精选-分类 -->
+      <shopHot></shopHot>
+      <!--精选-今日必拼-->
+      <sTodayBuy></sTodayBuy>
+      <!-- 精选-名品特卖 -->
+      <specialSale></specialSale>
+      <!-- 精选-每日上新 -->
+      <everydaynew></everydaynew>
+    </div>
+
+    <!-- 右侧 -->
+    <div class="right" v-show="isShow>=0">
+      <sRightTop></sRightTop>
+      <sRightMain></sRightMain>
+    </div>
   </div>
 </template>
 <script>
@@ -20,6 +30,9 @@ import everydaynew from './components/everydaynew'
 import sTodayBuy from './components/sTodayBuy'
 import specialSale from './components/specialSale'
 import shopHot from './components/shopHot'
+// 右侧
+import sRightTop from './components/sRightTop'
+import sRightMain from './components/sRightMain'
 export default {
   components: {
     sHeader,
@@ -27,13 +40,25 @@ export default {
     everydaynew,
     sTodayBuy,
     specialSale,
-    shopHot
+    shopHot,
+    sRightTop,
+    sRightMain
+  },
+  data () {
+    return {
+      isShow: -1
+    }
+  },
+  watch: {
+    '$store.state.shopListIndex': function (nval, oval) {
+      this.isShow = nval
+    }
   }
 }
 </script>
 
 <style lang="less" scoped>
-.shop{
-  background: white
+.shop {
+  background: white;
 }
 </style>
