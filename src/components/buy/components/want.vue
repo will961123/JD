@@ -33,17 +33,17 @@
   </div>
 </template>
 <script>
-import { getWant } from "@/api";
+import { getWant } from '@/api'
 export default {
-  data() {
+  data () {
     return {
       wants: null
-    };
+    }
   },
-  async created() {
-    this.wants = await getWant();
+  async created () {
+    this.wants = await getWant()
   }
-};
+}
 </script>
 <style scoped lang="less">
 .want {
