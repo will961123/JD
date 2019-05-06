@@ -29,14 +29,13 @@ export default {
     changestatus (index) {
       // 触发vuex的修改数据方法
       this.$store.dispatch('change', index)
-
       /* 如果点击的索引就是this.currentIndex 停止滚动 */
       if (index === this.currentIndex) {
         // console.log('是当前索引值 停止滚动')
-
         return
       }
       /* 判断是否滚动 总长度-滚动上去的高度=设备高度 停止 */
+      this.currentIndex = index
       if (
         this.$refs.myul.offsetHeight - this.$refs.mytop.scrollTop <=
         this.$refs.mytop.offsetHeight
@@ -45,7 +44,6 @@ export default {
         this.$refs.myli.className = 'active'
         return
       }
-
       this.currentIndex = index
       /* 滚动动画公式 target目标值 header当前值（每一毫秒的） */
       var target = this.currentIndex * this.$refs.myli[0].offsetHeight

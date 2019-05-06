@@ -15,6 +15,12 @@
       <!-- 精选-每日上新 -->
       <everydaynew></everydaynew>
     </div>
+
+    <!-- 右侧 -->
+    <div class="right" v-show="isShow>=0">
+      <sRightTop></sRightTop>
+      <sRightMain></sRightMain>
+    </div>
   </div>
 </template>
 <script>
@@ -24,6 +30,9 @@ import everydaynew from './components/everydaynew'
 import sTodayBuy from './components/sTodayBuy'
 import specialSale from './components/specialSale'
 import shopHot from './components/shopHot'
+// 右侧
+import sRightTop from './components/sRightTop'
+import sRightMain from './components/sRightMain'
 export default {
   components: {
     sHeader,
@@ -31,7 +40,9 @@ export default {
     everydaynew,
     sTodayBuy,
     specialSale,
-    shopHot
+    shopHot,
+    sRightTop,
+    sRightMain
   },
   data () {
     return {

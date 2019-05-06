@@ -1,10 +1,10 @@
 <template>
   <div class="everydaynew">
-      <div class="top">
-        <p>每日好货上新</p>
-        <span>天天拼便宜</span>
-      </div>
-    <div class="section"  v-for="(item,index) in list" :key="index">
+    <div class="top">
+      <p>每日好货上新</p>
+      <span>天天拼便宜</span>
+    </div>
+    <div class="section" v-for="(item,index) in list" :key="index">
       <ul>
         <li v-for="(items,indexs) in item.ware" :key="indexs">
           <div class="left">
@@ -18,7 +18,10 @@
             </div>
             <div class="price">
               <i>2人拼</i>
-              <span>￥<em>{{items.int}}</em>.<i>{{items.dec}}</i>
+              <span>
+                ￥
+                <em>{{items.int}}</em>.
+                <i>{{items.dec}}</i>
               </span>
             </div>
             <span>以拼{{items.person}}件</span>
@@ -28,24 +31,21 @@
       </ul>
       <div class="banner" v-for="(itemx,indexx) in item.banner" :key="indexx">
         <div class="bimg">
-            <img
-          v-lazy="itemx.img"
-          alt
-        >
+          <img v-lazy="itemx.img" alt>
         </div>
         <ul>
           <li v-for="(itema,indexa) in itemx.everyB" :key="indexa">
-            <img
-              v-lazy="itema.img"
-              alt
-            >
+            <img v-lazy="itema.img" alt>
             <h2>{{itema.dis}}</h2>
             <div class="price">
               <i>2人拼</i>
-              <span>￥<em>{{itema.priceint}}</em>.<i>{{itema.pricedec}}</i>
+              <span>
+                ￥
+                <em>{{itema.priceint}}</em>.
+                <i>{{itema.pricedec}}</i>
               </span>
             </div>
-            </li>
+          </li>
         </ul>
       </div>
     </div>
@@ -53,7 +53,7 @@
 </template>
 
 <script>
-import {getEverydaynew} from '@/api/index.js'
+import { getEverydaynew } from '@/api/index.js'
 export default {
   data () {
     return {
@@ -62,7 +62,7 @@ export default {
   },
   async mounted () {
     this.list = await getEverydaynew()
-    console.log(getEverydaynew())
+    // console.log(getEverydaynew())
   }
 }
 </script>
@@ -71,19 +71,19 @@ export default {
 .everydaynew {
   width: 100%;
   padding-bottom: 100px;
-   .top {
-      height: 144px;
-      text-align: center;
-      box-sizing: border-box;
-      padding: 20px 0;
-      p {
-        font-size: 35px;
-      }
-      span {
-        font-size: 26px;
-        color: #999;
-      }
+  .top {
+    height: 144px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 0;
+    p {
+      font-size: 35px;
     }
+    span {
+      font-size: 26px;
+      color: #999;
+    }
+  }
   .section {
     ul {
       li {
@@ -159,65 +159,65 @@ export default {
         }
       }
     }
-    .banner{
+    .banner {
+      width: 100%;
+      .bimg {
+        position: relative;
+        img {
+          width: 100%;
+          display: block;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          border: 10px solid transparent;
+          border-bottom: 10px solid #fff;
+          bottom: 0;
+          left: 50%;
+          margin-left: -4px;
+        }
+      }
+      ul {
         width: 100%;
-        .bimg{
-            position: relative;
-             img{
-                width: 100%;
-                display: block;
-            }
-            &::after{
-                content: '';
-                position: absolute;
-                border: 10px solid transparent;
-                border-bottom: 10px solid #fff;
-                bottom: 0;
-                left: 50%;
-                margin-left: -4px;
-            }
-        }
-        ul{
+        height: 363px;
+        padding: 30px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        li {
+          width: 216px;
+          height: 312px;
+          display: flex;
+          flex-direction: column;
+          img {
             width: 100%;
-            height: 363px;
-            padding: 30px;
-            box-sizing: border-box;
-            display: flex;
-            justify-content: space-between;
-            li{
-                width: 216px;
-                height: 312px;
-                display: flex;
-                flex-direction: column;
-                img{
-                    width: 100%;
-                    height: 216px;
-                }
-                h2{
-                    margin-top: 14px;
-                    font-weight: 400;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    font-size: 24px;
-                    line-height: 36px;
-                }
-                .price{
-                     line-height: 1.5;
-                    text-align: center;
-                    color: #e93b3d;
-                    height: 48px;
-                    span {
-                    color: red;
-                    width: 60px;
-                    font-weight: 700;
-                        em {
-                        font-size: 36px;
-                        }
-                    }
-                }
+            height: 216px;
+          }
+          h2 {
+            margin-top: 14px;
+            font-weight: 400;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 24px;
+            line-height: 36px;
+          }
+          .price {
+            line-height: 1.5;
+            text-align: center;
+            color: #e93b3d;
+            height: 48px;
+            span {
+              color: red;
+              width: 60px;
+              font-weight: 700;
+              em {
+                font-size: 36px;
+              }
             }
+          }
         }
+      }
     }
   }
 }
