@@ -2846,7 +2846,32 @@ router.get('/cateright', function (req, res, next) {
   ]
   res.send(arr)
 })
-// 精选页9.9包邮菜单栏
+
+// 拼购-精选 头部分类列表数据
+router.get('/shopToplist', function (req, res, next) {
+  var arr = [
+    '手机',
+    '鞋包',
+    '服饰',
+    '日用',
+    '家电',
+    '食品',
+    '汽车',
+    '家具',
+    '美妆',
+    '内衣',
+    '家装',
+    '数码',
+    '母婴',
+    '居家',
+    '生鲜',
+    '配饰',
+    '文娱'
+  ]
+  res.send(arr)
+})
+
+// 拼购-精选 9.9包邮菜单栏
 router.get('/shophot', function (req, res, next) {
   var arr = [
     {
@@ -2892,41 +2917,42 @@ router.get('/shophot', function (req, res, next) {
   ]
   res.send(arr)
 })
-// 精选 今日必拼数据
+
+// 拼购-精选 今日必拼数据
 router.get('/sTodayBuy', function (req, res, next) {
   var arr = [
     [
-      {'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/42642/40/1498/195993/5cc6a439E827056ce/cfce9834d1a4ff4f.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img14.360buyimg.com/evalpic/s240x240_jfs/t1/43519/10/1096/101104/5cc51cdcE7ce7e96d/ce83761ff5be4d64.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼2215件'},
-      {'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/20033/1/13846/145456/5ca1cb51Edaa61859/8f829d9d11a95da8.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼2.3万件'}
+      { 'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/42642/40/1498/195993/5cc6a439E827056ce/cfce9834d1a4ff4f.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img14.360buyimg.com/evalpic/s240x240_jfs/t1/43519/10/1096/101104/5cc51cdcE7ce7e96d/ce83761ff5be4d64.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼2215件' },
+      { 'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/20033/1/13846/145456/5ca1cb51Edaa61859/8f829d9d11a95da8.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼2.3万件' }
     ],
     [
-      {'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/32842/4/7763/192083/5c9adecaE730db63f/60635a7ab638b002.png!q70.webp', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/24018/9/14904/119306/5cada591E2b232f87/22824f3b850717ac.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img10.360buyimg.com/evalpic/s240x240_jfs/t1/26260/18/14269/268886/5ca5b6aeEc9251a7a/e8b3afd4d1c61088.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'}
+      { 'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/32842/4/7763/192083/5c9adecaE730db63f/60635a7ab638b002.png!q70.webp', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/24018/9/14904/119306/5cada591E2b232f87/22824f3b850717ac.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img10.360buyimg.com/evalpic/s240x240_jfs/t1/26260/18/14269/268886/5ca5b6aeEc9251a7a/e8b3afd4d1c61088.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' }
     ],
     [
-      {'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/34361/5/8888/130503/5cce3fb9E4c7521cd/97a2c93cac59f6de.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t24937/131/498228633/238856/5f89f528/5b72950bNe6b22934.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img10.360buyimg.com/evalpic/s240x240_jfs/t1/40385/9/1535/212831/5cbd7a2aE586469ed/f6e82017e52b55db.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'}
+      { 'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/34361/5/8888/130503/5cce3fb9E4c7521cd/97a2c93cac59f6de.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t24937/131/498228633/238856/5f89f528/5b72950bNe6b22934.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img10.360buyimg.com/evalpic/s240x240_jfs/t1/40385/9/1535/212831/5cbd7a2aE586469ed/f6e82017e52b55db.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' }
     ],
     [
-      {'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/43796/2/1787/246390/5cc7d7c6E638541ef/277fdeb6b8312214.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/1425/36/11242/498119/5bd00ff1Eb5773c71/406cc5d611edbb98.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/36591/19/7488/63120/5cc7d4aeE9517a377/59e5bae329b5b170.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'}
+      { 'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/43796/2/1787/246390/5cc7d7c6E638541ef/277fdeb6b8312214.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/1425/36/11242/498119/5bd00ff1Eb5773c71/406cc5d611edbb98.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img13.360buyimg.com/evalpic/s240x240_jfs/t1/36591/19/7488/63120/5cc7d4aeE9517a377/59e5bae329b5b170.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' }
     ],
     [
-      {'img': '//img14.360buyimg.com/evalpic/s240x240_jfs/t1/16677/4/15461/268106/5cb028ecE18e2411f/7dc04f643b1fc9ef.png!q70.webp', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/20303/22/15611/363054/5cb33332Eb571aef8/245f301d7feed301.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'},
-      {'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/30911/23/11264/126440/5cb4451dE9a879856/3b39420028b2f977.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件'}
+      { 'img': '//img14.360buyimg.com/evalpic/s240x240_jfs/t1/16677/4/15461/268106/5cb028ecE18e2411f/7dc04f643b1fc9ef.png!q70.webp', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/20303/22/15611/363054/5cb33332Eb571aef8/245f301d7feed301.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' },
+      { 'img': '//img12.360buyimg.com/evalpic/s240x240_jfs/t1/30911/23/11264/126440/5cb4451dE9a879856/3b39420028b2f977.jpg!q70.dpg', 'form': '2人拼', 'price': 14.90, 'state': '已拼4.4万件' }
     ]
   ]
   res.send(arr)
 })
 
-// 拼购每日上新
+// 拼购-精选 每日上新
 router.get('/everydaynew', function (req, res, next) {
-  var arr = [ {
+  var arr = [{
     ware: [
       {
         img: '//img14.360buyimg.com/evalpic/s400x400_jfs/t1/33942/12/6230/210631/5cc154b1E9a6441c4/4b8023ca763ecfad.jpg!q70.dpg',
@@ -3143,6 +3169,282 @@ router.get('/everydaynew', function (req, res, next) {
       }
     ]
   }]
+  res.send(arr)
+})
+router.get('/miaosha', function (req, res, next) {
+  var arr = [
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/4484/29/11259/142709/5bce81bbE3e303c66/d2925e7533a4c44c.jpg!q70.dpg',
+      price: '￥2500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥6500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/36136/23/2213/196291/5cb58626E9c1f7926/c95a1f3e7279f965.jpg!q70.dpg',
+      price: '￥3800',
+      sprice: '￥3410'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35988/11/1638/211128/5cb3eba1Ed947ec7a/c260f42a62629f61.jpg!q70.dpg',
+      price: '￥5200',
+      sprice: '￥650'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t21247/165/397819353/109580/3c154914/5b0cdebeN3312b70b.jpg!q70.dpg',
+      price: '￥1200',
+      sprice: '￥500'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/20365/14/3265/73248/5c258375E0d9dd4b9/c7f7eae7d880dfb9.jpg!q70.dpg',
+      price: '￥5600',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/33391/28/8837/107338/5cc7d15fE6ce13e5b/4c164867f5561560.jpg!q70.dpg',
+      price: '￥6300',
+      sprice: '￥630'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/4527/1/5981/186643/5ba1b24bE6c76c507/0a0ec4be7251df87.jpg!q70.dpg',
+      price: '￥8000',
+      sprice: '￥920'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/19219/30/10994/185794/5c8b2c02E40e189fb/b1f650e0c319f141.jpg!q70.dpg',
+      price: '￥2580',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      price: '￥1200',
+      sprice: '￥250'
+    }
+  ]
+  res.send(arr)
+})
+router.get('/want', function (req, res, next) {
+  var arr = [
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/7530/24/14114/131820/5c511bb0Eed19c682/56f8b21be7647688.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  亦舒堂 黑苦荞茶天然硒荞麦茶 全胚芽富硒苦荞茶 安康荞子茶 野兰荞茶 苦芥乌麦茶 硒谷黑苦荞茶             ',
+      money: '$42',
+      pur: '闪购'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t21250/185/425831632/186147/f98cb1a7/5b0d1692N46f9a5f9.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  佳驰 竹砧板 切菜板38*28*1.8cm JC-ZB38             ',
+      money: '$19.9',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t25009/21/2216981778/370096/e2af1f70/5bc69da1N3147afbf.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  麦富迪 宠物狗粮 藻趣儿通用成犬粮7.5kg             ',
+      money: '$129',
+      pur: '满减'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/18547/12/11644/308238/5c90b642E2d411d76/6350610cbf84d11c.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  卡饰社（Carsetcity）竹片凉垫凉席 汽车用品坐垫 座垫座套 通用型CS-83091棕色             ',
+      money: '$29',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/35395/17/4145/82605/5cbabe7dEfc0505c2/8ee06a15499ed677.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    小分子多肽狗粮 全价天然粮 小型犬幼犬成犬全期通用型 泰迪法斗柯基 美毛亮眸促进发育 2kg4斤             ',
+      money: '$59.8',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t23497/214/1736254635/277698/cccf7d9c/5b698401Nc19e22e9.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  佳佰 陶瓷马克杯 情侣水杯居家办公咖啡杯茶杯牛奶杯早餐麦片杯 可爱动物粉红猪猪 【一千个以上接受定制】             ',
+      money: '$14.8',
+      pur: '闪购'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t25828/59/2184542447/245050/6173ee11/5bc588e8Naf16a168.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  亦舒堂 火麻茶广西火麻生态茶 木耳火麻仁茶 莱菔子桑葚火麻茶 白果火麻茶 送老人送长辈 决明子火麻茶             ',
+      money: '$45',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t4681/257/55967336/565371/e9939e85/58c8e329N51e437c3.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    上院地毯 满铺人造草坪  塑料草皮仿真人造草坪幼儿园楼顶阳台人工假草皮假草皮 10mm普通草绿色/直草 宽幅2米每平价             ',
+      money: '$15',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/22784/24/12925/166274/5c9b56b7Eb955e583/c8f787e69de9f124.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    圣天虹发热王护腰带 腰间盘突出腰椎腰疼自发热暖腰暖胃远红外线发热男女四季通用 升级款+【配3000Mah电池+只有均码】 均码（2尺2~2尺9）             ',
+      money: '$268',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/9913/32/15866/84850/5c7354f7E6b903545/9f98bbaa86f0c4ea.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    过道灯led吸顶灯现代简约圆形客厅餐厅卧室阳台书房餐厅过道灯饰灯 全白面包 白光(单色) 12W(210mm)             ',
+      money: '$16.02',
+      pur: '券'
+    }
+  ]
+  res.send(arr)
+})
+// 拼购 top数据
+router.get('/sRightTop', function (req, res, next) {
+  var arr = [
+    // 1
+    [
+      {
+        id: 0,
+        img:
+          '//img12.360buyimg.com/jdphoto/s72x72_jfs/t17119/354/2070752553/7977/8be2cc67/5ae1a6d0N07272d3b.png!q70.webp',
+        title: '手机'
+      },
+      {
+        id: 1,
+        img:
+          '//img20.360buyimg.com/jdphoto/s72x72_jfs/t17950/103/2040465839/4875/fc93ac10/5ae1a738N512f4eb2.png!q70.webp',
+        title: '耳机音响'
+      },
+      {
+        id: 2,
+        img:
+          '//img12.360buyimg.com/jdphoto/s72x72_jfs/t18466/17/2079008221/5345/829bc2f6/5ae1a76eN5020d145.png!q70.webp',
+        title: '其他配件'
+      },
+      {
+        id: 3,
+        img:
+          '//img13.360buyimg.com/jdphoto/s72x72_jfs/t17887/264/2051961894/9975/f1f25e4f/5ae1a713N1032384b.png!q70.webp',
+        title: '壳膜线'
+      }
+    ]
+
+  ]
+  res.send(arr)
+})
+// 拼购 main数据
+router.get('/sRightMain', function (req, res, next) {
+  var arr = [
+    // 1
+    [
+      {
+        titleName:
+          '迷你小风扇usb电风扇台式桌面办公室学生宿舍床头静音大风力手持小电扇型 【雪花小风扇】配送标准版电池-蓝色',
+        img:
+          '//img12.360buyimg.com/evalpic/s500x500_jfs/t1/32544/36/11712/171443/5cb5a4f2Eabb603c1/59efe3f2dbd20084.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '2.8万'
+      },
+      {
+        titleName:
+          '可可丽丽 蓝牙耳机运动无线跑步入耳式耳塞 双耳立体声重低音手机开车耳麦 超小迷你磁吸 红线-金色金',
+        img:
+          '//img13.360buyimg.com/evalpic/s400x400_jfs/t29146/95/423007905/223627/5856aafb/5bf37746N146b281d.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: false,
+        solidSum: '9.9万'
+      },
+      {
+        titleName:
+          '领臣 手机支架 手机懒人支架ipad平板支架加长 桌面直播床头床上支架 多功能可调节 通用 120CM粉色',
+        img:
+          '//img14.360buyimg.com/evalpic/s400x400_jfs/t1/2456/27/8520/123616/5ba9b527Ecca3609c/f04438279df1efef.jpg!q70.dpg',
+        people: 2,
+        solid: '27.90',
+        new: true,
+        solidSum: '51'
+      },
+
+      //
+      {
+        titleName:
+          'TOTU 苹果安卓手机耳机入耳式有线手机耳塞线控适用iPhone6s/7/8p/Xr/Xs MAX 【圆口-3.5mm接口】苹果安卓通用',
+        img:
+          '//img14.360buyimg.com/evalpic/s400x400_jfs/t1/34879/8/7606/108053/5cc81456E94d3ccb5/1bfa2d194496c6d8.jpg!q70.dpg',
+        people: 2,
+        solid: '27.90',
+        new: true,
+        solidSum: '1.5万'
+      },
+      {
+        titleName:
+          '海天 苹果Type-c安卓三合一数据线快充手机充电线适用于苹果华为VIVO小米三星OPPO三头通用线 科技蓝',
+        img:
+          '//img13.360buyimg.com/evalpic/s400x400_jfs/t1/10633/24/50/323436/5bd94586E1482385b/5b485c692f80b9a7.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '6.7万'
+      },
+      {
+        titleName:
+          '钻盾 真无线双耳蓝牙耳机迷你4.2 运动跑步立体声耳机 苹果分离式智通用苹果华为oppo 睿智黑【带充电仓】',
+        img:
+          '//img12.360buyimg.com/evalpic/s400x400_jfs/t12655/283/2092687174/226318/f18608b6/5a4f4271Na8953b93.jpg!q70.dpg',
+        people: 2,
+        solid: '269.90',
+        new: false,
+        solidSum: '31万'
+      },
+      {
+        titleName:
+          '轩云绝世 手机耳机运动重低音炮适用苹果安卓电脑通用女生男线控带麦入耳式跑步耳机耳机K歌吃鸡有线HIF 炫酷黑【标配版】',
+        img:
+          '//img12.360buyimg.com/evalpic/s400x400_jfs/t1/31889/14/5374/135960/5c861074E012f0285/d7627d1096e5bf18.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '1万'
+      },
+      {
+        titleName:
+          '轩云绝世 手机耳机运动重低音炮适用苹果安卓电脑通用女生男线控带麦入耳式跑步耳机耳机K歌吃鸡有线HIF 炫酷黑【标配版】',
+        img:
+          '//img14.360buyimg.com/evalpic/s400x400_jfs/t1/34004/32/8742/210624/5cc7dd38E037546e1/0ce9ba1517987238.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '4460'
+      },
+      {
+        titleName:
+          '奥多金 稳固型螺旋底座手机支架 多向旋转夹头夹子支架 玻璃桌面直播床头等便携懒人支架 优雅白',
+        img:
+          '//img12.360buyimg.com/evalpic/s400x400_jfs/t1/9189/7/12735/65424/5c3c56b7Ec71b07ff/505a2aac8866c328.jpg!q70.dpg',
+        people: 2,
+        solid: '27.90',
+        new: false,
+        solidSum: '8371'
+      },
+      {
+        titleName:
+          '少数派 无线充电器 iPhoneXs/X Max/XR/8plus安卓手机快充三星S9小米无限充底座 【升级版】【10W快充-黑色】 【通用版】',
+        img:
+          '//img13.360buyimg.com/evalpic/s400x400_jfs/t27601/271/2386230394/389672/b04148e3/5bfff766Nf7617a30.jpg!q70.dpg',
+        people: 3,
+        solid: '49.90',
+        new: false,
+        solidSum: '1.5万'
+      }
+    ]
+
+  ]
   res.send(arr)
 })
 module.exports = router

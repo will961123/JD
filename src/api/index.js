@@ -44,15 +44,33 @@ export function getCate () {
 export function getcateRight () {
   return axios.get('cateright')
 }
-// 拼购页，精选区菜单栏
+// 请求拼购-精选 头部list
+export function getShopToplist () {
+  return axios.get('shopToplist')
+}
+// 请求拼购-精选 菜单栏
 export function getShopHot () {
   return axios.get('shophot')
 }
-
-// 拼购页 精选区今日必拼
+// 请求拼购-精选 今日必拼
 export function getTodayPin () {
   return axios.get('sTodayBuy')
 }
 export function getEverydaynew () {
   return axios.get('everydaynew')
+}
+export function getMiaoSha () {
+  return axios.get('miaosha')
+}
+export function getWant () {
+  return axios.get('want')
+}
+// 请求拼购-右侧top
+export function getRightTop () {
+  return axios.get('sRightTop')
+}
+
+// 请求拼购-右侧main
+export function getRightMain () {
+  return axios.get('sRightMain')
 }

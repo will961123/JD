@@ -7,13 +7,13 @@
     </div>
     <div class="searchbox">
       <div class="search">
-        <img src="../images/liwu.png" alt>
+        <img src="https://img11.360buyimg.com/jdphoto/jfs/t1/20446/16/15033/13722/5cab4598E57d199ef/ed95ad7d467d2095.gif" alt>
         <input type="text" placeholder="去京东拼购搜索 沐浴露">
       </div>
     </div>
     <div class="catebox">
       <a href="javascript:;" class="first">
-        <p class="">精选</p>
+        <p :class="currentIndex===-1?'on':''" @click="changeFirst">精选</p>
       </a>
       <div class="catediv">
         <ul ref="myul" class="cateul">
@@ -21,7 +21,7 @@
             <a href="javascript:;">
               <p :class="index===currentIndex?'on':''">{{item}}</p>
             </a>
-          </li>
+          <li/>
         </ul>
       </div>
     </div>
@@ -29,38 +29,33 @@
 </template>
 
 <script>
+import {getShopToplist} from '@/api'
 export default {
   data () {
     return {
-      currentIndex: 0,
-      cateList: [
-        '手机',
-        '鞋包',
-        '服饰',
-        '日用',
-        '家电',
-        '食品',
-        '汽车',
-        '家具',
-        '美妆',
-        '内衣',
-        '家装',
-        '数码',
-        '母婴',
-        '居家',
-        '生鲜',
-        '配饰',
-        '文娱'
-      ]
+      currentIndex: null,
+      cateList: []
     }
   },
-  mounted () {
-    this.$refs.myul.style.width =
-      this.$refs.myli[0].getBoundingClientRect().width * 17 + 'px'
+  async mounted () {
+    this.currentIndex = this.$store.state.shopListIndex
+    this.cateList = await getShopToplist()
+    var that = this
+    this.$nextTick(function () {
+      that.$refs.myul.style.width =
+      that.$refs.myli[0].getBoundingClientRect().width * 17 + 'px'
+    })
   },
   methods: {
     changeIdx (index) {
       this.currentIndex = index
+      this.$store.dispatch('changeShopList', index)
+      console.log(this.$store.state.shopListIndex)
+    },
+    changeFirst () {
+      this.currentIndex = -1
+      this.$store.dispatch('changeShopList', -1)
+      console.log(this.$store.state.shopListIndex)
     }
   }
 }
@@ -106,6 +101,8 @@ export default {
     display: flex;
     align-items: center;
     img {
+      height: 40px;
+      width: 40px;
       margin-left: 20px;
     }
     input {
@@ -134,6 +131,7 @@ export default {
     float: left;
     box-sizing: border-box;
     p {
+      height: 80px;
       box-sizing: border-box;
       line-height: 76px;
     }
