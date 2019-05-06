@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="headerBox">
-      <span class="fanhui"></span>
+      <span class="fanhui" @click="$router.go(-1)"></span>
       <p>京东拼购</p>
       <span class="more"></span>
     </div>

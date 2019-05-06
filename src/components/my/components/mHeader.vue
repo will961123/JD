@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="headerBox">
-      <span class="fanhui"></span>
+      <span @click="$router.go(-1)" class="fanhui"></span>
       <p>我的京东</p>
       <span class="more"></span>
     </div>
@@ -10,7 +10,6 @@
 
 <script>
 export default {
-
 }
 </script>
 
