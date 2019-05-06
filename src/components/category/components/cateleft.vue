@@ -32,7 +32,6 @@ export default {
       /* 如果点击的索引就是this.currentIndex 停止滚动 */
       if (index === this.currentIndex) {
         // console.log('是当前索引值 停止滚动')
-
         return
       }
       /* 判断是否滚动 总长度-滚动上去的高度=设备高度 停止 */
