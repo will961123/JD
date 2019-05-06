@@ -9,7 +9,7 @@
     <div class="article">
       <ul>
         <li class="wbox" v-for="(item,index) in wants" :key="index">
-          <img class="bigimg" :src="item.ads" alt="1">
+          <img class="bigimg" v-lazy="item.ads" alt="1">
           <div class="detail">
             <i>
               <img class="sup" :src="item.sup" alt="1">

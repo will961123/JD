@@ -74,3 +74,7 @@ export function getRightTop () {
 export function getRightMain () {
   return axios.get('sRightMain')
 }
+// 请求我的为你推荐数据
+export function getMyforyou () {
+  return axios.get('myforyou')
+}

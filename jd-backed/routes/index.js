@@ -3297,6 +3297,76 @@ router.get('/want', function (req, res, next) {
       details: '                                                                    过道灯led吸顶灯现代简约圆形客厅餐厅卧室阳台书房餐厅过道灯饰灯 全白面包 白光(单色) 12W(210mm)             ',
       money: '$16.02',
       pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/7530/24/14114/131820/5c511bb0Eed19c682/56f8b21be7647688.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  亦舒堂 黑苦荞茶天然硒荞麦茶 全胚芽富硒苦荞茶 安康荞子茶 野兰荞茶 苦芥乌麦茶 硒谷黑苦荞茶             ',
+      money: '$42',
+      pur: '闪购'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t21250/185/425831632/186147/f98cb1a7/5b0d1692N46f9a5f9.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  佳驰 竹砧板 切菜板38*28*1.8cm JC-ZB38             ',
+      money: '$19.9',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t25009/21/2216981778/370096/e2af1f70/5bc69da1N3147afbf.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  麦富迪 宠物狗粮 藻趣儿通用成犬粮7.5kg             ',
+      money: '$129',
+      pur: '满减'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/18547/12/11644/308238/5c90b642E2d411d76/6350610cbf84d11c.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  卡饰社（Carsetcity）竹片凉垫凉席 汽车用品坐垫 座垫座套 通用型CS-83091棕色             ',
+      money: '$29',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/35395/17/4145/82605/5cbabe7dEfc0505c2/8ee06a15499ed677.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    小分子多肽狗粮 全价天然粮 小型犬幼犬成犬全期通用型 泰迪法斗柯基 美毛亮眸促进发育 2kg4斤             ',
+      money: '$59.8',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t23497/214/1736254635/277698/cccf7d9c/5b698401Nc19e22e9.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  佳佰 陶瓷马克杯 情侣水杯居家办公咖啡杯茶杯牛奶杯早餐麦片杯 可爱动物粉红猪猪 【一千个以上接受定制】             ',
+      money: '$14.8',
+      pur: '闪购'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t25828/59/2184542447/245050/6173ee11/5bc588e8Naf16a168.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  亦舒堂 火麻茶广西火麻生态茶 木耳火麻仁茶 莱菔子桑葚火麻茶 白果火麻茶 送老人送长辈 决明子火麻茶             ',
+      money: '$45',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t4681/257/55967336/565371/e9939e85/58c8e329N51e437c3.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    上院地毯 满铺人造草坪  塑料草皮仿真人造草坪幼儿园楼顶阳台人工假草皮假草皮 10mm普通草绿色/直草 宽幅2米每平价             ',
+      money: '$15',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/22784/24/12925/166274/5c9b56b7Eb955e583/c8f787e69de9f124.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    圣天虹发热王护腰带 腰间盘突出腰椎腰疼自发热暖腰暖胃远红外线发热男女四季通用 升级款+【配3000Mah电池+只有均码】 均码（2尺2~2尺9）             ',
+      money: '$268',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/9913/32/15866/84850/5c7354f7E6b903545/9f98bbaa86f0c4ea.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    过道灯led吸顶灯现代简约圆形客厅餐厅卧室阳台书房餐厅过道灯饰灯 全白面包 白光(单色) 12W(210mm)             ',
+      money: '$16.02',
+      pur: '券'
     }
   ]
   res.send(arr)
@@ -5506,6 +5576,67 @@ router.get('/sRightMain', function (req, res, next) {
     ]
 
   ]
+  res.send(arr)
+})
+// 我的为你推荐数据
+router.get('/myforyou', function (req, res, next) {
+  var arr = [{
+    img: '//img14.360buyimg.com/n7/jfs/t1/33942/12/6230/210631/5cc154b1E9a6441c4/4b8023ca763ecfad.jpg!q70.dpg',
+    dis: '臻惜 4层本色抽纸家庭装餐巾纸 母婴纸巾 30包【每包9毛】',
+    price: '26.9',
+    single: '39',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/43655/24/150/111912/5cc10884E2147f398/c10efc2a57227e82.jpg!q70.dpg',
+    dis: '馨语【50卷】4层纯原生竹浆本色卷纸小卷工厂直供竹纤维餐巾纸卫生纸 10卷',
+    price: '7.9',
+    single: '19.9',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/8238/24/3755/269589/5bd7fb1eE670cc9d4/ed927445b3a9fb9c.jpg!q70.dpg',
+    dis: '【工厂直供】28包/8包可选餐巾纸整箱抽纸巾原木卫生纸家庭装面巾纸母婴纸巾婴儿纸巾擦手纸原生纯木纸巾 蓝色经典8包',
+    price: '9.9',
+    single: '28',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/28666/26/1258/236379/5c10c202E09d38f0e/699e6cde6f1d1691.jpg!q70.dpg',
+    dis: '竹林子30包4层原生竹浆本色抽纸整箱批发家庭装餐巾纸家用纸巾抽婴儿卫生纸实惠装面巾纸抽纸巾 黑本 30包',
+    price: '31.9',
+    single: '35.5',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/40993/10/2830/283301/5ccc045eE0c8a6591/6bf62f3d06806f32.jpg!q70.dpg',
+    dis: '30包/4包可选抽纸餐巾纸整箱面巾纸 竹浆本色卫生纸家庭装面巾纸厕纸宝宝用纸巾抽纸批发抽纸 4包',
+    price: '5.9',
+    sub: '满减',
+    pin: true
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/30185/2/14851/121704/5cbf2dc4Ec2ff184a/8d7f5bcb69ec2920.jpg!q70.dpg',
+    dis: '三星SL-M2020/2021同款黑白激光打印机高速小型便携家用办公A4学生作业打印机进口USB打印',
+    price: '559',
+    sub: '券',
+    useq: '529'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t21334/285/2377507972/251101/9e355180/5b532911Nbbfbbd5d.jpg!q70.dpg',
+    dis: '花花公子PLAYBOY短袖T恤男中年休闲薄款纯棉打底衫韩版半袖t恤潮体恤男装圆领上衣 黑色 175（推荐135-155斤）',
+    price: '139',
+    sub: '券'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t1/9040/17/2461/609896/5bd2a9d5E333fbc75/1e5fa9d993faff72.jpg!q70.dpg',
+    dis: '臻惜 4层原木抽纸家用纸巾餐巾纸 母婴适用 30包【每包9毛】',
+    pin: true,
+    price: '28.9',
+    single: '32.9'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t24910/170/933849/202328/e2a4cb29/5b629786N5d5f921c.jpg!q70.dpg',
+    dis: '凝点（Cppc） 抽纸整箱装 本色竹浆纤维擦手纸餐巾纸 妇幼婴儿卫生纸面 抽取式面巾纸家庭装 1包【体验装】',
+    price: '1.5'
+  }, {
+    img: '//img14.360buyimg.com/n7/jfs/t11677/337/2356710920/101855/2c0de0f0/5a166e03N69ecd710.jpg!q70.dpg',
+    dis: '兄弟（brother）DCP1618W 黑白激光多功能一体机（打印、复印、扫描、无线网络）',
+    price: '1239',
+    sub: '秒杀'
+  }]
   res.send(arr)
 })
 module.exports = router
