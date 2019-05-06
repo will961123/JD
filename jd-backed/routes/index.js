@@ -3174,53 +3174,53 @@ router.get('/everydaynew', function (req, res, next) {
 router.get('/miaosha', function (req, res, next) {
   var arr = [
     {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/4484/29/11259/142709/5bce81bbE3e303c66/d2925e7533a4c44c.jpg!q70.dpg',
       price: '￥2500',
       sprice: '￥250'
     },
     {
       img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
+      price: '￥6500',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/36136/23/2213/196291/5cb58626E9c1f7926/c95a1f3e7279f965.jpg!q70.dpg',
+      price: '￥3800',
+      sprice: '￥3410'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35988/11/1638/211128/5cb3eba1Ed947ec7a/c260f42a62629f61.jpg!q70.dpg',
+      price: '￥5200',
+      sprice: '￥650'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t21247/165/397819353/109580/3c154914/5b0cdebeN3312b70b.jpg!q70.dpg',
+      price: '￥1200',
+      sprice: '￥500'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/20365/14/3265/73248/5c258375E0d9dd4b9/c7f7eae7d880dfb9.jpg!q70.dpg',
+      price: '￥5600',
+      sprice: '￥250'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/33391/28/8837/107338/5cc7d15fE6ce13e5b/4c164867f5561560.jpg!q70.dpg',
+      price: '￥6300',
+      sprice: '￥630'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/4527/1/5981/186643/5ba1b24bE6c76c507/0a0ec4be7251df87.jpg!q70.dpg',
+      price: '￥8000',
+      sprice: '￥920'
+    },
+    {
+      img: '//img10.360buyimg.com/mobilecms/jfs/t1/19219/30/10994/185794/5c8b2c02E40e189fb/b1f650e0c319f141.jpg!q70.dpg',
+      price: '￥2580',
       sprice: '￥250'
     },
     {
       img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
-      sprice: '￥250'
-    },
-    {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
-      sprice: '￥250'
-    },
-    {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
-      sprice: '￥250'
-    },
-    {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
-      sprice: '￥250'
-    },
-    {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
-      sprice: '￥250'
-    },
-    {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
-      sprice: '￥250'
-    },
-    {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
-      sprice: '￥250'
-    },
-    {
-      img: '//img10.360buyimg.com/mobilecms/jfs/t1/35099/35/4453/118480/5cc11e9aE606570fb/36ebb3f7ab0d5497.jpg!q70.dpg',
-      price: '￥2500',
+      price: '￥1200',
       sprice: '￥250'
     }
   ]

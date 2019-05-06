@@ -21,7 +21,7 @@
             <a href="javascript:;">
               <p :class="index===currentIndex?'on':''">{{item}}</p>
             </a>
-          </li>
+          <li/>
         </ul>
       </div>
     </div>

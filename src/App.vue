@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <bnav></bnav>
+    <gotoTop></gotoTop>
     <router-view></router-view>
   </div>
 </template>
@@ -10,10 +11,12 @@
 import '@/gcss/reset.css'
 import '@/gcss/fonts.css'
 import bnav from '@/common/bnav.vue'
+import gotoTop from '@/common/gotoTop.vue'
 export default {
   name: 'App',
   components: {
-    bnav
+    bnav,
+    gotoTop
   }
 }
 </script>
