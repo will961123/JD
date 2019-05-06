@@ -1,9 +1,16 @@
 <template>
-  <div>my</div>
+  <div class="my">
+    <mHeader></mHeader>
+  </div>
 </template>
 
 <script>
-export default {}
+import mHeader from './components/mHeader'
+export default {
+  components: {
+    mHeader
+  }
+}
 </script>
 
 <style lang="less" scoped>
