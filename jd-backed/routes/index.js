@@ -3297,6 +3297,76 @@ router.get('/want', function (req, res, next) {
       details: '                                                                    过道灯led吸顶灯现代简约圆形客厅餐厅卧室阳台书房餐厅过道灯饰灯 全白面包 白光(单色) 12W(210mm)             ',
       money: '$16.02',
       pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/7530/24/14114/131820/5c511bb0Eed19c682/56f8b21be7647688.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  亦舒堂 黑苦荞茶天然硒荞麦茶 全胚芽富硒苦荞茶 安康荞子茶 野兰荞茶 苦芥乌麦茶 硒谷黑苦荞茶             ',
+      money: '$42',
+      pur: '闪购'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t21250/185/425831632/186147/f98cb1a7/5b0d1692N46f9a5f9.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  佳驰 竹砧板 切菜板38*28*1.8cm JC-ZB38             ',
+      money: '$19.9',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t25009/21/2216981778/370096/e2af1f70/5bc69da1N3147afbf.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  麦富迪 宠物狗粮 藻趣儿通用成犬粮7.5kg             ',
+      money: '$129',
+      pur: '满减'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/18547/12/11644/308238/5c90b642E2d411d76/6350610cbf84d11c.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  卡饰社（Carsetcity）竹片凉垫凉席 汽车用品坐垫 座垫座套 通用型CS-83091棕色             ',
+      money: '$29',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/35395/17/4145/82605/5cbabe7dEfc0505c2/8ee06a15499ed677.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    小分子多肽狗粮 全价天然粮 小型犬幼犬成犬全期通用型 泰迪法斗柯基 美毛亮眸促进发育 2kg4斤             ',
+      money: '$59.8',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t23497/214/1736254635/277698/cccf7d9c/5b698401Nc19e22e9.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  佳佰 陶瓷马克杯 情侣水杯居家办公咖啡杯茶杯牛奶杯早餐麦片杯 可爱动物粉红猪猪 【一千个以上接受定制】             ',
+      money: '$14.8',
+      pur: '闪购'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t25828/59/2184542447/245050/6173ee11/5bc588e8Naf16a168.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                  亦舒堂 火麻茶广西火麻生态茶 木耳火麻仁茶 莱菔子桑葚火麻茶 白果火麻茶 送老人送长辈 决明子火麻茶             ',
+      money: '$45',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t4681/257/55967336/565371/e9939e85/58c8e329N51e437c3.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    上院地毯 满铺人造草坪  塑料草皮仿真人造草坪幼儿园楼顶阳台人工假草皮假草皮 10mm普通草绿色/直草 宽幅2米每平价             ',
+      money: '$15',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/22784/24/12925/166274/5c9b56b7Eb955e583/c8f787e69de9f124.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    圣天虹发热王护腰带 腰间盘突出腰椎腰疼自发热暖腰暖胃远红外线发热男女四季通用 升级款+【配3000Mah电池+只有均码】 均码（2尺2~2尺9）             ',
+      money: '$268',
+      pur: '券'
+    },
+    {
+      ads: '//img14.360buyimg.com/n7/jfs/t1/9913/32/15866/84850/5c7354f7E6b903545/9f98bbaa86f0c4ea.jpg!q70.dpg',
+      sup: '//img12.360buyimg.com/jdphoto/s102x28_jfs/t14512/288/2659278877/2368/8468a10d/5aadf9daNd4909ddc.png!q70.webp',
+      details: '                                                                    过道灯led吸顶灯现代简约圆形客厅餐厅卧室阳台书房餐厅过道灯饰灯 全白面包 白光(单色) 12W(210mm)             ',
+      money: '$16.02',
+      pur: '券'
     }
   ]
   res.send(arr)
