@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <bnav></bnav>
+    <gotoTop></gotoTop>
     <router-view></router-view>
   </div>
 </template>
@@ -10,10 +11,12 @@
 import '@/gcss/reset.css'
 import '@/gcss/fonts.css'
 import bnav from '@/common/bnav.vue'
+import gotoTop from '@/common/gotoTop.vue'
 export default {
   name: 'App',
   components: {
-    bnav
+    bnav,
+    gotoTop
   }
 }
 </script>
@@ -33,16 +36,24 @@ export default {
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #fff;
 }
-
+.swiper-pagination1 {
+  position: absolute;
+  z-index: 2;
+  left: calc(50% - 20px) !important;
+  bottom: 20px;
+}
 .swiper-pagination1 span {
   background: hsla(0, 0%, 100%, 0.7) !important;
   border: none;
+  margin-right: 10px;
+  width: 10px !important;
+  height: 10px;
+  border-radius: 50% !important;
 }
-
 .swiper-pagination1 .swiper-pagination-bullet-active {
   width: 20px !important;
   border-radius: 30% !important;
-  background:red !important;
+  background: red !important;
 }
 
 .swiper-pagination2 span {
