@@ -62,3 +62,13 @@ export function getEverydaynew () {
 export function getMiaoSha () {
   return axios.get('miaosha')
 }
+
+// 请求拼购-右侧top
+export function getRightTop () {
+  return axios.get('sRightTop')
+}
+
+// 请求拼购-右侧main
+export function getRightMain () {
+  return axios.get('sRightMain')
+}

@@ -3226,4 +3226,151 @@ router.get('/miaosha', function (req, res, next) {
   ]
   res.send(arr)
 })
+
+// 拼购 top数据
+router.get('/sRightTop', function (req, res, next) {
+  var arr = [
+    // 1
+    [
+      {
+        id: 0,
+        img:
+          '//img12.360buyimg.com/jdphoto/s72x72_jfs/t17119/354/2070752553/7977/8be2cc67/5ae1a6d0N07272d3b.png!q70.webp',
+        title: '手机'
+      },
+      {
+        id: 1,
+        img:
+          '//img20.360buyimg.com/jdphoto/s72x72_jfs/t17950/103/2040465839/4875/fc93ac10/5ae1a738N512f4eb2.png!q70.webp',
+        title: '耳机音响'
+      },
+      {
+        id: 2,
+        img:
+          '//img12.360buyimg.com/jdphoto/s72x72_jfs/t18466/17/2079008221/5345/829bc2f6/5ae1a76eN5020d145.png!q70.webp',
+        title: '其他配件'
+      },
+      {
+        id: 3,
+        img:
+          '//img13.360buyimg.com/jdphoto/s72x72_jfs/t17887/264/2051961894/9975/f1f25e4f/5ae1a713N1032384b.png!q70.webp',
+        title: '壳膜线'
+      }
+    ]
+
+  ]
+  res.send(arr)
+})
+// 拼购 main数据
+router.get('/sRightMain', function (req, res, next) {
+  var arr = [
+    // 1
+    [
+      {
+        titleName:
+      '迷你小风扇usb电风扇台式桌面办公室学生宿舍床头静音大风力手持小电扇型 【雪花小风扇】配送标准版电池-蓝色',
+        img:
+      '//img12.360buyimg.com/evalpic/s500x500_jfs/t1/32544/36/11712/171443/5cb5a4f2Eabb603c1/59efe3f2dbd20084.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '2.8万'
+      },
+      {
+        titleName:
+      '可可丽丽 蓝牙耳机运动无线跑步入耳式耳塞 双耳立体声重低音手机开车耳麦 超小迷你磁吸 红线-金色金',
+        img:
+      '//img13.360buyimg.com/evalpic/s400x400_jfs/t29146/95/423007905/223627/5856aafb/5bf37746N146b281d.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: false,
+        solidSum: '9.9万'
+      },
+      {
+        titleName:
+      '领臣 手机支架 手机懒人支架ipad平板支架加长 桌面直播床头床上支架 多功能可调节 通用 120CM粉色',
+        img:
+      '//img14.360buyimg.com/evalpic/s400x400_jfs/t1/2456/27/8520/123616/5ba9b527Ecca3609c/f04438279df1efef.jpg!q70.dpg',
+        people: 2,
+        solid: '27.90',
+        new: true,
+        solidSum: '51'
+      },
+
+      //
+      {
+        titleName:
+      'TOTU 苹果安卓手机耳机入耳式有线手机耳塞线控适用iPhone6s/7/8p/Xr/Xs MAX 【圆口-3.5mm接口】苹果安卓通用',
+        img:
+      '//img14.360buyimg.com/evalpic/s400x400_jfs/t1/34879/8/7606/108053/5cc81456E94d3ccb5/1bfa2d194496c6d8.jpg!q70.dpg',
+        people: 2,
+        solid: '27.90',
+        new: true,
+        solidSum: '1.5万'
+      },
+      {
+        titleName:
+      '海天 苹果Type-c安卓三合一数据线快充手机充电线适用于苹果华为VIVO小米三星OPPO三头通用线 科技蓝',
+        img:
+      '//img13.360buyimg.com/evalpic/s400x400_jfs/t1/10633/24/50/323436/5bd94586E1482385b/5b485c692f80b9a7.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '6.7万'
+      },
+      {
+        titleName:
+      '钻盾 真无线双耳蓝牙耳机迷你4.2 运动跑步立体声耳机 苹果分离式智通用苹果华为oppo 睿智黑【带充电仓】',
+        img:
+      '//img12.360buyimg.com/evalpic/s400x400_jfs/t12655/283/2092687174/226318/f18608b6/5a4f4271Na8953b93.jpg!q70.dpg',
+        people: 2,
+        solid: '269.90',
+        new: false,
+        solidSum: '31万'
+      },
+      {
+        titleName:
+      '轩云绝世 手机耳机运动重低音炮适用苹果安卓电脑通用女生男线控带麦入耳式跑步耳机耳机K歌吃鸡有线HIF 炫酷黑【标配版】',
+        img:
+      '//img12.360buyimg.com/evalpic/s400x400_jfs/t1/31889/14/5374/135960/5c861074E012f0285/d7627d1096e5bf18.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '1万'
+      },
+      {
+        titleName:
+      '轩云绝世 手机耳机运动重低音炮适用苹果安卓电脑通用女生男线控带麦入耳式跑步耳机耳机K歌吃鸡有线HIF 炫酷黑【标配版】',
+        img:
+      '//img14.360buyimg.com/evalpic/s400x400_jfs/t1/34004/32/8742/210624/5cc7dd38E037546e1/0ce9ba1517987238.jpg!q70.dpg',
+        people: 2,
+        solid: '1.00',
+        new: true,
+        solidSum: '4460'
+      },
+      {
+        titleName:
+      '奥多金 稳固型螺旋底座手机支架 多向旋转夹头夹子支架 玻璃桌面直播床头等便携懒人支架 优雅白',
+        img:
+      '//img12.360buyimg.com/evalpic/s400x400_jfs/t1/9189/7/12735/65424/5c3c56b7Ec71b07ff/505a2aac8866c328.jpg!q70.dpg',
+        people: 2,
+        solid: '27.90',
+        new: false,
+        solidSum: '8371'
+      },
+      {
+        titleName:
+      '少数派 无线充电器 iPhoneXs/X Max/XR/8plus安卓手机快充三星S9小米无限充底座 【升级版】【10W快充-黑色】 【通用版】',
+        img:
+      '//img13.360buyimg.com/evalpic/s400x400_jfs/t27601/271/2386230394/389672/b04148e3/5bfff766Nf7617a30.jpg!q70.dpg',
+        people: 3,
+        solid: '49.90',
+        new: false,
+        solidSum: '1.5万'
+      }
+    ]
+
+  ]
+  res.send(arr)
+})
 module.exports = router
