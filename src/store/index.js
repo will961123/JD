@@ -12,7 +12,9 @@ var state = {
   myShow: {
     'load': true,
     'main': false
-  }
+  },
+  // 判断bnav是否显示
+  showFooter: true
 }
 
 // 自定义数据仓库方法
@@ -31,6 +33,9 @@ var mutations = {
       state.myShow[key] = false
     }
     state.myShow[name] = !state.myShow[name]
+  },
+  changeShowFooter (state, isShow) {
+    state.showFooter = isShow
   }
 }
 
@@ -44,6 +49,9 @@ var actions = {
   },
   changeMyshow (context, index) {
     context.commit('changeMyshow', index)
+  },
+  changeShowFooter (context, isShow) {
+    context.commit('changeShowFooter', isShow)
   }
 }
 

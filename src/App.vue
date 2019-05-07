@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <bnav></bnav>
+    <bnav v-show='$store.state.showFooter'></bnav>
     <gotoTop></gotoTop>
     <router-view></router-view>
   </div>
