@@ -2,7 +2,16 @@
   <div id="app">
     <bnav v-show='$store.state.showFooter'></bnav>
     <gotoTop></gotoTop>
-    <router-view></router-view>
+
+    <keep-alive>
+      <transition name='fade'>
+        <router-view v-if="$route.meta.cache"></router-view>
+      </transition>
+    </keep-alive>
+
+    <transition name='fade'>
+      <router-view v-if="!$route.meta.cache"></router-view>
+    </transition>
   </div>
 </template>
 
@@ -64,5 +73,11 @@ export default {
 .swiper-pagination2 .swiper-pagination-bullet-active {
   width: 30px !important;
   border-radius: 30% !important;
+}
+.fade-end-active, .fade-leave-active{
+  transition: all 0.5s
+}
+.fade-enter ,.fade-leave-to{
+  opacity: 0;
 }
 </style>
