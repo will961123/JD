@@ -5,12 +5,12 @@
       alt
     >
     <ul class="every">
-      <li v-for="(item,index) in ware" :key="index">
+      <router-link tag='li' to='/product' v-for="(item,index) in ware" :key="index">
         <img v-lazy="item.img" alt>
         <p>{{item.infor}}</p>
         <span class="price">￥{{item.price}}</span>
         <span class="similar">{{item.similar}}</span>
-      </li>
+      </router-link>
     </ul>
   </div>
 </template>

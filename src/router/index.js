@@ -73,6 +73,14 @@ export default new Router({
         cache: false,
         title: '我的'
       }
+    },
+    {
+      path: '/product',
+      component: () => import('@/components/product/product.vue'),
+      meta: {
+        cache: false,
+        title: '商品详情'
+      }
     }
   ]
 })
