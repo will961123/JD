@@ -78,3 +78,7 @@ export function getRightMain () {
 export function getMyforyou () {
   return axios.get('myforyou')
 }
+// 请求评价的评价分类
+export function getEvacat () {
+  return axios.get('evacat')
+}

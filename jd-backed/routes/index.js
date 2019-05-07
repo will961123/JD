@@ -5639,4 +5639,21 @@ router.get('/myforyou', function (req, res, next) {
   }]
   res.send(arr)
 })
+router.get('/evacat', function (req, res, next) {
+  var arr = [
+    '新鲜十足(4240)',
+    '美味可口(2734)',
+    '方便实用(927)',
+    '香甜可口(673)',
+    '份量充足(160)',
+    '含量丰富(140)',
+    '漂亮好看(111)',
+    '省事方便(102)',
+    '外观大气(75)',
+    '清香四溢(54)',
+    '颗粒硕大(48)',
+    '新鲜味美(23)'
+  ]
+  res.send(arr)
+})
 module.exports = router
