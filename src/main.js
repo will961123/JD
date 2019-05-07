@@ -22,6 +22,15 @@ FastClick.attach(document.body)
 
 Vue.use(VueAwesomeSwiper /* 轮播 */)
 
+// 路由守卫函数 路由独享守卫在路由配置上定义
+// 1. 路由全局前置函数
+router.beforeEach((to, from, next) => {
+  // console.log(to) 有页面当前路由的信息
+  document.title = to.meta.title
+  // 注意必须执行next()
+  next()
+})
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
