@@ -29,3 +29,18 @@
 .icon-gototop::after{
   content: '\e6a4'
 }
+.icon-dianpu::after{
+  content: '\e603'
+}
+.icon-kefu::after{
+  content: '\e6ad'
+}
+.icon-more::after{
+  content: '\e6a3'
+}
+.icon-back::after{
+  content: '\e623'
+}
+.icon-dian::after{
+  content: '\e603'
+}
