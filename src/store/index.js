@@ -7,7 +7,12 @@ var state = {
   // 当前分类页面li索引值
   currentIndex: 0,
   // shop页面list
-  shopListIndex: -1
+  shopListIndex: -1,
+  // my页面的状态
+  myShow: {
+    'load': true,
+    'main': false
+  }
 }
 
 // 自定义数据仓库方法
@@ -19,6 +24,13 @@ var mutations = {
   // shop分类
   changeShopList (state, index) {
     state.shopListIndex = index
+  },
+  // 修改myshow
+  changeMyshow (state, name) {
+    for (let key in state.myShow) {
+      state.myShow[key] = false
+    }
+    state.myShow[name] = !state.myShow[name]
   }
 }
 
@@ -29,6 +41,9 @@ var actions = {
   },
   changeShopList (context, index) {
     context.commit('changeShopList', index)
+  },
+  changeMyshow (context, index) {
+    context.commit('changeMyshow', index)
   }
 }
 

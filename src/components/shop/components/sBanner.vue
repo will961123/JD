@@ -21,7 +21,10 @@ export default {
           el: '.swiper-pagination1',
           clickable: true
         },
-        autoplay: true
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        }
       },
       swiperSlides: [
         {

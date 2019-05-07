@@ -1,6 +1,6 @@
 <template>
     <div class="head ">
-        <img class="img1" src="../images/cateleft.png">
+        <img @click="$router.go(-1)" class="img1" src="../images/cateleft.png">
         <div class="searchbox">
             <img class="jd" src="../images/jingdong.png"/>
             <img class="search" src="../images/search.png"/>
