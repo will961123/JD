@@ -10,7 +10,7 @@
 <script>
 import topnav from '@/components/product/components/topnav.vue'
 import bottom from '@/components/product/components/bottom.vue'
-import evaluation from '@/components/product/evaluation'
+import evaluation from '@/components/product/components/evaluation.vue'
 export default {
   data () {
     return {
