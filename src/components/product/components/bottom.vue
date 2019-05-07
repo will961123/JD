@@ -23,6 +23,7 @@ export default {
         position: fixed;
         bottom: 0;
         background: #fff;
+        z-index: 100;
         ul{
             width: 100%;
             display: flex;

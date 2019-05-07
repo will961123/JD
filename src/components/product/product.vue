@@ -5,9 +5,9 @@
   <price></price>
   <ziying></ziying>
   <lingquan></lingquan>
-  <bottom></bottom>
   <evaluation></evaluation>
   <recommend></recommend>
+  <bottom></bottom>
 </div>
 
 </template>
