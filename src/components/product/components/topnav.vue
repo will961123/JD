@@ -36,6 +36,7 @@ export default {
         display: flex;
         justify-content: space-between;
         position: fixed;
+        z-index:99;
         .change{
              color: white;
         }
