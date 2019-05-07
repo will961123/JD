@@ -262,7 +262,7 @@ export default {}
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
-    // display: flex;
+    left: 0;
     .logo_wrap {
       position: relative;
       display: inline-block;
@@ -270,6 +270,7 @@ export default {}
       height: auto;
       padding-top: 0;
       margin-right: 20px;
+      float: left;
       .shopLogo {
         position: absolute;
         top: 0;
@@ -288,9 +289,9 @@ export default {}
       border-color: #ddd;
     }
     .info {
-      width: 100%;
+      width: 50%;
       .name {
-        margin: 0 192px 0 154px;
+        margin: 0 192px 0 0;
         white-space: nowrap;
         line-height: 1em;
         ._n {
