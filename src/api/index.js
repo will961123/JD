@@ -82,3 +82,7 @@ export function getMyforyou () {
 export function getEvacat () {
   return axios.get('evacat')
 }
+// 请求评价的各种数据
+export function getMineva () {
+  return axios.get('mineva')
+}
