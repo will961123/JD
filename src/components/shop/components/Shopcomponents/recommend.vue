@@ -266,7 +266,6 @@ export default {}
     .logo_wrap {
       position: relative;
       display: inline-block;
-      float: left;
       width: 163px;
       height: auto;
       padding-top: 0;
@@ -280,7 +279,6 @@ export default {}
       }
       img {
         border: 0 none;
-        vertical-align: top;
         display: block;
         width: 100%;
         height: 60px;
@@ -419,7 +417,6 @@ export default {}
       position: relative;
       padding: 24px 0;
       white-space: normal;
-      vertical-align: top;
       display: block;
       width: 100%;
       -webkit-box-flex: 1;
