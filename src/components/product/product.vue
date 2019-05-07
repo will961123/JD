@@ -1,25 +1,22 @@
 <template>
 <div>
- <h1>商品详情</h1>
- <h2 @click="goBack">返回</h2>
- <!-- bannner图 -->
- <pBanner></pBanner>
- <!-- 价格区 -->
- <price></price>
- <!-- 自营标题 -->
- <ziying></ziying>
- <!-- 领券 -->
- <lingquan></lingquan>
+  <topnav :s="scrolly"></topnav>
+  <bottom></bottom>
+  <evaluation></evaluation>
 </div>
 
 </template>
 
 <script>
-import pBanner from './pBanner.vue'
-import price from './price.vue'
-import ziying from './ziying.vue'
-import lingquan from './lingquan.vue'
+import topnav from '@/components/product/components/topnav.vue'
+import bottom from '@/components/product/components/bottom.vue'
+import evaluation from '@/components/product/components/evaluation.vue'
 export default {
+  data () {
+    return {
+      scrolly: 0
+    }
+  },
   mounted () {
     this.$store.dispatch('changeShowFooter', false)
   },
@@ -30,10 +27,13 @@ export default {
     }
   },
   components: {
-    pBanner,
-    price,
-    ziying,
-    lingquan
+    topnav, bottom, evaluation
+  },
+  created () {
+    var that = this
+    document.body.onscroll = function () {
+      that.scrolly = this.scrollY
+    }
   }
 }
 </script>

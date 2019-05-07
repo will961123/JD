@@ -78,3 +78,15 @@ export function getRightMain () {
 export function getMyforyou () {
   return axios.get('myforyou')
 }
+// 请求评价的评价分类
+export function getEvacat () {
+  return axios.get('evacat')
+}
+// 请求评价的各种数据
+export function getMineva () {
+  return axios.get('mineva')
+}
+// 请求购物车登录后头部数据
+export function getShopAlradyTop () {
+  return axios.get('buyAlradyTop')
+}

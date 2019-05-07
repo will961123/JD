@@ -5639,4 +5639,204 @@ router.get('/myforyou', function (req, res, next) {
   }]
   res.send(arr)
 })
+router.get('/evacat', function (req, res, next) {
+  var arr = [
+    '新鲜十足(4240)',
+    '美味可口(2734)',
+    '方便实用(927)',
+    '香甜可口(673)',
+    '份量充足(160)',
+    '含量丰富(140)',
+    '漂亮好看(111)',
+    '省事方便(102)',
+    '外观大气(75)',
+    '清香四溢(54)',
+    '颗粒硕大(48)',
+    '新鲜味美(23)'
+  ]
+  res.send(arr)
+})
+router.get('/mineva', function (req, res, next) {
+  var arr = [
+    {
+      avatar: '//storage.360buyimg.com/i.imageUpload/c7e5d0c2b7bccfe3b0d9bacf31353037363132353032373537_sma.jpg',
+      usname: '清***合',
+      pubtime: '2019-01-27',
+      mintxt: '亲们！！*，再去买便宜狠多，有不少津贴，买了之后评价还能换钱，经常省个百八十不成问题，不光这一个，其他产品也可以买！！之前就一直想买了，对比了好几家然后下单的，不过自从用了京东，其他的购物网站基本不去了，看中的就是京东卖正品，我作为京东plus会员，一定要良心好评，而且自从用了京东，超市也再也不用去了，京东秒杀一切电商平台，价格也比实体店便宜很多，所有的产品满分，服务满分，售后也满分，物流满分特别说一.下物流速度真的很快，上午买下午送到，有问题也及时解决，问我为什么喜欢在京东买东西，因为送货速度快，售后好，然后是包装令人满意，京东自己logo的包装袋和纸盒，完了纸盒纸箱还可以再利用，重点是产品真的非常好，每次打开包装都惊艳到了，各种高大.上，保质期也都是新鲜的，京东购物这么久，没有一次失望过，每次评价都是全五分。一整个购物过程非常满意，体验很好!无论是服务还是产品本身都满意，所以我会推荐朋友们来京东购物的。希望能推出更多优惠。而且京东第三方平台也非常给力，即使是第三方商家的东西我都很信任因为京东的平台非常可靠，京东后台管理严格，是所有电商平台的榜样。总之',
+      pubimg: [
+        'https://vod.300hu.com/4c1f7a6atransbjngwcloud1oss/179e6513141860473229864961/v.f30.mp4?dockingId=9e6efcd9-2a53-4472-9bb9-ab2e30c43f3b&storageSource=3',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/31257/13/1447/147143/5c4d1f66E2a77c608/3ac6a40a60708131.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/25899/15/6263/146459/5c4d1f67E12d6ceab/a7bec08ccd133746.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/21811/13/6356/109762/5c4d1f67E13335a4b/8aa39ffa423f1971.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/9106/29/14066/121377/5c4d1f68E413734fb/12682ee8bff5ae42.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/31224/9/1412/110293/5c4d1f69Ecedf9ebc/a1842d82a06df77a.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/18152/40/6364/74699/5c4d1f69Eb4dd8ca3/759a2877a45d8ed1.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/22229/17/6301/110452/5c4d1f6aEaa558694/fe697e71bd634238.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/30719/8/1433/113466/5c4d1f6bEab670986/b034c20e5a6ba8a7.jpg!cc_100x100!q70.dpg'
+      ]
+
+    },
+    {
+      avatar: '//img11.360buyimg.com/jdphoto/s40x40_jfs/t1/25255/18/10701/1678/5c89f892E78c04688/684d63c0d68e39b1.png',
+      usname: 'j***M',
+      pubtime: '2019-04-23',
+      mintxt: '老姐让加了一个群,什么点放什么券都有人发，怎样凑单也有教程,只要关注有些限时券的发放就能做到很低的价格,需要的话可以联系∨:*,领券再去买便宜狠多，经常省个百八十不成问题，不光这一个，其他产品也可以买！！之前就一直想买了，对比了好几家然后下单的，不过自从用了京东，其他的购物网站基本不去了，看中的就是京东卖正品，我作为京东plus会员，一定要良心好评，而且自从用了京东，超市也再也不用去了，京东秒杀一切电商平台，价格也比实体店便宜很多，所有的产品满分，服务满分，售后也满分，物流满分特别说一.下物流速度真的很快，上午买下午送到，有问题也及时解决，问我为什么喜欢在京东买东西，因为送货速度快，售后好，然后是包装令人满意，京东自己logo的包装袋和纸盒，完了纸盒纸箱还可以再利用，重点是产品真的非常好，每次打开包装都惊艳到了，各种高大.上，保质期也都是新鲜的，京东购物这么久，没有一次失望过，每次评价都是全五分。一整个购物过程非常满意，体验很好!无论是服务还是产品本身都满意，所以我会推荐朋友们来京东购物的。希望能推出更多优惠。',
+      pubimg: ['https://vod.300hu.com/4c1f7a6atransbjngwcloud1oss/67575828173139212353724417/v.f30.mp4?dockingId=a66b0ee3-b3cb-4f09-a2cf-b0ba0767a039&storageSource=3',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/37130/19/4585/132323/5cbeea0fE218b9413/d2ee273b86cfdca1.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/39720/21/1951/180332/5cbeea11E39e2c65b/90c7bdcd64ff4b9a.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/39840/31/1921/159438/5cbeea12E7f697b57/d940052d72119f13.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/33981/1/6669/73861/5cbeea12Ea9f6169c/add6f8f4fd35446e.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/40132/24/1964/105988/5cbeea13Ef9c3ef87/c23f7d69b70dfabb.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/39172/12/1985/104036/5cbeea14E5fe33e7d/ad22d7dbbb073a62.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/35276/9/5414/127674/5cbeea14E921f8625/8164311023bfaef3.jpg!cc_100x100!q70.dpg',
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/36357/22/3750/93965/5cbeea15E2d29d3f2/6b31030608deaac6.jpg!cc_100x100!q70.dpg'
+      ]}]
+  res.send(arr)
+})
+// 购物车 登录后 头部数据
+router.get('/buyAlradyTop', function (req, res, next) {
+  var arr =
+  [
+    {
+      title: {
+        name: '京东自营',
+        youhui: true,
+        manjian: '满减',
+        tip: '购满2件,总价可打8.8折'
+      },
+      main: {
+        imgbox: {
+          img:
+            '//img10.360buyimg.com/mobilecms/s117x117_jfs/t25105/108/1848839110/219852/92a17844/5bbd823aN8298bc56.jpg!q70.dpg.webp',
+          fenqi: true
+        },
+        xinxi: {
+          nameimg:
+            '//img11.360buyimg.com/jdphoto/s102x28_jfs/t21409/260/833321392/886/c44769dd/5b1a1df5Nb769c394.png',
+          name:
+            '雀巢（Nestle）咖啡 速溶 1+2 原味 微研磨 冲调饮品 100条1500g',
+          guige: '1.72kg/件，原味100条',
+          mony: '109.90'
+        },
+        number: 1,
+        list: [
+          {
+            name: '促销',
+            content: '满2件总价8.8折',
+            more: {
+              isShow: true,
+              content: '两个可选'
+            }
+          },
+          {
+            name: '赠品',
+            content: '雀巢(Nestle) 咖啡1+2 特浓微研磨 5条派样装 65g',
+            more: {
+              isShow: true,
+              content: '×1'
+            }
+          },
+          {
+            name: '服务',
+            content: '[礼品购]礼品服务',
+            more: {
+              isShow: false
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: {
+        name: '华为专卖店',
+        youhui: true,
+        manjian: '满送',
+        tip: '已购满2000元，可领取赠品1件'
+      },
+      main: {
+        imgbox: {
+          img:
+            '//img10.360buyimg.com/mobilecms/s117x117_jfs/t1/43155/20/3790/154027/5ccffadaEcfd03c20/69ad895a8dc591e1.jpg!q70.dpg.webp',
+          fenqi: false
+        },
+        xinxi: {
+          nameimg:
+            '',
+          name:
+            '华为笔记本MateBook X 超薄本13英寸轻薄本微边框2K屏便携商务手提笔记本电脑指纹金属超极本 流光金i5-7200U 8G+256G固态【现货】',
+          guige: '流光金i5-7200U 8G+256G固态【现货】',
+          mony: '7188.00'
+        },
+        number: 1,
+        list: [
+          {
+            name: '促销',
+            content: '满2000元得赠品,赠完即止',
+            more: {
+              isShow: true,
+              content: '两个可选'
+            }
+          },
+          {
+            name: '赠品',
+            content: '赠888京豆',
+            more: {
+              isShow: false,
+              content: ''
+            }
+          },
+          {
+            name: '服务',
+            content: '服务选择增值服务',
+            more: {
+              isShow: false
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: {
+        name: '里克特旗舰店',
+        youhui: false,
+        manjian: '加价购',
+        tip: '购满88元，可用优惠价换购商品'
+      },
+      main: {
+        imgbox: {
+          img:
+            '//img10.360buyimg.com/mobilecms/s117x117_jfs/t1/30990/2/12857/70922/5cb82db5E18b76674/5fdd2aa0320afd72.jpg!q70.dpg.webp',
+          fenqi: true
+        },
+        xinxi: {
+          nameimg:
+            '',
+          name:
+            '丽克特(recolte) 日本mini迷你多功能小锅分体式家用电火锅电蒸锅电烤锅智能多段火力 复古红',
+          guige: '复古红',
+          mony: '599.00'
+        },
+        number: 1,
+        list: [
+          {
+            name: '赠品',
+            content: '品牌硅胶手夹 非卖品 红色',
+            more: {
+              isShow: true,
+              content: '×1'
+            }
+          },
+          {
+            name: '服务',
+            content: '服务选择增值服务',
+            more: {
+              isShow: false
+            }
+          }
+        ]
+      }
+    }
+  ]
+  res.send(arr)
+})
 module.exports = router
