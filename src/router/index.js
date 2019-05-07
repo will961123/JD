@@ -62,7 +62,7 @@ export default new Router({
       path: '/shop',
       component: () => import('@/components/shop/shop.vue'),
       meta: {
-        cache: false,
+        cache: true,
         title: '购物车'
       }
     },
@@ -70,7 +70,7 @@ export default new Router({
       path: '/my',
       component: () => import('@/components/my/my.vue'),
       meta: {
-        cache: false,
+        cache: true,
         title: '我的'
       }
     },

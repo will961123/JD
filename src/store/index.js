@@ -30,9 +30,10 @@ var mutations = {
   // 修改myshow
   changeMyshow (state, name) {
     for (let key in state.myShow) {
-      state.myShow[key] = false
+      // state.myShow[key] = false
+      state.myShow[key] = !state.myShow[key]
     }
-    state.myShow[name] = !state.myShow[name]
+    // state.myShow[name] = !state.myShow[name]
   },
   changeShowFooter (state, isShow) {
     state.showFooter = isShow

@@ -7,7 +7,10 @@
       <input type="text" placeholder="电子琴">
     </div>
     <div class="login">
-      <p>登录</p>
+      <router-link tag="p" to="my">
+        <p v-if="needload">登录</p>
+      </router-link>
+      <p v-if="!needload" @click="changeLoad">退出</p>
     </div>
   </div>
 </template>
@@ -17,8 +20,24 @@ export default {
   props: ['s'],
   data () {
     return {
-      isSHow: 0
+      isSHow: 0,
+      needload: true
     }
+  },
+  methods: {
+    changeLoad () {
+      this.$store.dispatch('changeMyshow', 'main')
+      location.reload()
+    }
+  },
+  watch: {
+    '$store.state.myShow.main': function (newval, oldval) {
+      console.log(222)
+      this.myshow = newval
+    }
+  },
+  created () {
+    this.needload = this.$store.state.myShow.load
   }
 }
 </script>
@@ -37,7 +56,6 @@ export default {
   margin: 28px 0 0 30px;
 }
 .searchbox {
-
   position: relative;
   top: -50px;
   left: 120px;

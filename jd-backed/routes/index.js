@@ -5689,7 +5689,152 @@ router.get('/mineva', function (req, res, next) {
         '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/40132/24/1964/105988/5cbeea13Ef9c3ef87/c23f7d69b70dfabb.jpg!cc_100x100!q70.dpg',
         '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/39172/12/1985/104036/5cbeea14E5fe33e7d/ad22d7dbbb073a62.jpg!cc_100x100!q70.dpg',
         '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/35276/9/5414/127674/5cbeea14E921f8625/8164311023bfaef3.jpg!cc_100x100!q70.dpg',
-        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/36357/22/3750/93965/5cbeea15E2d29d3f2/6b31030608deaac6.jpg!cc_100x100!q70.dpg']
+        '//img30.360buyimg.com/shaidan/s128x96_jfs/t1/36357/22/3750/93965/5cbeea15E2d29d3f2/6b31030608deaac6.jpg!cc_100x100!q70.dpg'
+      ]}]
+  res.send(arr)
+})
+// 购物车 登录后 头部数据
+router.get('/buyAlradyTop', function (req, res, next) {
+  var arr =
+  [
+    {
+      title: {
+        name: '京东自营',
+        youhui: true,
+        manjian: '满减',
+        tip: '购满2件,总价可打8.8折'
+      },
+      main: {
+        imgbox: {
+          img:
+            '//img10.360buyimg.com/mobilecms/s117x117_jfs/t25105/108/1848839110/219852/92a17844/5bbd823aN8298bc56.jpg!q70.dpg.webp',
+          fenqi: true
+        },
+        xinxi: {
+          nameimg:
+            '//img11.360buyimg.com/jdphoto/s102x28_jfs/t21409/260/833321392/886/c44769dd/5b1a1df5Nb769c394.png',
+          name:
+            '雀巢（Nestle）咖啡 速溶 1+2 原味 微研磨 冲调饮品 100条1500g',
+          guige: '1.72kg/件，原味100条',
+          mony: '109.90'
+        },
+        number: 1,
+        list: [
+          {
+            name: '促销',
+            content: '满2件总价8.8折',
+            more: {
+              isShow: true,
+              content: '两个可选'
+            }
+          },
+          {
+            name: '赠品',
+            content: '雀巢(Nestle) 咖啡1+2 特浓微研磨 5条派样装 65g',
+            more: {
+              isShow: true,
+              content: '×1'
+            }
+          },
+          {
+            name: '服务',
+            content: '[礼品购]礼品服务',
+            more: {
+              isShow: false
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: {
+        name: '华为专卖店',
+        youhui: true,
+        manjian: '满送',
+        tip: '已购满2000元，可领取赠品1件'
+      },
+      main: {
+        imgbox: {
+          img:
+            '//img10.360buyimg.com/mobilecms/s117x117_jfs/t1/43155/20/3790/154027/5ccffadaEcfd03c20/69ad895a8dc591e1.jpg!q70.dpg.webp',
+          fenqi: false
+        },
+        xinxi: {
+          nameimg:
+            '',
+          name:
+            '华为笔记本MateBook X 超薄本13英寸轻薄本微边框2K屏便携商务手提笔记本电脑指纹金属超极本 流光金i5-7200U 8G+256G固态【现货】',
+          guige: '流光金i5-7200U 8G+256G固态【现货】',
+          mony: '7188.00'
+        },
+        number: 1,
+        list: [
+          {
+            name: '促销',
+            content: '满2000元得赠品,赠完即止',
+            more: {
+              isShow: true,
+              content: '两个可选'
+            }
+          },
+          {
+            name: '赠品',
+            content: '赠888京豆',
+            more: {
+              isShow: false,
+              content: ''
+            }
+          },
+          {
+            name: '服务',
+            content: '服务选择增值服务',
+            more: {
+              isShow: false
+            }
+          }
+        ]
+      }
+    },
+    {
+      title: {
+        name: '里克特旗舰店',
+        youhui: false,
+        manjian: '加价购',
+        tip: '购满88元，可用优惠价换购商品'
+      },
+      main: {
+        imgbox: {
+          img:
+            '//img10.360buyimg.com/mobilecms/s117x117_jfs/t1/30990/2/12857/70922/5cb82db5E18b76674/5fdd2aa0320afd72.jpg!q70.dpg.webp',
+          fenqi: true
+        },
+        xinxi: {
+          nameimg:
+            '',
+          name:
+            '丽克特(recolte) 日本mini迷你多功能小锅分体式家用电火锅电蒸锅电烤锅智能多段火力 复古红',
+          guige: '复古红',
+          mony: '599.00'
+        },
+        number: 1,
+        list: [
+          {
+            name: '赠品',
+            content: '品牌硅胶手夹 非卖品 红色',
+            more: {
+              isShow: true,
+              content: '×1'
+            }
+          },
+          {
+            name: '服务',
+            content: '服务选择增值服务',
+            more: {
+              isShow: false
+            }
+          }
+        ]
+      }
     }
   ]
   res.send(arr)
