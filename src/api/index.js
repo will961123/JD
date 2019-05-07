@@ -78,3 +78,8 @@ export function getRightMain () {
 export function getMyforyou () {
   return axios.get('myforyou')
 }
+
+// 请求购物车登录后头部数据
+export function getShopAlradyTop () {
+  return axios.get('buyAlradyTop')
+}
