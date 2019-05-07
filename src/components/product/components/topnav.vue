@@ -1,6 +1,6 @@
 <template>
     <div class="topnav" :style="s<500?'background:rgba(255,255,255,0)':'background:white'">
-        <div :class="s<500?'change':'icon'" class="icon">
+        <div :class="s<500?'change':'icon'" class="icon" @click="goBack">
             <div :style="s<500?'opacity:1':'opacity:0'" class="bg"></div>
             <i class="iconfont icon-back"></i>
         </div>
@@ -24,6 +24,12 @@ export default {
   props: ['s'],
   components: {
     gcss
+  },
+  methods: {
+    goBack () {
+      this.$router.go(-1)
+      this.$store.dispatch('changeShowFooter', true)
+    }
   }
 }
 </script>
