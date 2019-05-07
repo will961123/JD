@@ -495,6 +495,7 @@ export default {}
 }
 .detail_accessory {
   background-color: #fff;
+  padding-bottom: 100px;
   .detail_accessory_head {
     position: relative;
     padding: 26px 20px 22px;
