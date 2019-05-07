@@ -5,6 +5,7 @@
   <price></price>
   <ziying></ziying>
   <lingquan></lingquan>
+  <recommend></recommend>
   <bottom></bottom>
   <evaluation></evaluation>
 </div>
@@ -19,6 +20,7 @@ import lingquan from '@/components/product/components/lingquan.vue'
 import topnav from '@/components/product/components/topnav.vue'
 import bottom from '@/components/product/components/bottom.vue'
 import evaluation from '@/components/product/components/evaluation.vue'
+import recommend from '../shop/components/Shopcomponents/recommend'
 export default {
   data () {
     return {
@@ -35,7 +37,7 @@ export default {
     }
   },
   components: {
-    topnav, bottom, evaluation, pBanner, price, ziying, lingquan
+    topnav, bottom, evaluation, pBanner, price, ziying, lingquan, recommend
   },
   created () {
     var that = this
