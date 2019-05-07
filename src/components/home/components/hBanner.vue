@@ -19,7 +19,10 @@ export default {
         pagination: {
           el: '.swiper-pagination'
         },
-        autoplay: true
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        }
       },
       swiperSlides: []
     }
