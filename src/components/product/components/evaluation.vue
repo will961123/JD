@@ -155,7 +155,7 @@ export default {
               width:20px;
               height:20px;
               margin:16px 2px 0 2px;
-              background:#fff url(image/star.png);
+              background:#fff url(../image/star.png);
               background-size:cover;
               background-repeat:no-repeat;
           }
@@ -197,7 +197,7 @@ export default {
       border:2px solid gray;
       border-radius:40px;
       line-height:50px;
-      background:url(image/right.png) right no-repeat;
+      background:url(../image/right.png) right no-repeat;
       background-size:36px 30px;
       color:#333;
     }
