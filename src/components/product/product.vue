@@ -20,7 +20,7 @@ import lingquan from '@/components/product/components/lingquan.vue'
 import topnav from '@/components/product/components/topnav.vue'
 import bottom from '@/components/product/components/bottom.vue'
 import evaluation from '@/components/product/components/evaluation.vue'
-import recommend from '../shop/components/Shopcomponents/recommend'
+import recommend from '@/components/product/components/recommend.vue'
 export default {
   data () {
     return {
